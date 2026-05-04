@@ -156,7 +156,9 @@ def save_bundles(bundles: dict[str, dict], rules_dir: Path, dry_run: bool) -> No
         if dry_run:
             log.info("[dry-run] would write %s (%d bytes)", target, len(body))
             continue
-        target.write_text(body, encoding="utf-8")
+        # LF-forced write (see build_manifest.py comment) — lets us run the
+        # scraper locally on Windows without invalidating the manifest SHAs.
+        target.write_bytes(body.encode("utf-8"))
         log.info("wrote %s (%d bytes, %d rules)",
                  target.relative_to(REPO_ROOT), len(body), len(bundle["rules"]))
 

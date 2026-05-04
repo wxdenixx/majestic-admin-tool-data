@@ -220,7 +220,10 @@ def save_bundle(categories: list[Category], items_dir: Path, dry_run: bool) -> N
         log.info("[dry-run] would write %s (%d bytes, %d categories)",
                  target, len(body), len(categories))
         return
-    target.write_text(body, encoding="utf-8")
+    # Use write_bytes (not write_text) so the scraper produces LF line
+    # endings on Windows too. Otherwise build_manifest.py on CI sees LF
+    # bytes but locally-scraped files have CRLF → SHA-256 mismatch.
+    target.write_bytes(body.encode("utf-8"))
     log.info("wrote %s (%d bytes, %d categories, %d items)",
              target.relative_to(REPO_ROOT), len(body), len(categories),
              sum(len(c.items) for c in categories))
