@@ -1,0 +1,1020 @@
+{
+  "version": "2026.05.04.0951",
+  "releaseDate": "2026-05-04T09:51:52.239141+00:00",
+  "author": "scrape_rules.py",
+  "compatibilityVersion": "1",
+  "changelog": [
+    {
+      "version": "2026.05.04.0951",
+      "date": "2026-05-04T09:51:52.239141+00:00",
+      "changes": [
+        "Автоматический снимок раздела «Правила и обязанности администраторов»"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "admins.1.1",
+      "number": "1.1",
+      "title": "Запрещено невыполнение минимальной нормы онлайна (4 часа в сутки)",
+      "category": "Администрация",
+      "text": "Запрещено невыполнение минимальной нормы онлайна (4 часа в сутки)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Устный выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Строгий выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "невыполнение",
+        "минимальной",
+        "нормы",
+        "онлайна",
+        "часа"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.2",
+      "number": "1.2",
+      "title": "Запрещено снимать/заменять наказания, выданные другим администратором",
+      "category": "Администрация",
+      "text": "Запрещено снимать/заменять наказания, выданные другим администратором",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Устный выговор",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "снимать",
+        "заменять",
+        "наказания",
+        "выданные",
+        "другим"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.3",
+      "number": "1.3",
+      "title": "Наказания выдаются строго по регламенту",
+      "category": "Администрация",
+      "text": "Наказания выдаются строго по регламенту",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Беседа",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Устный выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Строгий выговор. *Возможны исключения",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "наказания",
+        "выдаются",
+        "строго",
+        "регламенту"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.4",
+      "number": "1.4",
+      "title": "Запрещено выдавать наказания по доказательствам, которые предоставили в ЛС и т",
+      "category": "Администрация",
+      "text": "Запрещено выдавать наказания по доказательствам, которые предоставили в ЛС и т.д",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "использование стороннего ПО, покупка / продажа игровых ценностей / валюты и другие грубые нарушения, медиа-партнеры предоставили доказательства в разделе “Media”."
+      ],
+      "punishments": [
+        {
+          "type": "Устный выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Строгий выговор",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "выдавать",
+        "наказания",
+        "доказательствам",
+        "предоставили"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.5",
+      "number": "1.5",
+      "title": "Запрещен багоюз/продажа валюты/услуг и т",
+      "category": "Администрация",
+      "text": "Запрещен багоюз/продажа валюты/услуг и т.д",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещен",
+        "багоюз",
+        "продажа",
+        "валюты",
+        "услуг"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.6",
+      "number": "1.6",
+      "title": "Администратор обязан хранить доказательства нарушений в течении 48 часов",
+      "category": "Администрация",
+      "text": "Администратор обязан хранить доказательства нарушений в течении 48 часов",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Устный выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Строгий выговор",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "администратор",
+        "обязан",
+        "хранить",
+        "доказательства",
+        "нарушений",
+        "течении"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.7",
+      "number": "1.7",
+      "title": "Запрещено показывать своё преобладание над игроками",
+      "category": "Администрация",
+      "text": "Запрещено показывать своё преобладание над игроками",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Строгий выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "показывать",
+        "преобладание",
+        "игроками"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.8",
+      "number": "1.8",
+      "title": "Запрещено спавнить технику в людных местах и перед игроками, не имея на то причины",
+      "category": "Администрация",
+      "text": "Запрещено спавнить технику в людных местах и перед игроками, не имея на то причины",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Устный выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Строгий выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "спавнить",
+        "технику",
+        "людных",
+        "местах",
+        "перед"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.9",
+      "number": "1.9",
+      "title": "Разрешено спавнить технику для помощи игрокам/для ССки/снятия ролика/организации мероприят…",
+      "category": "Администрация",
+      "text": "Разрешено спавнить технику для помощи игрокам/для ССки/снятия ролика/организации мероприятий и т.д",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "спавнить",
+        "технику",
+        "помощи",
+        "игрокам",
+        "сски"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.10",
+      "number": "1.10",
+      "title": "Запрещено вмешиваться в RP процесс",
+      "category": "Администрация",
+      "text": "Запрещено вмешиваться в RP процесс",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Устный выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Строгий выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "вмешиваться",
+        "процесс"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.11",
+      "number": "1.11",
+      "title": "Куратор может отыгрывать минимальную RP роль (массовка)",
+      "category": "Администрация",
+      "text": "Куратор может отыгрывать минимальную RP роль (массовка)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "куратор",
+        "отыгрывать",
+        "минимальную",
+        "роль",
+        "массовка"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.12",
+      "number": "1.12",
+      "title": "Администратор обязан выдавать наказания беспристрастно",
+      "category": "Администрация",
+      "text": "Администратор обязан выдавать наказания беспристрастно",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Устный выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Строгий выговор",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "администратор",
+        "обязан",
+        "выдавать",
+        "наказания",
+        "беспристрастно"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.13",
+      "number": "1.13",
+      "title": "Администратор обязан знать все правила сервера",
+      "category": "Администрация",
+      "text": "Администратор обязан знать все правила сервера",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Беседа",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Устный выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Строгий выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "администратор",
+        "обязан",
+        "знать",
+        "правила",
+        "сервера"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.14",
+      "number": "1.14",
+      "title": "Администратору запрещено разглашать внутреннюю информацию проекта и работы администрации (…",
+      "category": "Администрация",
+      "text": "Администратору запрещено разглашать внутреннюю информацию проекта и работы администрации (из дискорда/форума/ЛС и т.п.)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "администратору",
+        "запрещено",
+        "разглашать",
+        "внутреннюю",
+        "информацию",
+        "проекта"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.15",
+      "number": "1.15",
+      "title": "Запрещено использовать ненормативную лексику (IC/OOC)",
+      "category": "Администрация",
+      "text": "Запрещено использовать ненормативную лексику (IC/OOC)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Строгий выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использовать",
+        "ненормативную",
+        "лексику"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.16",
+      "number": "1.16",
+      "title": "Запрещено угрожать игрокам",
+      "category": "Администрация",
+      "text": "Запрещено угрожать игрокам",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "угрожать",
+        "игрокам"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.17",
+      "number": "1.17",
+      "title": "Запрещено давать некорректные ответы в репорт",
+      "category": "Администрация",
+      "text": "Запрещено давать некорректные ответы в репорт. Пример: /report 221 id ДМ - Ответ: Оставьте жалобу на форум",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Устный выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Строгий выговор",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "давать",
+        "некорректные",
+        "ответы",
+        "репорт",
+        "пример"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.1.18",
+      "number": "1.18",
+      "title": "Запрещено выдавать игроку hp, оружие, спавн машин и т",
+      "category": "Администрация",
+      "text": "Запрещено выдавать игроку hp, оружие, спавн машин и т.д., не имея на то причину",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Строгий выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "выдавать",
+        "игроку",
+        "оружие",
+        "спавн",
+        "машин"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.2.1",
+      "number": "2.1",
+      "title": "Каждый администратор имеет право владеть домом, авто, одеждой и т",
+      "category": "Администрация",
+      "text": "Каждый администратор имеет право владеть домом, авто, одеждой и т.д",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "каждый",
+        "администратор",
+        "имеет",
+        "право",
+        "владеть",
+        "домом"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.2.2",
+      "number": "2.2",
+      "title": "Администрации запрещено иметь во владении бизнес",
+      "category": "Администрация",
+      "text": "Администрации запрещено иметь во владении бизнес",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "поручение ГА / Руководства проекта."
+      ],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "администрации",
+        "запрещено",
+        "иметь",
+        "владении",
+        "бизнес"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.2.3",
+      "number": "2.3",
+      "title": "Администрации запрещено открыто продавать/покупать имущество у игроков",
+      "category": "Администрация",
+      "text": "Администрации запрещено открыто продавать/покупать имущество у игроков",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "администрации",
+        "запрещено",
+        "открыто",
+        "продавать",
+        "покупать",
+        "имущество"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.2.4",
+      "number": "2.4",
+      "title": "Администрации запрещено проводить розыгрыши или дарить имущество/деньги игрокам без соглас…",
+      "category": "Администрация",
+      "text": "Администрации запрещено проводить розыгрыши или дарить имущество/деньги игрокам без согласования с ГА",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "администрации",
+        "запрещено",
+        "проводить",
+        "розыгрыши",
+        "дарить",
+        "имущество"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.3.1",
+      "number": "3.1",
+      "title": "С твинка разрешено играть только с 4 уровня администратора, с одобрения ГА",
+      "category": "Администрация",
+      "text": "С твинка разрешено играть только с 4 уровня администратора, с одобрения ГА",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "твинка",
+        "разрешено",
+        "играть",
+        "уровня",
+        "администратора",
+        "одобрения"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.3.2",
+      "number": "3.2",
+      "title": "Запрещено занимать руководящие должности во фракции",
+      "category": "Администрация",
+      "text": "Запрещено занимать руководящие должности во фракции",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "занимать",
+        "руководящие",
+        "должности",
+        "фракции"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.3.3",
+      "number": "3.3",
+      "title": "Жалоба на игрока рассматривается как на администратора",
+      "category": "Администрация",
+      "text": "Жалоба на игрока рассматривается как на администратора",
+      "explanation": null,
+      "examples": [
+        "если администратор получил наказание за уход от РП на своём втором персонаже, то он автоматически получит строгий выговор на админском персонаже."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Устный выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Строгий выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "жалоба",
+        "игрока",
+        "рассматривается",
+        "администратора"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.3.4",
+      "number": "3.4",
+      "title": "Запрещено использовать привилегии администратора",
+      "category": "Администрация",
+      "text": "Запрещено использовать привилегии администратора",
+      "explanation": "говорить о выдаче наказания, оставлять положительные или отрицательные отзывы о игроках и окружении, стращать игроков и требовать что-то.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Устный выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Строгий выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использовать",
+        "привилегии",
+        "администратора"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.4.1",
+      "number": "4.1",
+      "title": "Контролировать активность лидера и фракции",
+      "category": "Администрация",
+      "text": "Контролировать активность лидера и фракции",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "контролировать",
+        "активность",
+        "лидера",
+        "фракции"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.4.2",
+      "number": "4.2",
+      "title": "Контролировать количество наборов во фракции",
+      "category": "Администрация",
+      "text": "Контролировать количество наборов во фракции",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "контролировать",
+        "количество",
+        "наборов",
+        "фракции"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.4.3",
+      "number": "4.3",
+      "title": "Рассматривать жалобы на лидера курируемой фракции",
+      "category": "Администрация",
+      "text": "Рассматривать жалобы на лидера курируемой фракции",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "рассматривать",
+        "жалобы",
+        "лидера",
+        "курируемой",
+        "фракции"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.4.4",
+      "number": "4.4",
+      "title": "Контролировать склад курируемой фракции",
+      "category": "Администрация",
+      "text": "Контролировать склад курируемой фракции",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "контролировать",
+        "склад",
+        "курируемой",
+        "фракции"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.4.5",
+      "number": "4.5",
+      "title": "Модерировать фракционный чат в игре и дискорде",
+      "category": "Администрация",
+      "text": "Модерировать фракционный чат в игре и дискорде",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "модерировать",
+        "фракционный",
+        "игре",
+        "дискорде"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.4.6",
+      "number": "4.6",
+      "title": "Помогать лидеру советом и отвечать на его вопросы",
+      "category": "Администрация",
+      "text": "Помогать лидеру советом и отвечать на его вопросы",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "помогать",
+        "лидеру",
+        "советом",
+        "отвечать",
+        "вопросы"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.4.7",
+      "number": "4.7",
+      "title": "Быть в курсе всех проблем фракции",
+      "category": "Администрация",
+      "text": "Быть в курсе всех проблем фракции",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "курсе",
+        "всех",
+        "проблем",
+        "фракции"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    },
+    {
+      "id": "admins.4.8",
+      "number": "4.8",
+      "title": "Проводить мероприятия для своей фракции",
+      "category": "Администрация",
+      "text": "Проводить мероприятия для своей фракции",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "проводить",
+        "мероприятия",
+        "своей",
+        "фракции"
+      ],
+      "source": "forum:admins:https://forum.majestic-rp.ru/threads/pravila-i-obyazannosti-administratorov.22919/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.238302+00:00"
+    }
+  ]
+}

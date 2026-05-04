@@ -1,0 +1,828 @@
+{
+  "version": "2026.05.04.0951",
+  "releaseDate": "2026-05-04T09:51:52.178902+00:00",
+  "author": "scrape_rules.py",
+  "compatibilityVersion": "1",
+  "changelog": [
+    {
+      "version": "2026.05.04.0951",
+      "date": "2026-05-04T09:51:52.178902+00:00",
+      "changes": [
+        "Автоматический снимок раздела «Игровые захваты/теракты»"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "captures-terror.1.1",
+      "number": "1.1",
+      "title": "Инициатором террористического акта может быть только банда (при одобрении главного куратор…",
+      "category": "События",
+      "text": "Инициатором террористического акта может быть только банда (при одобрении главного куратора фракции)",
+      "explanation": "в такой ситуации заморозка накладывается и на банду, и на семью. 1. 3.4 Банда-организатор вправе выставлять свои условия семье за участие или проведение теракта. смена/нарушение условий после или в процессе проведения мероприятий является полностью IC составляющей.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "инициатором",
+        "террористического",
+        "акта",
+        "банда",
+        "одобрении",
+        "главного"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.1.4",
+      "number": "1.4",
+      "title": "Максимальное количество преступных организаций при акте - 3",
+      "category": "События",
+      "text": "Максимальное количество преступных организаций при акте - 3",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "максимальное",
+        "количество",
+        "преступных",
+        "организаций",
+        "акте"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.1.5",
+      "number": "1.5",
+      "title": "Минимальное количество участников со стороны террора - 15",
+      "category": "События",
+      "text": "Минимальное количество участников со стороны террора - 15",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "минимальное",
+        "количество",
+        "участников",
+        "стороны",
+        "террора"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.1.6",
+      "number": "1.6",
+      "title": "На террористическом акте обязан присутствовать лидер организации со стороны фракции органи…",
+      "category": "События",
+      "text": "На террористическом акте обязан присутствовать лидер организации со стороны фракции организатора",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "террористическом",
+        "акте",
+        "обязан",
+        "присутствовать",
+        "лидер",
+        "организации"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.1.7",
+      "number": "1.7",
+      "title": "Разрешено использование любого вида оружия и амуниции",
+      "category": "События",
+      "text": "Разрешено использование любого вида оружия и амуниции",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "использование",
+        "любого",
+        "вида",
+        "оружия",
+        "амуниции"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.1.8",
+      "number": "1.8",
+      "title": "Для организации террористического акта необходимо получить одобрение гл",
+      "category": "События",
+      "text": "Для организации террористического акта необходимо получить одобрение гл. куратора, ГА. Лидеру организации, которая организует мероприятие, первоначально необходимо обратиться к гл. куратору своей структуры по форме:",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "организации",
+        "террористического",
+        "акта",
+        "необходимо",
+        "получить",
+        "одобрение"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.1.9",
+      "number": "1.9",
+      "title": "Максимальные требования выкупа за одного заложника: 30",
+      "category": "События",
+      "text": "Максимальные требования выкупа за одного заложника: 30.000$ + 3 эпинефрина",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "максимальные",
+        "требования",
+        "выкупа",
+        "одного",
+        "заложника",
+        "эпинефрина"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.1.10",
+      "number": "1.10",
+      "title": "При террористическом акте работают все основные правила сервера",
+      "category": "События",
+      "text": "При террористическом акте работают все основные правила сервера",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "террористическом",
+        "акте",
+        "работают",
+        "основные",
+        "правила",
+        "сервера"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.1.11",
+      "number": "1.11",
+      "title": "Слив информации о террористическом акте должен происходить исключительно через IC-взаимоде…",
+      "category": "События",
+      "text": "Слив информации о террористическом акте должен происходить исключительно через IC-взаимодействие. Полученные данные должны быть зафиксированы на видеозаписи и храниться не менее 48 часов",
+      "explanation": "администрация вправе запросить запись с игрока в течении 48 часов без объяснения причин. Видеозапись должна быть цельной, без каких-либо редакций и обработок. Качество видео должно быть не менее 480p, видео должно иметь оригинальный звук.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "слив",
+        "информации",
+        "террористическом",
+        "акте",
+        "должен",
+        "происходить"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.1.12",
+      "number": "1.12",
+      "title": "Террористические акты, которые не указаны в правилах, можно провести по инициативе лидера(…",
+      "category": "События",
+      "text": "Террористические акты, которые не указаны в правилах, можно провести по инициативе лидера(-ов), для подобного мероприятия требуется полноценное оформление (см. раздел 1, пункт 8), а так же одобрение ГА / ПМ",
+      "explanation": "при подобных терактах сохраняется общее ограничение на время проведения (см. р. 1, п. 2.1 и 2.2).",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "террористические",
+        "акты",
+        "указаны",
+        "правилах",
+        "можно",
+        "провести"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.2.1",
+      "number": "2.1",
+      "title": "У каждого агрессора должно быть огнестрельное оружие",
+      "category": "События",
+      "text": "У каждого агрессора должно быть огнестрельное оружие",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "каждого",
+        "агрессора",
+        "должно",
+        "огнестрельное",
+        "оружие"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.2.2",
+      "number": "2.2",
+      "title": "Разрешено убивать заложника один раз в 7 минут",
+      "category": "События",
+      "text": "Разрешено убивать заложника один раз в 7 минут",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "штурм государственных игроков, невыполнение требований от гос. структур."
+      ],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "убивать",
+        "заложника",
+        "один",
+        "минут"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.2.3",
+      "number": "2.3",
+      "title": "Запрещено брать переговорщика в заложники",
+      "category": "События",
+      "text": "Запрещено брать переговорщика в заложники",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "брать",
+        "переговорщика",
+        "заложники"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.2.4",
+      "number": "2.4",
+      "title": "Запрещено намеренно затягивать похищение",
+      "category": "События",
+      "text": "Запрещено намеренно затягивать похищение",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "обсуждение условий выкупа или обдумывание требований, длительностью не более 5 минут, не является затягиванием похищения."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "намеренно",
+        "затягивать",
+        "похищение"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.2.5",
+      "number": "2.5",
+      "title": "Запрещено требовать выкуп менее, чем за 15 минут",
+      "category": "События",
+      "text": "Запрещено требовать выкуп менее, чем за 15 минут",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "требовать",
+        "выкуп",
+        "менее",
+        "минут"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.2.6",
+      "number": "2.6",
+      "title": "Запрещено как-либо унижать/издеваться, заставлять раздеваться, петь, танцевать жертву",
+      "category": "События",
+      "text": "Запрещено как-либо унижать/издеваться, заставлять раздеваться, петь, танцевать жертву",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "либо",
+        "унижать",
+        "издеваться",
+        "заставлять",
+        "раздеваться"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.2.7",
+      "number": "2.7",
+      "title": "Запрещено покидать зону террористического акта вместе с заложником",
+      "category": "События",
+      "text": "Запрещено покидать зону террористического акта вместе с заложником",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "разрешено брать 2 заложника в целях предотвращения атаки, нарушения условий и прочего. Данные заложники должны быть оставлены где-либо на пути отхода."
+      ],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "покидать",
+        "зону",
+        "террористического",
+        "акта",
+        "вместе"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.2.8",
+      "number": "2.8",
+      "title": "Выкупающая сторона имеет право 1 раз убедиться в целостности и кол-ве заложников",
+      "category": "События",
+      "text": "Выкупающая сторона имеет право 1 раз убедиться в целостности и кол-ве заложников",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "выкупающая",
+        "сторона",
+        "имеет",
+        "право",
+        "убедиться",
+        "целостности"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.2.9",
+      "number": "2.9",
+      "title": "Нападения разрешены с 17:00 до 22:00",
+      "category": "События",
+      "text": "Нападения разрешены с 17:00 до 22:00",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "нападения",
+        "разрешены"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.2.10",
+      "number": "2.10",
+      "title": "Запрещен уход на вражеский / союзный респавн фракции",
+      "category": "События",
+      "text": "Запрещен уход на вражеский / союзный респавн фракции",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN + Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещен",
+        "уход",
+        "вражеский",
+        "союзный",
+        "респавн",
+        "фракции"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.2.11",
+      "number": "2.11",
+      "title": "Запрещено похищать игроков и привозить их с собой на теракт",
+      "category": "События",
+      "text": "Запрещено похищать игроков и привозить их с собой на теракт",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "похищать",
+        "игроков",
+        "привозить",
+        "собой",
+        "теракт"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.2.12",
+      "number": "2.12",
+      "title": "Запрещено брать в заложники инициаторов самого теракта, а также союзников (всех участников…",
+      "category": "События",
+      "text": "Запрещено брать в заложники инициаторов самого теракта, а также союзников (всех участников)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "брать",
+        "заложники",
+        "инициаторов",
+        "самого",
+        "теракта"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.3.1",
+      "number": "3.1",
+      "title": "На теракты и захваты зданий могут выезжать сотрудники всех силовых структур",
+      "category": "События",
+      "text": "На теракты и захваты зданий могут выезжать сотрудники всех силовых структур",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "теракты",
+        "захваты",
+        "зданий",
+        "могут",
+        "выезжать",
+        "сотрудники"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.3.2",
+      "number": "3.2",
+      "title": "Запрещено использование спец",
+      "category": "События",
+      "text": "Запрещено использование спец.средств, не предусмотренных механикой сервера",
+      "explanation": "разрешено требовать отмену патруля и зеленый коридор до 45 секунд или в радиусе до 750 метров.",
+      "examples": [],
+      "exceptions": [
+        "жертве ничего не угрожает",
+        ".",
+        "3. 3.2 Переговорщиком могут выступать только старшие ранги фракции.",
+        "3. 4.1 Запрещено подвергать жизнь заложников опасности.",
+        "разрешено нападать, если требования террористов будут неадекватными.",
+        "Список неадекватных требований:",
+        "Если похитители запросят выкуп больше, чем разрешено правилами.",
+        "Если похитители подали запрос, который выполнили гос. структуры, а террористы подали еще один запрос.",
+        "Запрос бронетехники / вертолета и другой спец. техники.",
+        "Нарушение условий \"зеленого коридора\".",
+        "Если по оцеплению / переговорщику открыт огонь.",
+        "3. 4.2 Разрешено нападать, если переговорщика взяли в заложники или убили."
+      ],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Устный",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использование",
+        "спец",
+        "средств",
+        "предусмотренных",
+        "механикой"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.3.5",
+      "number": "3.5",
+      "title": "Разрешено преследовать агрессоров, перекрывать шоссе/автострады, патрулировать улицы вне з…",
+      "category": "События",
+      "text": "Разрешено преследовать агрессоров, перекрывать шоссе/автострады, патрулировать улицы вне зоны радиуса выдвигаемых требований",
+      "explanation": "см. пояснение р. 3, п. 3.1.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру в случае нарушения",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "преследовать",
+        "агрессоров",
+        "перекрывать",
+        "шоссе",
+        "автострады"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    },
+    {
+      "id": "captures-terror.3.6",
+      "number": "3.6",
+      "title": "Хотя бы одной силовой структуре необходимо отреагировать на террористический акт",
+      "category": "События",
+      "text": "Хотя бы одной силовой структуре необходимо отреагировать на террористический акт",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "сотрудники USSS, National Guard.",
+        "Ограбление федерального реестра",
+        "RP мероприятие нацеленное на захват здания правительства (мэрии) с целью массового захвата заложников, взлома федерального реестра, а так же изменения политического или экономического строя штата.",
+        "Ограбление федерального реестра производится исключительно с помощью РП отыгровок. Для взлома доступно 10 федеральных баз данных, каждая база содержит в себе информацию на сумму от 150.000$ до 250.000$.",
+        "Взлом производится путем отыгровок команды /try у центрального компьютера (см. скрин выше). Взлом всех баз длится 10 минут. При первой попытки взлома срабатывает глобальная сигнализация.",
+        "При успешном ограблении фракция так же получает 1 план ограбления и 1 ключ-карту Fleeca (для быстро открытия двери хранилища).",
+        "Захват LSPD / LSCSD",
+        "Захват полицейского и шерифского департамента - RP мероприятие нацеленное на подрыв авторитета государственных силовых структур, а так же на получение оружейного арсенала данных организаций.",
+        "Мероприятие нацеленное на захват заложников внутри здания, а так же получение необходимого арсенала.",
+        "Взлом оружейного склада производится путем отыгрывания команды /try, всего в департаментах находится 10 шкафчиков, на взлом каждого дается 1 попытка.",
+        "Возможные предметы в шкафчиках: технические, медицинские и оружейные материалы, Heavy Sniper, Heavy Sniper Mk2.",
+        "При захвате LSPD / LSCSD у игроков криминальной фракции есть возможность выпустить заключенных (из КПЗ), путем отыгровки /try (1 человек - 1 попытка /try).",
+        "Захват офиса LS News",
+        "RP мероприятие направленное на массовый захват заложников, а так же на подрыв репутации государства.",
+        "Захват происходит путем взятие под контроль всего офиса, атакующая сторона имеет право взять в заложники всех людей, которые находились на тот момент в офисе. Так же, у атакующей стороны есть возможность взломать главный компьютер (2 компьютера - 4 попытки /try), при удачном взломе у них появляется возможность 1 раз использовать глобальную волну (/wnews). Посыл не должен нести оскорбительный характер и должен соответствовать всем правилами сервера.",
+        "Так же, сотрудники криминальный организаций могут прихватить с собой",
+        "от 2 до 4 планов ограбления банка и от 2 до 4 электронных-карточек Fleeca (ключ-карта, позволяющая открыть хранилище банка).",
+        "За ограбление офиса Weazel News криминальная фракция также получает технические материалы.",
+        "Захват грузового поезда",
+        "RP мероприятие направленное на получение самых необходимых для фракций предметов.",
+        "Задача банально, но не так уж и проста - захват движущегося по всему штату поезда.",
+        "Главная и наверное самая сложная задача - попасть и удерживаться на данном поезде.",
+        "Поэтому не переборщите с количеством людей, ведь оно тут играет самую важную роль.",
+        "Поезд перевозит только самые ценные и необходимые материалы (военное снаряжение, амуницию, медикаменты, продовольственную помощь), какой поезд перехватить - решать только Вам.",
+        "Чтоб начать процесс перехвата поезда необходимо добраться до самого первого вагона (с машинистом) и наставить оружие на машиниста, сделали? Отлично, процесс запущен, машинист нажимает кнопку тревоги (",
+        "объявляется в глобальный чат",
+        ") и сотрудники выдвигаются на ваши поиски.",
+        "Все перевозимые контейнеры плотно заперты, поэтому необходимо их подготовить, в течении 15 минут необходимо срезать петли с вагонов (можно одновременно все, на каждый вагон дается",
+        "2",
+        "попытки",
+        "/try",
+        "), дабы было легче их вскрывать (RP отыгровки, не забудьте взять какой-то предмет, так же в рамках РП).",
+        "После этого - бинго, начинаем вскрывать.",
+        "(Куратору сообщите заранее в чем нуждаетесь, дабы смогли распределить).",
+        "Захват городской газовой компании",
+        "Что может быть приятней, чем захват государственного предприятия? Разве что нефть или газ, а если это государственная компания владеет подобным? Бинго - ничего.",
+        "Оставить город без газа, с упавшими акциями, репутацией и подорвать доверие людей к правоохранительным органам звучит как мечта и сказка, но нет, это новая реальность.",
+        "Перед началом, необходимо тщательно подготовиться. Необходим",
+        "минимум 1 водный транспорт",
+        ",",
+        "желательно баржа побольше",
+        ",",
+        "иначе как увезти всё горючее?",
+        "После того, как на горизонте будет замечена лодка, вероятнее всего,",
+        "сработает сигнализация",
+        ". Это значит мы на правильном пути, деньги идут к нам.",
+        "Необходимо подойти ко всем доступным резервуарам и попробовать открыть краник для выкачки",
+        "(/try 2 попытки на каждую).",
+        "Получилось? Ожидаем погружения ресурсов на лодку и отплываем,",
+        "каждый резервуар выкачивается в лодку 5 минут",
+        ", поэтому рассчитайте своё время заранее.",
+        "Что же по наградам? Нефть и газ всегда ценились на рынке,",
+        "можете обменять их на деньги, можете обменять на материалы",
+        ".",
+        "Продавец на черном рынке предложит Вам много всего, главное не переборщить с торгами, иначе можете остаться ни с чем.",
+        "​"
+      ],
+      "punishments": [
+        {
+          "type": "Выговоры всем лидерам силовых структур в случае игнорирования",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "хотя",
+        "одной",
+        "силовой",
+        "структуре",
+        "необходимо",
+        "отреагировать"
+      ],
+      "source": "forum:captures-terror:https://forum.majestic-rp.ru/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.177596+00:00"
+    }
+  ]
+}

@@ -1,0 +1,1396 @@
+{
+  "version": "2026.05.04.0951",
+  "releaseDate": "2026-05-04T09:51:52.008971+00:00",
+  "author": "scrape_rules.py",
+  "compatibilityVersion": "1",
+  "changelog": [
+    {
+      "version": "2026.05.04.0951",
+      "date": "2026-05-04T09:51:52.008971+00:00",
+      "changes": [
+        "Автоматический снимок раздела «Перехват поставок»"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "supply-intercept.1.1",
+      "number": "1.1",
+      "title": "Поставка - любое передвижение матовозки, в т",
+      "category": "События",
+      "text": "Поставка - любое передвижение матовозки, в т.ч. транспортировка / разгрузка / загрузка материалов / созданных предметов из данных материалов, а так же закупаемых предметов, с целью их дальнейшей реализации, переработки и/или продажи",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "р.1, п.1.2."
+      ],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "поставка",
+        "любое",
+        "передвижение",
+        "матовозки",
+        "транспортировка",
+        "разгрузка"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.1.1",
+      "number": "1.1.1",
+      "title": "Поставкой не считается: перевозка материалов / предметов после окончания ВЗА, диллеры и це…",
+      "category": "События",
+      "text": "Поставкой не считается: перевозка материалов / предметов после окончания ВЗА, диллеры и цеха; выполнение контрактов, целью которых не является пополнение склада; перевозка закупленного с маркетплейса семьями, не имеющими доступ к захвату материалов (государственные семьи, а также семьи созданные для заработка); передвижение на Cargobob'e вне доставки оружейных материалов с точки загрузки на территорию Форта-Занкудо для SANG",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "поставкой",
+        "считается",
+        "перевозка",
+        "материалов",
+        "предметов",
+        "после"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.2",
+      "number": "1.2",
+      "title": "При поставках / перехватах материалов фракции могут выбирать любой удобный им маршрут",
+      "category": "События",
+      "text": "При поставках / перехватах материалов фракции могут выбирать любой удобный им маршрут",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "поставках",
+        "перехватах",
+        "материалов",
+        "фракции",
+        "могут",
+        "выбирать"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.3",
+      "number": "1.3",
+      "title": "Перевозка материалов с целью крафта, а также закупаемых предметов может осуществляться в л…",
+      "category": "События",
+      "text": "Перевозка материалов с целью крафта, а также закупаемых предметов может осуществляться в любое время суток",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "р.1, п. 9.1, 9.5."
+      ],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "перевозка",
+        "материалов",
+        "целью",
+        "крафта",
+        "закупаемых",
+        "предметов"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.4",
+      "number": "1.4",
+      "title": "В случае нападения игроки обязаны остановиться и начать перестрелку",
+      "category": "События",
+      "text": "В случае нападения игроки обязаны остановиться и начать перестрелку",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "60 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "случае",
+        "нападения",
+        "игроки",
+        "обязаны",
+        "остановиться",
+        "начать"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.5",
+      "number": "1.5",
+      "title": "Во время мероприятия распространяются все",
+      "category": "События",
+      "text": "Во время мероприятия распространяются все",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "время",
+        "мероприятия",
+        "распространяются"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.6",
+      "number": "1.6",
+      "title": "Запрещено поджидать организации на точке загрузки / выгрузки / переработки материалов, а т…",
+      "category": "События",
+      "text": "Запрещено поджидать организации на точке загрузки / выгрузки / переработки материалов, а так же в зоне менее 350м от неё",
+      "explanation": "данный пункт правил распространяется так же для игроков без фракции / семьи, отследить расстояние можно путем проставления точки (фиолетового маркера) на карте (Esc).",
+      "examples": [
+        "FIB направляется на крафт оружия, точками где запрещено нападать на поставку в радиусе 350м будут: респавн FIB, точка крафта, респавн FIB. Мимо проезжающие места загрузки / выгрузки / переработки материалов не будут приравниваться к этому правилу."
+      ],
+      "exceptions": [
+        "точки, не относящиеся к поставке; транспортировка предметов с маркетплейса (No3) в Government;",
+        "транспортировка предметов из главного здания маркетплейса до особняка",
+        "No1233",
+        ";",
+        "транспортировка предметов с маркетплейса (No2) в The Bloods Gang;",
+        "транспортировка предметов с маркетплейса (No2) в LSPD;",
+        "отсчет на территории SANG считается с места расположения КПП (350м необходимо соблюдать с КПП-1/КПП-2); собственный респавн криминальной организаций, которая перехватывает (она не входит в точку отсчета 350м); доставка материалов/предметов после захвата цехов/вербовки дилеров."
+      ],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "поджидать",
+        "организации",
+        "точке",
+        "загрузки",
+        "выгрузки"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.7",
+      "number": "1.7",
+      "title": "Запрещено использовать heavy sniper, heavy sniper mk2",
+      "category": "События",
+      "text": "Запрещено использовать heavy sniper, heavy sniper mk2",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "3 дня",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использовать",
+        "heavy",
+        "sniper"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.8",
+      "number": "1.8",
+      "title": "Запрещено намеренно затягивать процесс поставки / загрузки / крафта",
+      "category": "События",
+      "text": "Запрещено намеренно затягивать процесс поставки / загрузки / крафта",
+      "explanation": "данная поставка не имеет ограничений по количеству перевозимых материалов, а также созданных предметов. 1. 10.3 В случае отсутствия материалов у EMS или WN , главные кураторы фракции могут назначить дополнительную безопасную поставку, заранее уведомив всех лидеров.",
+      "examples": [],
+      "exceptions": [
+        "главные администраторы серверов вправе исключать и прерывать действие данного пункта правила, оповестить лидеров обязаны минимум за 12 часов до отмены.",
+        "1. 9.2 Максимальное количество безопасных поставок в день для одной фракции - 1.",
+        "р.1, п. 10.1.",
+        "1. 10.1 Безопасные часы \"крафта\" для фракции EMS и WN с 15:30 до 16:00."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру + изъятие содержимого.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру + Изъятие содержимого.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор + Изъятие созданного",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "намеренно",
+        "затягивать",
+        "процесс",
+        "поставки",
+        "загрузки"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.11",
+      "number": "1.11",
+      "title": "Запрещен трансфер состава на время мероприятия",
+      "category": "События",
+      "text": "Запрещен трансфер состава на время мероприятия",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие лидера.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещен",
+        "трансфер",
+        "состава",
+        "время",
+        "мероприятия"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.13",
+      "number": "1.13",
+      "title": "Запрещено намеренно удерживать чужую матовозку",
+      "category": "События",
+      "text": "Запрещено намеренно удерживать чужую матовозку",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "намеренно",
+        "удерживать",
+        "чужую",
+        "матовозку"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.14",
+      "number": "1.14",
+      "title": "Начинать перестрелку можно при полной остановке колонны",
+      "category": "События",
+      "text": "Начинать перестрелку можно при полной остановке колонны",
+      "explanation": "сотрудникам государственных структур разрешено остановить колонну если увидели полноценное перекрытие от преступной группировки.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "60 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "начинать",
+        "перестрелку",
+        "можно",
+        "полной",
+        "остановке",
+        "колонны"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.15",
+      "number": "1.15",
+      "title": "Разгрузка / загрузка материалов производится исключительно на функциональных метках",
+      "category": "События",
+      "text": "Разгрузка / загрузка материалов производится исключительно на функциональных метках",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "60 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разгрузка",
+        "загрузка",
+        "материалов",
+        "производится",
+        "исключительно",
+        "функциональных"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.16",
+      "number": "1.16",
+      "title": "Поставки осуществляются исключительно наземным путём",
+      "category": "События",
+      "text": "Поставки осуществляются исключительно наземным путём",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "доставка оружейных материалов с точки загрузки на территорию Форта-Занкудо для поставки SANG."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "60 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "поставки",
+        "осуществляются",
+        "исключительно",
+        "наземным"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.17",
+      "number": "1.17",
+      "title": "Запрещено намеренно отдавать преимущество и поставки",
+      "category": "События",
+      "text": "Запрещено намеренно отдавать преимущество и поставки",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие лидера",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "намеренно",
+        "отдавать",
+        "преимущество",
+        "поставки"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.18",
+      "number": "1.18",
+      "title": "Если материалы/предметы были получены/доставлены с нарушением правил, то на усмотрение гла…",
+      "category": "События",
+      "text": "Если материалы/предметы были получены/доставлены с нарушением правил, то на усмотрение главного куратора, они могут быть изъяты у фракции / семьи",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "материалы",
+        "предметы",
+        "были",
+        "получены",
+        "доставлены",
+        "нарушением"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.19",
+      "number": "1.19",
+      "title": "Запрещено садиться, увозить, удерживать, похищать и взаимодействовать с грузом матовозки д…",
+      "category": "События",
+      "text": "Запрещено садиться, увозить, удерживать, похищать и взаимодействовать с грузом матовозки до окончания перестрелки",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "5-10 дней",
+          "reason": null
+        },
+        {
+          "type": "Hardban",
+          "duration": "3-7 дней",
+          "reason": null
+        },
+        {
+          "type": "Выговор + изъятие содержимого матовозки",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "5-10 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "садиться",
+        "увозить",
+        "удерживать",
+        "похищать",
+        "взаимодействовать"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.20",
+      "number": "1.20",
+      "title": "Запрещено намеренно уничтожать матовозку",
+      "category": "События",
+      "text": "Запрещено намеренно уничтожать матовозку",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "5-7 дней",
+          "reason": null
+        },
+        {
+          "type": "Hardban",
+          "duration": "3-7 дней",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "5-7 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "намеренно",
+        "уничтожать",
+        "матовозку"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.1.21",
+      "number": "1.21",
+      "title": "Во время поставки запрещено намеренно разворачиваться либо менять маршрут",
+      "category": "События",
+      "text": "Во время поставки запрещено намеренно разворачиваться либо менять маршрут",
+      "explanation": "в случае увиденного перекрытия или информации о перекрытии.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "время",
+        "поставки",
+        "запрещено",
+        "намеренно",
+        "разворачиваться",
+        "либо"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.2.1.1",
+      "number": "2.1.1",
+      "title": "Минимальное количество участников со стороны гос",
+      "category": "События",
+      "text": "Минимальное количество участников со стороны гос. фракций - 8 человек",
+      "explanation": "включая SANG. включая SANG. SANG обязаны довести весь заказ одной единой поставкой, без разделения на несколько партий. 2. 1.5 Минимальное количество наземной техники при поставке - 4.",
+      "examples": [],
+      "exceptions": [
+        "р.1, п.1.2; рейд.",
+        "2. 1.2 Максимальное количество участников со стороны гос. фракций - 100 человек.",
+        "окончательное кол-во участников со стороны государственных структур определяется ГА сервера; рейд.",
+        "2. 1.3 Запрещена перевозка материалов ниже указанного минимума.",
+        "перевозка для выкупа лидеров",
+        "/ заместителей; рейд.",
+        "2. 1.4 Заказанные материалы необходимо загрузить и доставить в полном объеме (который был указан в заказе).",
+        "доставка оружейных материалов с точки загрузки на территорию Форта-Занкудо для SANG; рейд."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "45 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидерам",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "45 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидерам",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру(-ам). Оружейные материалы -",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "45 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "минимальное",
+        "количество",
+        "участников",
+        "стороны",
+        "фракций",
+        "человек"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.2.2",
+      "number": "2.2",
+      "title": "Запрещено использование личного транспорта",
+      "category": "События",
+      "text": "Запрещено использование личного транспорта",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "детективы под прикрытием для сбора информации, не участвующие в перестрелке."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "45 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использование",
+        "личного",
+        "транспорта"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.2.3",
+      "number": "2.3",
+      "title": "Запрещено вызывать подкрепление во время нападения на поставку",
+      "category": "События",
+      "text": "Запрещено вызывать подкрепление во время нападения на поставку",
+      "explanation": "вмешательство третьей стороны в ходе одной перестрелки считается повторным нападением.",
+      "examples": [],
+      "exceptions": [
+        "повторное нападение на поставку; рейд."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "60 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидерам",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "вызывать",
+        "подкрепление",
+        "время",
+        "нападения",
+        "поставку"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.2.4",
+      "number": "2.4",
+      "title": "От сотрудников всех государственных фракций требуется вести минимум 2 видеозаписи с постав…",
+      "category": "События",
+      "text": "От сотрудников всех государственных фракций требуется вести минимум 2 видеозаписи с поставки",
+      "explanation": "на видео должен быть момент загрузки матовозок, оригинальный звук, качество не менее 720p, участники обязаны хранить видеозапись с поставки 72 часа и предоставить её по первому требованию администрации.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидерам",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "сотрудников",
+        "всех",
+        "государственных",
+        "фракций",
+        "требуется",
+        "вести"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.2.5",
+      "number": "2.5",
+      "title": "После нападения на поставку разрешено задержать причастных к нападению игроков",
+      "category": "События",
+      "text": "После нападения на поставку разрешено задержать причастных к нападению игроков",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "после",
+        "нападения",
+        "поставку",
+        "разрешено",
+        "задержать",
+        "причастных"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.3.1",
+      "number": "3.1",
+      "title": "Поставка материалов осуществляется с 15:00 до 22:30",
+      "category": "События",
+      "text": "Поставка материалов осуществляется с 15:00 до 22:30",
+      "explanation": "загрузка и транспортировка материалов должна начаться до 22:30.",
+      "examples": [],
+      "exceptions": [
+        "перевозка оружейных материалов с авианосца воздушным путём."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "45 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "поставка",
+        "материалов",
+        "осуществляется"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.3.2",
+      "number": "3.2",
+      "title": "Разрешено запрашивать помощь у гос",
+      "category": "События",
+      "text": "Разрешено запрашивать помощь у гос. структур для сопровождения",
+      "explanation": "запрос поддержки должен осуществляться до начала выезда колонны с Форта Занкудо.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "45 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "запрашивать",
+        "помощь",
+        "структур",
+        "сопровождения"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.3.3",
+      "number": "3.3",
+      "title": "Запрещено намеренно не поставлять материалы другим государственным фракциям",
+      "category": "События",
+      "text": "Запрещено намеренно не поставлять материалы другим государственным фракциям",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "в случае, если фракция, заказывающая материалы, намеренно игнорирует запросы о помощи / сопровождении от SANG, то наказание по данному пункту не выдается."
+      ],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "намеренно",
+        "поставлять",
+        "материалы",
+        "другим",
+        "государственным"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.3.4",
+      "number": "3.4",
+      "title": "От сотрудников SANG требуется вести минимум 2 видеозаписи с поставки материалов",
+      "category": "События",
+      "text": "От сотрудников SANG требуется вести минимум 2 видеозаписи с поставки материалов",
+      "explanation": "на видео должен быть момент загрузки матовозок, оригинальный звук, качество не менее 720 p, участники обязаны хранить видеозапись с поставки 72 часа и предоставить её по первому требованию администрации.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "сотрудников",
+        "sang",
+        "требуется",
+        "вести",
+        "минимум",
+        "видеозаписи"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.4.1",
+      "number": "4.1",
+      "title": "Данный подраздел правил распространяется на все поставки, включая перехваты поставок крими…",
+      "category": "События",
+      "text": "Данный подраздел правил распространяется на все поставки, включая перехваты поставок криминальных организаций",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "данный",
+        "подраздел",
+        "правил",
+        "распространяется",
+        "поставки",
+        "включая"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.4.2",
+      "number": "4.2",
+      "title": "Все поставки, а также их перехват должен осуществляться на фракционном / семейном / личном…",
+      "category": "События",
+      "text": "Все поставки, а также их перехват должен осуществляться на фракционном / семейном / личном транспорте окрашенным в цвет фракции / семьи",
+      "explanation": "цвет фракции определяется по цвету фракционного транспорта, цвет семьи \"Основным цветом\", выбранным при изменении / создании семьи. 4. 3.1 Нападать на колонну государственной фракции в движении, можно только путем перекрытия дороги автомобилями, м инимальное количество авто для перекрытия - 4 . | Demorgan 60 - 120 минут / Ban 5 дней + изъятие полученных материалов. а втомобили должны полностью перекрывать проезжую часть дороги; перекрытие должно быть выстроено заранее, запрещено выстраивать перекрытие прям перед колонной в движении. 4. 3.2 Запрещено перекрывать дорогу в зеленой зоне. после перестрелки и начала движения колоны перестрелка считается завершённой, и на неё можно нападать. 4. 4.1 Во время боя запрещено передвигаться на транспортных средствах.",
+      "examples": [],
+      "exceptions": [
+        "воздушная техника."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "45 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "поставки",
+        "перехват",
+        "должен",
+        "осуществляться",
+        "фракционном",
+        "семейном"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.4.4.2",
+      "number": "4.4.2",
+      "title": "Перехват поставок криминальных организаций может совершаться как перекрытием дороги автомо…",
+      "category": "События",
+      "text": "Перехват поставок криминальных организаций может совершаться как перекрытием дороги автомобилями, так и путем остановки матовозки",
+      "explanation": "при остановке матовозки на водителя распространяются правила PG. Количество участников от нападающей криминальной организации должно быть не меньше, чем количество участников с фракции, перевозящей матовозку.",
+      "examples": [
+        "убийство водителя, перекрытие, остановка матовозки в движении."
+      ],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "перехват",
+        "поставок",
+        "криминальных",
+        "организаций",
+        "совершаться",
+        "перекрытием"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.4.5",
+      "number": "4.5",
+      "title": "Запрещено участие посторонних игроков, игроков без фракции / семьи",
+      "category": "События",
+      "text": "Запрещено участие посторонних игроков, игроков без фракции / семьи",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "о",
+        "к",
+        "ончательное кол-во участников со стороны криминальных структур определяется ГА сервера.",
+        "4. 6.4 Минимальное количество участников со стороны криминальных структур 8.",
+        "перевозка материалов / предметов после окончания цехов и дилеров."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 - 90 минут",
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3 дня",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "45 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру(-ам)",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "60 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру(ам)",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3 дня",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "участие",
+        "посторонних",
+        "игроков",
+        "фракции",
+        "семьи"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.4.7",
+      "number": "4.7",
+      "title": "Запрещено похищать / грабить сотрудников гос",
+      "category": "События",
+      "text": "Запрещено похищать / грабить сотрудников гос. структур на поставке",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3 дня",
+          "reason": null
+        },
+        {
+          "type": "союзной фракции",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "семьи",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "60 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3 дня",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "похищать",
+        "грабить",
+        "сотрудников",
+        "структур",
+        "поставке"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.4.9",
+      "number": "4.9",
+      "title": "При нападении на колонну необходимо иметь видео доказательства полученной информации о пос…",
+      "category": "События",
+      "text": "При нападении на колонну необходимо иметь видео доказательства полученной информации о поставке материалов",
+      "explanation": "информация должна быть IC и передана должна быть так же в IC. *Примечание: полноценное видео с момента начала слежки (в случае скаута) до передачи информации другим игрокам (см. р. 4, п. 12).",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Изъятие материалов + Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "нападении",
+        "колонну",
+        "необходимо",
+        "иметь",
+        "видео",
+        "доказательства"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.4.10",
+      "number": "4.10",
+      "title": "При нападении / перехвате матовозок другой вражеской организации следует опираться на дейс…",
+      "category": "События",
+      "text": "При нападении / перехвате матовозок другой вражеской организации следует опираться на действующие правила поставок (см.выше)",
+      "explanation": "считаются только успешные поставки (матовозки захвачены / материалы доставлены на свой / союзный склад). 4. 11.2 Одна криминальная организация может напасть на поставку криминальных структур только 2 раза в день. на видео должен быть момент загрузки матовозок, оригинальный звук, качество не менее 720 p, участники обязаны хранить видеозапись с поставки 72 часа и предоставить её по первому требованию администрации. запись должна быть с момента подготовки нападения на поставку до момента её перехвата.",
+      "examples": [
+        "наручники, кодеиновые таблетки и т.п.",
+        "4. 12",
+        "От игроков криминальной фракции / семьи требуется вести минимум 2 видеозаписи с поставки / перехвата материалов."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "В ыговор лидеру",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "нападении",
+        "перехвате",
+        "матовозок",
+        "другой",
+        "вражеской",
+        "организации"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.4.13",
+      "number": "4.13",
+      "title": "Весь процесс взлома матовозки должен сопровождаться записью видео",
+      "category": "События",
+      "text": "Весь процесс взлома матовозки должен сопровождаться записью видео",
+      "explanation": "на видео должно быть видно местоположение матовозки, сам взлом и её содержимое. Видеозапись должна иметь оригинальный звук, качество не менее 720 p, участники обязаны хранить видеозапись в течение 72 часа и предоставить её по первому требованию администрации.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "HardBan",
+          "duration": "7-15 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "весь",
+        "процесс",
+        "взлома",
+        "матовозки",
+        "должен",
+        "сопровождаться"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    },
+    {
+      "id": "supply-intercept.4.14",
+      "number": "4.14",
+      "title": "Во время поставки запрещено заезжать на титульные районы криминальных организаций / семей,…",
+      "category": "События",
+      "text": "Во время поставки запрещено заезжать на титульные районы криминальных организаций / семей, не с целью разгрузки материалов",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "союзные дипломатические отношения.",
+        "​"
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "время",
+        "поставки",
+        "запрещено",
+        "заезжать",
+        "титульные",
+        "районы"
+      ],
+      "source": "forum:supply-intercept:https://forum.majestic-rp.ru/threads/pravila-perekhvata-postavok.123972/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.006800+00:00"
+    }
+  ]
+}

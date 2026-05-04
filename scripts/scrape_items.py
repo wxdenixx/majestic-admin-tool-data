@@ -96,7 +96,9 @@ def fetch_sitemap_urls(session: requests.Session) -> list[str]:
     """Returns every /ru/items/<slug>/<id> URL found in sitemap.xml."""
     resp = session.get(BASE_URL + SITEMAP, timeout=30)
     resp.raise_for_status()
-    soup = BeautifulSoup(resp.content, "xml")
+    # No lxml dependency — for sitemap.xml the default html.parser works
+    # for our extraction (we only need <loc> elements).
+    soup = BeautifulSoup(resp.content, "html.parser")
     urls = [loc.text.strip() for loc in soup.find_all("loc")]
     item_urls = [u for u in urls if re.search(r"/ru/items/[^/]+/\d+", u)]
     log.info("sitemap: %d total URLs, %d items", len(urls), len(item_urls))
@@ -104,7 +106,7 @@ def fetch_sitemap_urls(session: requests.Session) -> list[str]:
 
 
 def parse_item_page(html: str, url: str) -> WikiItem | None:
-    soup = BeautifulSoup(html, "lxml")
+    soup = BeautifulSoup(html, "html.parser")
 
     # the wiki is SSR; the main content lives in <main> / <article>
     main = soup.find("main") or soup.find("article") or soup.body

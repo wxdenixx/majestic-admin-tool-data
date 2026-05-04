@@ -1,0 +1,5401 @@
+{
+  "version": "2026.05.04",
+  "source": "wiki.majestic-rp.ru",
+  "generatedAt": "2026-05-04T09:59:25.125270+00:00",
+  "categories": [
+    {
+      "slug": "tool",
+      "title": "Инструменты",
+      "items": [
+        {
+          "id": "tool/92",
+          "name": "Болгарка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/92"
+        },
+        {
+          "id": "tool/102",
+          "name": "Газовый ключ",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/102"
+        },
+        {
+          "id": "tool/97",
+          "name": "Кирка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/97"
+        },
+        {
+          "id": "tool/66",
+          "name": "Ключ от автомобиля",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/66"
+        },
+        {
+          "id": "tool/508",
+          "name": "Ключ от кладовки",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/508"
+        },
+        {
+          "id": "tool/177",
+          "name": "Лейка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/177"
+        },
+        {
+          "id": "tool/99",
+          "name": "Лопата",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/99"
+        },
+        {
+          "id": "tool/597",
+          "name": "Машинка для бритья",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/597"
+        },
+        {
+          "id": "tool/579",
+          "name": "Металлоискатель",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/579"
+        },
+        {
+          "id": "tool/95",
+          "name": "Молоток",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/95"
+        },
+        {
+          "id": "tool/10",
+          "name": "Набор инструментов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/10"
+        },
+        {
+          "id": "tool/8",
+          "name": "Набор отверток",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/8"
+        },
+        {
+          "id": "tool/217",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/217"
+        },
+        {
+          "id": "tool/322",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/322"
+        },
+        {
+          "id": "tool/413",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/413"
+        },
+        {
+          "id": "tool/669",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/669"
+        },
+        {
+          "id": "tool/673",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/673"
+        },
+        {
+          "id": "tool/725",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/725"
+        },
+        {
+          "id": "tool/727",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/727"
+        },
+        {
+          "id": "tool/811",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/811"
+        },
+        {
+          "id": "tool/832",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/832"
+        },
+        {
+          "id": "tool/833",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/833"
+        },
+        {
+          "id": "tool/834",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/834"
+        },
+        {
+          "id": "tool/835",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/835"
+        },
+        {
+          "id": "tool/838",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/838"
+        },
+        {
+          "id": "tool/990",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/990"
+        },
+        {
+          "id": "tool/1074",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/1074"
+        },
+        {
+          "id": "tool/1075",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/1075"
+        },
+        {
+          "id": "tool/1080",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/1080"
+        },
+        {
+          "id": "tool/1110",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/1110"
+        },
+        {
+          "id": "tool/30",
+          "name": "Удочка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/tool/30"
+        }
+      ]
+    },
+    {
+      "slug": "ammunition",
+      "title": "Боеприпасы",
+      "items": [
+        {
+          "id": "ammunition/171",
+          "name": ".50 BMG",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/171"
+        },
+        {
+          "id": "ammunition/38",
+          "name": "12ga Buckshots",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/38"
+        },
+        {
+          "id": "ammunition/172",
+          "name": "5.56x45mm",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/172"
+        },
+        {
+          "id": "ammunition/39",
+          "name": "7.62x39mm",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/39"
+        },
+        {
+          "id": "ammunition/37",
+          "name": "9x19mm",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/37"
+        },
+        {
+          "id": "ammunition/133",
+          "name": "Боевой топор",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/133"
+        },
+        {
+          "id": "ammunition/590",
+          "name": "Глок P80",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/590"
+        },
+        {
+          "id": "ammunition/615",
+          "name": "Граната",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/615"
+        },
+        {
+          "id": "ammunition/130",
+          "name": "Кинжал",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/130"
+        },
+        {
+          "id": "ammunition/617",
+          "name": "Коктейль Молотова",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/617"
+        },
+        {
+          "id": "ammunition/57",
+          "name": "Легкий бронежилет",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/57"
+        },
+        {
+          "id": "ammunition/11",
+          "name": "Мачете",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/11"
+        },
+        {
+          "id": "ammunition/112",
+          "name": "Наручники",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/112"
+        },
+        {
+          "id": "ammunition/630",
+          "name": "Прецизионная винтовка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/630"
+        },
+        {
+          "id": "ammunition/132",
+          "name": "Складной нож",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/132"
+        },
+        {
+          "id": "ammunition/616",
+          "name": "Слезоточивый газ",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/616"
+        },
+        {
+          "id": "ammunition/591",
+          "name": "Снежок",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/591"
+        },
+        {
+          "id": "ammunition/202",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/202"
+        },
+        {
+          "id": "ammunition/216",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/216"
+        },
+        {
+          "id": "ammunition/241",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/241"
+        },
+        {
+          "id": "ammunition/243",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/243"
+        },
+        {
+          "id": "ammunition/244",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/244"
+        },
+        {
+          "id": "ammunition/245",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/245"
+        },
+        {
+          "id": "ammunition/246",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/246"
+        },
+        {
+          "id": "ammunition/247",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/247"
+        },
+        {
+          "id": "ammunition/248",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/248"
+        },
+        {
+          "id": "ammunition/249",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/249"
+        },
+        {
+          "id": "ammunition/250",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/250"
+        },
+        {
+          "id": "ammunition/253",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/253"
+        },
+        {
+          "id": "ammunition/254",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/254"
+        },
+        {
+          "id": "ammunition/255",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/255"
+        },
+        {
+          "id": "ammunition/256",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/256"
+        },
+        {
+          "id": "ammunition/257",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/257"
+        },
+        {
+          "id": "ammunition/258",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/258"
+        },
+        {
+          "id": "ammunition/259",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/259"
+        },
+        {
+          "id": "ammunition/260",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/260"
+        },
+        {
+          "id": "ammunition/261",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/261"
+        },
+        {
+          "id": "ammunition/262",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/262"
+        },
+        {
+          "id": "ammunition/263",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/263"
+        },
+        {
+          "id": "ammunition/264",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/264"
+        },
+        {
+          "id": "ammunition/265",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/265"
+        },
+        {
+          "id": "ammunition/266",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/266"
+        },
+        {
+          "id": "ammunition/267",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/267"
+        },
+        {
+          "id": "ammunition/268",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/268"
+        },
+        {
+          "id": "ammunition/269",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/269"
+        },
+        {
+          "id": "ammunition/270",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/270"
+        },
+        {
+          "id": "ammunition/271",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/271"
+        },
+        {
+          "id": "ammunition/272",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/272"
+        },
+        {
+          "id": "ammunition/273",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/273"
+        },
+        {
+          "id": "ammunition/274",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/274"
+        },
+        {
+          "id": "ammunition/275",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/275"
+        },
+        {
+          "id": "ammunition/276",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/276"
+        },
+        {
+          "id": "ammunition/277",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/277"
+        },
+        {
+          "id": "ammunition/278",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/278"
+        },
+        {
+          "id": "ammunition/279",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/279"
+        },
+        {
+          "id": "ammunition/280",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/280"
+        },
+        {
+          "id": "ammunition/282",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/282"
+        },
+        {
+          "id": "ammunition/326",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/326"
+        },
+        {
+          "id": "ammunition/327",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/327"
+        },
+        {
+          "id": "ammunition/328",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/328"
+        },
+        {
+          "id": "ammunition/329",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/329"
+        },
+        {
+          "id": "ammunition/330",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/330"
+        },
+        {
+          "id": "ammunition/331",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/331"
+        },
+        {
+          "id": "ammunition/332",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/332"
+        },
+        {
+          "id": "ammunition/333",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/333"
+        },
+        {
+          "id": "ammunition/337",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/337"
+        },
+        {
+          "id": "ammunition/365",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/365"
+        },
+        {
+          "id": "ammunition/405",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/405"
+        },
+        {
+          "id": "ammunition/430",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/430"
+        },
+        {
+          "id": "ammunition/431",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/431"
+        },
+        {
+          "id": "ammunition/432",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/432"
+        },
+        {
+          "id": "ammunition/433",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/433"
+        },
+        {
+          "id": "ammunition/456",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/456"
+        },
+        {
+          "id": "ammunition/472",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/472"
+        },
+        {
+          "id": "ammunition/670",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/670"
+        },
+        {
+          "id": "ammunition/672",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/672"
+        },
+        {
+          "id": "ammunition/760",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/760"
+        },
+        {
+          "id": "ammunition/761",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/761"
+        },
+        {
+          "id": "ammunition/762",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/762"
+        },
+        {
+          "id": "ammunition/763",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/763"
+        },
+        {
+          "id": "ammunition/764",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/764"
+        },
+        {
+          "id": "ammunition/765",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/765"
+        },
+        {
+          "id": "ammunition/808",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/808"
+        },
+        {
+          "id": "ammunition/820",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/820"
+        },
+        {
+          "id": "ammunition/973",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/973"
+        },
+        {
+          "id": "ammunition/985",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/985"
+        },
+        {
+          "id": "ammunition/989",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/989"
+        },
+        {
+          "id": "ammunition/1004",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/1004"
+        },
+        {
+          "id": "ammunition/1006",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/1006"
+        },
+        {
+          "id": "ammunition/1009",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/1009"
+        },
+        {
+          "id": "ammunition/1010",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/1010"
+        },
+        {
+          "id": "ammunition/1018",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/1018"
+        },
+        {
+          "id": "ammunition/1077",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/1077"
+        },
+        {
+          "id": "ammunition/1083",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/1083"
+        },
+        {
+          "id": "ammunition/1084",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/1084"
+        },
+        {
+          "id": "ammunition/1095",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/1095"
+        },
+        {
+          "id": "ammunition/1096",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/1096"
+        },
+        {
+          "id": "ammunition/1104",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/1104"
+        },
+        {
+          "id": "ammunition/629",
+          "name": "Тактическая винтовка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/629"
+        },
+        {
+          "id": "ammunition/131",
+          "name": "Топор",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/131"
+        },
+        {
+          "id": "ammunition/595",
+          "name": "Тяжёлая винтовка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/ammunition/595"
+        }
+      ]
+    },
+    {
+      "slug": "food",
+      "title": "Еда",
+      "items": [
+        {
+          "id": "food/525",
+          "name": "BIOLINK",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/525"
+        },
+        {
+          "id": "food/519",
+          "name": "Grand Coffee",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/519"
+        },
+        {
+          "id": "food/532",
+          "name": "Lite Beer",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/532"
+        },
+        {
+          "id": "food/529",
+          "name": "Old Cola",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/529"
+        },
+        {
+          "id": "food/527",
+          "name": "Виски «TOXIC»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/527"
+        },
+        {
+          "id": "food/136",
+          "name": "Гамбургер",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/136"
+        },
+        {
+          "id": "food/609",
+          "name": "Жареное мясо говядины",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/609"
+        },
+        {
+          "id": "food/605",
+          "name": "Жареное мясо кабана",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/605"
+        },
+        {
+          "id": "food/607",
+          "name": "Жареное мясо кролика",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/607"
+        },
+        {
+          "id": "food/610",
+          "name": "Жареное мясо курицы",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/610"
+        },
+        {
+          "id": "food/606",
+          "name": "Жареное мясо оленины",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/606"
+        },
+        {
+          "id": "food/608",
+          "name": "Жареное мясо свинины",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/608"
+        },
+        {
+          "id": "food/537",
+          "name": "Китайское Молоко",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/537"
+        },
+        {
+          "id": "food/165",
+          "name": "Молоко",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/165"
+        },
+        {
+          "id": "food/520",
+          "name": "Мороженое «Свежесть Лета»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/520"
+        },
+        {
+          "id": "food/62",
+          "name": "Стакан Кофе",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/62"
+        },
+        {
+          "id": "food/531",
+          "name": "Старинный Ланч-Бокс",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/531"
+        },
+        {
+          "id": "food/603",
+          "name": "Сырое мясо говядины",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/603"
+        },
+        {
+          "id": "food/599",
+          "name": "Сырое мясо кабана",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/599"
+        },
+        {
+          "id": "food/601",
+          "name": "Сырое мясо кролика",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/601"
+        },
+        {
+          "id": "food/604",
+          "name": "Сырое мясо курицы",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/604"
+        },
+        {
+          "id": "food/600",
+          "name": "Сырое мясо оленины",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/600"
+        },
+        {
+          "id": "food/602",
+          "name": "Сырое мясо свинины",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/602"
+        },
+        {
+          "id": "food/206",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/206"
+        },
+        {
+          "id": "food/211",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/211"
+        },
+        {
+          "id": "food/212",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/212"
+        },
+        {
+          "id": "food/227",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/227"
+        },
+        {
+          "id": "food/334",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/334"
+        },
+        {
+          "id": "food/338",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/338"
+        },
+        {
+          "id": "food/339",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/339"
+        },
+        {
+          "id": "food/340",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/340"
+        },
+        {
+          "id": "food/341",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/341"
+        },
+        {
+          "id": "food/342",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/342"
+        },
+        {
+          "id": "food/343",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/343"
+        },
+        {
+          "id": "food/344",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/344"
+        },
+        {
+          "id": "food/345",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/345"
+        },
+        {
+          "id": "food/377",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/377"
+        },
+        {
+          "id": "food/378",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/378"
+        },
+        {
+          "id": "food/379",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/379"
+        },
+        {
+          "id": "food/381",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/381"
+        },
+        {
+          "id": "food/383",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/383"
+        },
+        {
+          "id": "food/385",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/385"
+        },
+        {
+          "id": "food/389",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/389"
+        },
+        {
+          "id": "food/398",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/398"
+        },
+        {
+          "id": "food/399",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/399"
+        },
+        {
+          "id": "food/400",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/400"
+        },
+        {
+          "id": "food/401",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/401"
+        },
+        {
+          "id": "food/402",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/402"
+        },
+        {
+          "id": "food/403",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/403"
+        },
+        {
+          "id": "food/407",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/407"
+        },
+        {
+          "id": "food/408",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/408"
+        },
+        {
+          "id": "food/409",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/409"
+        },
+        {
+          "id": "food/434",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/434"
+        },
+        {
+          "id": "food/435",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/435"
+        },
+        {
+          "id": "food/732",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/732"
+        },
+        {
+          "id": "food/735",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/735"
+        },
+        {
+          "id": "food/736",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/736"
+        },
+        {
+          "id": "food/737",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/737"
+        },
+        {
+          "id": "food/815",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/815"
+        },
+        {
+          "id": "food/816",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/816"
+        },
+        {
+          "id": "food/977",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/977"
+        },
+        {
+          "id": "food/978",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/978"
+        },
+        {
+          "id": "food/1002",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/1002"
+        },
+        {
+          "id": "food/1081",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/food/1081"
+        }
+      ]
+    },
+    {
+      "slug": "agriculture",
+      "title": "Agriculture",
+      "items": [
+        {
+          "id": "agriculture/380",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/agriculture/380"
+        },
+        {
+          "id": "agriculture/382",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/agriculture/382"
+        },
+        {
+          "id": "agriculture/384",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/agriculture/384"
+        },
+        {
+          "id": "agriculture/386",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/agriculture/386"
+        },
+        {
+          "id": "agriculture/388",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/agriculture/388"
+        },
+        {
+          "id": "agriculture/390",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/agriculture/390"
+        },
+        {
+          "id": "agriculture/392",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/agriculture/392"
+        },
+        {
+          "id": "agriculture/393",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/agriculture/393"
+        },
+        {
+          "id": "agriculture/692",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/agriculture/692"
+        },
+        {
+          "id": "agriculture/693",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/agriculture/693"
+        },
+        {
+          "id": "agriculture/694",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/agriculture/694"
+        },
+        {
+          "id": "agriculture/1111",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/agriculture/1111"
+        },
+        {
+          "id": "agriculture/1112",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/agriculture/1112"
+        }
+      ]
+    },
+    {
+      "slug": "alcohol",
+      "title": "Alcohol",
+      "items": [
+        {
+          "id": "alcohol/121",
+          "name": "Пиво Pißwasser",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/alcohol/121"
+        },
+        {
+          "id": "alcohol/292",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/alcohol/292"
+        },
+        {
+          "id": "alcohol/293",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/alcohol/293"
+        },
+        {
+          "id": "alcohol/294",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/alcohol/294"
+        },
+        {
+          "id": "alcohol/295",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/alcohol/295"
+        },
+        {
+          "id": "alcohol/296",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/alcohol/296"
+        },
+        {
+          "id": "alcohol/318",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/alcohol/318"
+        },
+        {
+          "id": "alcohol/438",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/alcohol/438"
+        },
+        {
+          "id": "alcohol/738",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/alcohol/738"
+        }
+      ]
+    },
+    {
+      "slug": "armor",
+      "title": "Armor",
+      "items": [
+        {
+          "id": "armor/346",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/armor/346"
+        },
+        {
+          "id": "armor/347",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/armor/347"
+        },
+        {
+          "id": "armor/963",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/armor/963"
+        }
+      ]
+    },
+    {
+      "slug": "auto_parts",
+      "title": "Auto_Parts",
+      "items": [
+        {
+          "id": "auto_parts/3",
+          "name": "Аккумулятор",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/auto_parts/3"
+        },
+        {
+          "id": "auto_parts/77",
+          "name": "Канистра с бензином",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/auto_parts/77"
+        },
+        {
+          "id": "auto_parts/204",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/auto_parts/204"
+        },
+        {
+          "id": "auto_parts/689",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/auto_parts/689"
+        },
+        {
+          "id": "auto_parts/690",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/auto_parts/690"
+        },
+        {
+          "id": "auto_parts/691",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/auto_parts/691"
+        }
+      ]
+    },
+    {
+      "slug": "books",
+      "title": "Books",
+      "items": [
+        {
+          "id": "books/158",
+          "name": "Зеленая старая книга",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/books/158"
+        },
+        {
+          "id": "books/622",
+          "name": "Красная старая книга",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/books/622"
+        },
+        {
+          "id": "books/621",
+          "name": "Синяя старая книга",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/books/621"
+        }
+      ]
+    },
+    {
+      "slug": "consumables",
+      "title": "Consumables",
+      "items": [
+        {
+          "id": "consumables/79",
+          "name": "Баллончик с краской",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/79"
+        },
+        {
+          "id": "consumables/19",
+          "name": "Веревка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/19"
+        },
+        {
+          "id": "consumables/27",
+          "name": "Дверной замок",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/27"
+        },
+        {
+          "id": "consumables/26",
+          "name": "Моторное масло",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/26"
+        },
+        {
+          "id": "consumables/640",
+          "name": "Нитки 1 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/640"
+        },
+        {
+          "id": "consumables/641",
+          "name": "Нитки 2 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/641"
+        },
+        {
+          "id": "consumables/642",
+          "name": "Нитки 3 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/642"
+        },
+        {
+          "id": "consumables/9",
+          "name": "Скотч",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/9"
+        },
+        {
+          "id": "consumables/634",
+          "name": "Строительное оборудование 1 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/634"
+        },
+        {
+          "id": "consumables/635",
+          "name": "Строительное оборудование 2 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/635"
+        },
+        {
+          "id": "consumables/636",
+          "name": "Строительное оборудование 3 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/636"
+        },
+        {
+          "id": "consumables/631",
+          "name": "Строительные материалы 1 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/631"
+        },
+        {
+          "id": "consumables/632",
+          "name": "Строительные материалы 2 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/632"
+        },
+        {
+          "id": "consumables/633",
+          "name": "Строительные материалы 3 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/633"
+        },
+        {
+          "id": "consumables/182",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/182"
+        },
+        {
+          "id": "consumables/233",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/233"
+        },
+        {
+          "id": "consumables/238",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/238"
+        },
+        {
+          "id": "consumables/297",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/297"
+        },
+        {
+          "id": "consumables/298",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/298"
+        },
+        {
+          "id": "consumables/299",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/299"
+        },
+        {
+          "id": "consumables/733",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/733"
+        },
+        {
+          "id": "consumables/802",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/802"
+        },
+        {
+          "id": "consumables/803",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/803"
+        },
+        {
+          "id": "consumables/805",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/805"
+        },
+        {
+          "id": "consumables/806",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/806"
+        },
+        {
+          "id": "consumables/807",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/807"
+        },
+        {
+          "id": "consumables/809",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/809"
+        },
+        {
+          "id": "consumables/810",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/810"
+        },
+        {
+          "id": "consumables/987",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/987"
+        },
+        {
+          "id": "consumables/1076",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/1076"
+        },
+        {
+          "id": "consumables/637",
+          "name": "Ткань 1 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/637"
+        },
+        {
+          "id": "consumables/638",
+          "name": "Ткань 2 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/638"
+        },
+        {
+          "id": "consumables/639",
+          "name": "Ткань 3 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/639"
+        },
+        {
+          "id": "consumables/175",
+          "name": "Шампунь Жумайсынба",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/consumables/175"
+        }
+      ]
+    },
+    {
+      "slug": "documents",
+      "title": "Documents",
+      "items": [
+        {
+          "id": "documents/1",
+          "name": "ID карта",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/1"
+        },
+        {
+          "id": "documents/620",
+          "name": "Ордер на обыск транспорта",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/620"
+        },
+        {
+          "id": "documents/114",
+          "name": "Папка с документами",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/114"
+        },
+        {
+          "id": "documents/542",
+          "name": "Секретные документы",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/542"
+        },
+        {
+          "id": "documents/568",
+          "name": "Сертификат о военной службе",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/568"
+        },
+        {
+          "id": "documents/215",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/215"
+        },
+        {
+          "id": "documents/283",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/283"
+        },
+        {
+          "id": "documents/306",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/306"
+        },
+        {
+          "id": "documents/307",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/307"
+        },
+        {
+          "id": "documents/308",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/308"
+        },
+        {
+          "id": "documents/309",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/309"
+        },
+        {
+          "id": "documents/310",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/310"
+        },
+        {
+          "id": "documents/317",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/317"
+        },
+        {
+          "id": "documents/321",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/321"
+        },
+        {
+          "id": "documents/324",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/324"
+        },
+        {
+          "id": "documents/325",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/325"
+        },
+        {
+          "id": "documents/441",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/441"
+        },
+        {
+          "id": "documents/678",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/678"
+        },
+        {
+          "id": "documents/679",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/679"
+        },
+        {
+          "id": "documents/680",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/680"
+        },
+        {
+          "id": "documents/684",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/684"
+        },
+        {
+          "id": "documents/685",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/685"
+        },
+        {
+          "id": "documents/686",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/686"
+        },
+        {
+          "id": "documents/687",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/687"
+        },
+        {
+          "id": "documents/734",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/734"
+        },
+        {
+          "id": "documents/965",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/965"
+        },
+        {
+          "id": "documents/979",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/979"
+        },
+        {
+          "id": "documents/980",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/980"
+        },
+        {
+          "id": "documents/981",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/981"
+        },
+        {
+          "id": "documents/982",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/982"
+        },
+        {
+          "id": "documents/998",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/998"
+        },
+        {
+          "id": "documents/1008",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/1008"
+        },
+        {
+          "id": "documents/25",
+          "name": "Удостоверение FIB",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/25"
+        },
+        {
+          "id": "documents/31",
+          "name": "Удостоверение Government",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/documents/31"
+        }
+      ]
+    },
+    {
+      "slug": "drugs",
+      "title": "Drugs",
+      "items": [
+        {
+          "id": "drugs/303",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/drugs/303"
+        },
+        {
+          "id": "drugs/437",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/drugs/437"
+        },
+        {
+          "id": "drugs/804",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/drugs/804"
+        }
+      ]
+    },
+    {
+      "slug": "equipment",
+      "title": "Equipment",
+      "items": [
+        {
+          "id": "equipment/311",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/equipment/311"
+        },
+        {
+          "id": "equipment/812",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/equipment/812"
+        },
+        {
+          "id": "equipment/813",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/equipment/813"
+        },
+        {
+          "id": "equipment/814",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/equipment/814"
+        }
+      ]
+    },
+    {
+      "slug": "facilities",
+      "title": "Facilities",
+      "items": [
+        {
+          "id": "facilities/592",
+          "name": "Dragy",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/592"
+        },
+        {
+          "id": "facilities/36",
+          "name": "Алкотестер",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/36"
+        },
+        {
+          "id": "facilities/58",
+          "name": "Бонг",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/58"
+        },
+        {
+          "id": "facilities/76",
+          "name": "Бумбокс",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/76"
+        },
+        {
+          "id": "facilities/65",
+          "name": "Вольтметр",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/65"
+        },
+        {
+          "id": "facilities/69",
+          "name": "Генератор 1 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/69"
+        },
+        {
+          "id": "facilities/70",
+          "name": "Генератор 2 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/70"
+        },
+        {
+          "id": "facilities/71",
+          "name": "Генератор 3 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/71"
+        },
+        {
+          "id": "facilities/139",
+          "name": "Гитара",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/139"
+        },
+        {
+          "id": "facilities/627",
+          "name": "Дефибриллятор Mk2",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/627"
+        },
+        {
+          "id": "facilities/59",
+          "name": "Зажигалка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/59"
+        },
+        {
+          "id": "facilities/612",
+          "name": "Зелёный военный маячок",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/612"
+        },
+        {
+          "id": "facilities/614",
+          "name": "Кабель радио сигналов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/614"
+        },
+        {
+          "id": "facilities/613",
+          "name": "Красный военный маячок",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/613"
+        },
+        {
+          "id": "facilities/67",
+          "name": "Планшет",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/67"
+        },
+        {
+          "id": "facilities/15",
+          "name": "Рация",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/15"
+        },
+        {
+          "id": "facilities/541",
+          "name": "Сверх прочный контейнер",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/541"
+        },
+        {
+          "id": "facilities/611",
+          "name": "Синий военный маячок",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/611"
+        },
+        {
+          "id": "facilities/536",
+          "name": "Сломанный Блок Памяти",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/536"
+        },
+        {
+          "id": "facilities/573",
+          "name": "Списанный дефибриллятор",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/573"
+        },
+        {
+          "id": "facilities/239",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/239"
+        },
+        {
+          "id": "facilities/281",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/281"
+        },
+        {
+          "id": "facilities/319",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/319"
+        },
+        {
+          "id": "facilities/320",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/320"
+        },
+        {
+          "id": "facilities/376",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/376"
+        },
+        {
+          "id": "facilities/414",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/414"
+        },
+        {
+          "id": "facilities/415",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/415"
+        },
+        {
+          "id": "facilities/416",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/416"
+        },
+        {
+          "id": "facilities/417",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/417"
+        },
+        {
+          "id": "facilities/418",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/418"
+        },
+        {
+          "id": "facilities/419",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/419"
+        },
+        {
+          "id": "facilities/420",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/420"
+        },
+        {
+          "id": "facilities/421",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/421"
+        },
+        {
+          "id": "facilities/422",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/422"
+        },
+        {
+          "id": "facilities/423",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/423"
+        },
+        {
+          "id": "facilities/436",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/436"
+        },
+        {
+          "id": "facilities/439",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/439"
+        },
+        {
+          "id": "facilities/440",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/440"
+        },
+        {
+          "id": "facilities/442",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/442"
+        },
+        {
+          "id": "facilities/443",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/443"
+        },
+        {
+          "id": "facilities/444",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/444"
+        },
+        {
+          "id": "facilities/445",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/445"
+        },
+        {
+          "id": "facilities/451",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/451"
+        },
+        {
+          "id": "facilities/452",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/452"
+        },
+        {
+          "id": "facilities/645",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/645"
+        },
+        {
+          "id": "facilities/646",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/646"
+        },
+        {
+          "id": "facilities/647",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/647"
+        },
+        {
+          "id": "facilities/648",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/648"
+        },
+        {
+          "id": "facilities/655",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/655"
+        },
+        {
+          "id": "facilities/656",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/656"
+        },
+        {
+          "id": "facilities/657",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/657"
+        },
+        {
+          "id": "facilities/661",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/661"
+        },
+        {
+          "id": "facilities/662",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/662"
+        },
+        {
+          "id": "facilities/663",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/663"
+        },
+        {
+          "id": "facilities/665",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/665"
+        },
+        {
+          "id": "facilities/667",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/667"
+        },
+        {
+          "id": "facilities/675",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/675"
+        },
+        {
+          "id": "facilities/676",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/676"
+        },
+        {
+          "id": "facilities/677",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/677"
+        },
+        {
+          "id": "facilities/697",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/697"
+        },
+        {
+          "id": "facilities/724",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/724"
+        },
+        {
+          "id": "facilities/782",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/782"
+        },
+        {
+          "id": "facilities/783",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/783"
+        },
+        {
+          "id": "facilities/784",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/784"
+        },
+        {
+          "id": "facilities/791",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/791"
+        },
+        {
+          "id": "facilities/792",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/792"
+        },
+        {
+          "id": "facilities/798",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/798"
+        },
+        {
+          "id": "facilities/799",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/799"
+        },
+        {
+          "id": "facilities/800",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/800"
+        },
+        {
+          "id": "facilities/801",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/801"
+        },
+        {
+          "id": "facilities/986",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/986"
+        },
+        {
+          "id": "facilities/988",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/988"
+        },
+        {
+          "id": "facilities/991",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/991"
+        },
+        {
+          "id": "facilities/992",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/992"
+        },
+        {
+          "id": "facilities/1001",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/1001"
+        },
+        {
+          "id": "facilities/104",
+          "name": "Телефон Nokia",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/104"
+        },
+        {
+          "id": "facilities/84",
+          "name": "Фотоаппарат",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/84"
+        },
+        {
+          "id": "facilities/543",
+          "name": "Хранилище данных - 16 ТБ",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/543"
+        },
+        {
+          "id": "facilities/540",
+          "name": "Чип с криптовалютой",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/540"
+        },
+        {
+          "id": "facilities/643",
+          "name": "Электронное оборудование 1 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/643"
+        },
+        {
+          "id": "facilities/644",
+          "name": "Электронное оборудование 2 уровня",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/facilities/644"
+        }
+      ]
+    },
+    {
+      "slug": "fish",
+      "title": "Fish",
+      "items": [
+        {
+          "id": "fish/222",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/222"
+        },
+        {
+          "id": "fish/224",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/224"
+        },
+        {
+          "id": "fish/225",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/225"
+        },
+        {
+          "id": "fish/348",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/348"
+        },
+        {
+          "id": "fish/349",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/349"
+        },
+        {
+          "id": "fish/350",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/350"
+        },
+        {
+          "id": "fish/351",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/351"
+        },
+        {
+          "id": "fish/391",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/391"
+        },
+        {
+          "id": "fish/862",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/862"
+        },
+        {
+          "id": "fish/863",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/863"
+        },
+        {
+          "id": "fish/864",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/864"
+        },
+        {
+          "id": "fish/865",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/865"
+        },
+        {
+          "id": "fish/866",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/866"
+        },
+        {
+          "id": "fish/867",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/867"
+        },
+        {
+          "id": "fish/868",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/868"
+        },
+        {
+          "id": "fish/869",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/869"
+        },
+        {
+          "id": "fish/870",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/870"
+        },
+        {
+          "id": "fish/871",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/871"
+        },
+        {
+          "id": "fish/872",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/872"
+        },
+        {
+          "id": "fish/873",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/873"
+        },
+        {
+          "id": "fish/874",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/874"
+        },
+        {
+          "id": "fish/876",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/876"
+        },
+        {
+          "id": "fish/877",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/877"
+        },
+        {
+          "id": "fish/878",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/878"
+        },
+        {
+          "id": "fish/879",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/879"
+        },
+        {
+          "id": "fish/880",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/880"
+        },
+        {
+          "id": "fish/881",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/881"
+        },
+        {
+          "id": "fish/882",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/882"
+        },
+        {
+          "id": "fish/883",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/883"
+        },
+        {
+          "id": "fish/884",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/884"
+        },
+        {
+          "id": "fish/885",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/885"
+        },
+        {
+          "id": "fish/886",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/886"
+        },
+        {
+          "id": "fish/887",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/887"
+        },
+        {
+          "id": "fish/888",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/888"
+        },
+        {
+          "id": "fish/889",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/889"
+        },
+        {
+          "id": "fish/890",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/890"
+        },
+        {
+          "id": "fish/891",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/891"
+        },
+        {
+          "id": "fish/892",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/892"
+        },
+        {
+          "id": "fish/893",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/fish/893"
+        }
+      ]
+    },
+    {
+      "slug": "materials",
+      "title": "Materials",
+      "items": [
+        {
+          "id": "materials/33",
+          "name": "Медицинские материалы",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/materials/33"
+        },
+        {
+          "id": "materials/304",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/materials/304"
+        },
+        {
+          "id": "materials/60",
+          "name": "Технические материалы",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/materials/60"
+        }
+      ]
+    },
+    {
+      "slug": "medical",
+      "title": "Medical",
+      "items": [
+        {
+          "id": "medical/168",
+          "name": "Азитромицин",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/168"
+        },
+        {
+          "id": "medical/169",
+          "name": "Активированный уголь",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/169"
+        },
+        {
+          "id": "medical/78",
+          "name": "Аптечка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/78"
+        },
+        {
+          "id": "medical/170",
+          "name": "Кодеиновые таблетки",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/170"
+        },
+        {
+          "id": "medical/4",
+          "name": "Перекись водорода S",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/4"
+        },
+        {
+          "id": "medical/571",
+          "name": "Просроченный эпинефрин",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/571"
+        },
+        {
+          "id": "medical/124",
+          "name": "Противовирусная вакцина",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/124"
+        },
+        {
+          "id": "medical/530",
+          "name": "Старинная Аптечка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/530"
+        },
+        {
+          "id": "medical/181",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/181"
+        },
+        {
+          "id": "medical/240",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/240"
+        },
+        {
+          "id": "medical/252",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/252"
+        },
+        {
+          "id": "medical/726",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/726"
+        },
+        {
+          "id": "medical/728",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/728"
+        },
+        {
+          "id": "medical/729",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/729"
+        },
+        {
+          "id": "medical/730",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/730"
+        },
+        {
+          "id": "medical/731",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/731"
+        },
+        {
+          "id": "medical/956",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/956"
+        },
+        {
+          "id": "medical/999",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/999"
+        },
+        {
+          "id": "medical/1000",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/1000"
+        },
+        {
+          "id": "medical/1079",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/1079"
+        },
+        {
+          "id": "medical/89",
+          "name": "Улучшенная аптечка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/89"
+        },
+        {
+          "id": "medical/625",
+          "name": "Улучшенный эпинефрин",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/medical/625"
+        }
+      ]
+    },
+    {
+      "slug": "misc",
+      "title": "Misc",
+      "items": [
+        {
+          "id": "misc/5",
+          "name": "Денежная компенсация",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/5"
+        },
+        {
+          "id": "misc/574",
+          "name": "Железная руда",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/574"
+        },
+        {
+          "id": "misc/578",
+          "name": "Золотая руда",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/578"
+        },
+        {
+          "id": "misc/623",
+          "name": "Кристаллизованная жемчужина инопланетянина",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/623"
+        },
+        {
+          "id": "misc/576",
+          "name": "Медная руда",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/576"
+        },
+        {
+          "id": "misc/577",
+          "name": "Оловянная руда",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/577"
+        },
+        {
+          "id": "misc/624",
+          "name": "Призрачная рыба",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/624"
+        },
+        {
+          "id": "misc/593",
+          "name": "Рождественская ёлка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/593"
+        },
+        {
+          "id": "misc/575",
+          "name": "Серебряная руда",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/575"
+        },
+        {
+          "id": "misc/528",
+          "name": "Сигареты «Camel»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/528"
+        },
+        {
+          "id": "misc/539",
+          "name": "Сигареты «Grave»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/539"
+        },
+        {
+          "id": "misc/14",
+          "name": "Старый навесной замок",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/14"
+        },
+        {
+          "id": "misc/208",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/208"
+        },
+        {
+          "id": "misc/232",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/232"
+        },
+        {
+          "id": "misc/316",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/316"
+        },
+        {
+          "id": "misc/335",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/335"
+        },
+        {
+          "id": "misc/336",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/336"
+        },
+        {
+          "id": "misc/362",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/362"
+        },
+        {
+          "id": "misc/363",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/363"
+        },
+        {
+          "id": "misc/364",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/364"
+        },
+        {
+          "id": "misc/394",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/394"
+        },
+        {
+          "id": "misc/395",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/395"
+        },
+        {
+          "id": "misc/396",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/396"
+        },
+        {
+          "id": "misc/397",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/397"
+        },
+        {
+          "id": "misc/404",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/404"
+        },
+        {
+          "id": "misc/406",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/406"
+        },
+        {
+          "id": "misc/410",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/410"
+        },
+        {
+          "id": "misc/411",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/411"
+        },
+        {
+          "id": "misc/412",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/412"
+        },
+        {
+          "id": "misc/424",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/424"
+        },
+        {
+          "id": "misc/425",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/425"
+        },
+        {
+          "id": "misc/426",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/426"
+        },
+        {
+          "id": "misc/427",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/427"
+        },
+        {
+          "id": "misc/428",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/428"
+        },
+        {
+          "id": "misc/429",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/429"
+        },
+        {
+          "id": "misc/466",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/466"
+        },
+        {
+          "id": "misc/467",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/467"
+        },
+        {
+          "id": "misc/468",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/468"
+        },
+        {
+          "id": "misc/469",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/469"
+        },
+        {
+          "id": "misc/470",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/470"
+        },
+        {
+          "id": "misc/471",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/471"
+        },
+        {
+          "id": "misc/473",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/473"
+        },
+        {
+          "id": "misc/474",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/474"
+        },
+        {
+          "id": "misc/475",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/475"
+        },
+        {
+          "id": "misc/649",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/649"
+        },
+        {
+          "id": "misc/650",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/650"
+        },
+        {
+          "id": "misc/651",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/651"
+        },
+        {
+          "id": "misc/652",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/652"
+        },
+        {
+          "id": "misc/653",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/653"
+        },
+        {
+          "id": "misc/654",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/654"
+        },
+        {
+          "id": "misc/681",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/681"
+        },
+        {
+          "id": "misc/682",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/682"
+        },
+        {
+          "id": "misc/683",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/683"
+        },
+        {
+          "id": "misc/688",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/688"
+        },
+        {
+          "id": "misc/756",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/756"
+        },
+        {
+          "id": "misc/757",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/757"
+        },
+        {
+          "id": "misc/828",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/828"
+        },
+        {
+          "id": "misc/829",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/829"
+        },
+        {
+          "id": "misc/830",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/830"
+        },
+        {
+          "id": "misc/831",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/831"
+        },
+        {
+          "id": "misc/957",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/957"
+        },
+        {
+          "id": "misc/958",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/958"
+        },
+        {
+          "id": "misc/959",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/959"
+        },
+        {
+          "id": "misc/960",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/960"
+        },
+        {
+          "id": "misc/961",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/961"
+        },
+        {
+          "id": "misc/962",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/962"
+        },
+        {
+          "id": "misc/966",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/966"
+        },
+        {
+          "id": "misc/967",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/967"
+        },
+        {
+          "id": "misc/974",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/974"
+        },
+        {
+          "id": "misc/984",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/984"
+        },
+        {
+          "id": "misc/993",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/993"
+        },
+        {
+          "id": "misc/994",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/994"
+        },
+        {
+          "id": "misc/995",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/995"
+        },
+        {
+          "id": "misc/996",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/996"
+        },
+        {
+          "id": "misc/997",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/997"
+        },
+        {
+          "id": "misc/1003",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1003"
+        },
+        {
+          "id": "misc/1005",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1005"
+        },
+        {
+          "id": "misc/1016",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1016"
+        },
+        {
+          "id": "misc/1017",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1017"
+        },
+        {
+          "id": "misc/1078",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1078"
+        },
+        {
+          "id": "misc/1082",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1082"
+        },
+        {
+          "id": "misc/1085",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1085"
+        },
+        {
+          "id": "misc/1086",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1086"
+        },
+        {
+          "id": "misc/1089",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1089"
+        },
+        {
+          "id": "misc/1090",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1090"
+        },
+        {
+          "id": "misc/1091",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1091"
+        },
+        {
+          "id": "misc/1092",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1092"
+        },
+        {
+          "id": "misc/1093",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1093"
+        },
+        {
+          "id": "misc/1094",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1094"
+        },
+        {
+          "id": "misc/1102",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1102"
+        },
+        {
+          "id": "misc/1103",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1103"
+        },
+        {
+          "id": "misc/1105",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1105"
+        },
+        {
+          "id": "misc/1106",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1106"
+        },
+        {
+          "id": "misc/1107",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1107"
+        },
+        {
+          "id": "misc/1108",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1108"
+        },
+        {
+          "id": "misc/1109",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/1109"
+        },
+        {
+          "id": "misc/147",
+          "name": "Чемодан с деньгами",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/147"
+        },
+        {
+          "id": "misc/569",
+          "name": "Черви",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/misc/569"
+        }
+      ]
+    },
+    {
+      "slug": "others",
+      "title": "Others",
+      "items": [
+        {
+          "id": "others/522",
+          "name": "D1E HARD",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/522"
+        },
+        {
+          "id": "others/521",
+          "name": "FABULA",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/521"
+        },
+        {
+          "id": "others/524",
+          "name": "Neuro Biotin X",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/524"
+        },
+        {
+          "id": "others/523",
+          "name": "PaNa CEA",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/523"
+        },
+        {
+          "id": "others/509",
+          "name": "Ацетон",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/509"
+        },
+        {
+          "id": "others/533",
+          "name": "Бабочка в Банке",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/533"
+        },
+        {
+          "id": "others/515",
+          "name": "Бензоат натрия",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/515"
+        },
+        {
+          "id": "others/547",
+          "name": "Букет белых роз",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/547"
+        },
+        {
+          "id": "others/545",
+          "name": "Букет желто-белых калл",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/545"
+        },
+        {
+          "id": "others/544",
+          "name": "Букет красно-белых калл",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/544"
+        },
+        {
+          "id": "others/546",
+          "name": "Букет оранжево-желтых калл",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/546"
+        },
+        {
+          "id": "others/548",
+          "name": "Букет розовых роз",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/548"
+        },
+        {
+          "id": "others/526",
+          "name": "Винтажный Бинокль",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/526"
+        },
+        {
+          "id": "others/512",
+          "name": "Висмутовая кислота",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/512"
+        },
+        {
+          "id": "others/534",
+          "name": "Древний Манускрипт",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/534"
+        },
+        {
+          "id": "others/511",
+          "name": "Контейнер с Blue",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/511"
+        },
+        {
+          "id": "others/581",
+          "name": "Коробка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/581"
+        },
+        {
+          "id": "others/584",
+          "name": "Коробка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/584"
+        },
+        {
+          "id": "others/514",
+          "name": "Коробка Псевдоэфедрина",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/514"
+        },
+        {
+          "id": "others/518",
+          "name": "Коробка сигар «Vintage»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/518"
+        },
+        {
+          "id": "others/535",
+          "name": "Монета Хаоса",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/535"
+        },
+        {
+          "id": "others/538",
+          "name": "Неприличный Вуайеризм",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/538"
+        },
+        {
+          "id": "others/513",
+          "name": "Ортофосфорная кислота",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/513"
+        },
+        {
+          "id": "others/516",
+          "name": "Пероксид водорода",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/516"
+        },
+        {
+          "id": "others/510",
+          "name": "Пропиленгликоль",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/510"
+        },
+        {
+          "id": "others/582",
+          "name": "Свёрток документов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/582"
+        },
+        {
+          "id": "others/242",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/242"
+        },
+        {
+          "id": "others/286",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/286"
+        },
+        {
+          "id": "others/287",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/287"
+        },
+        {
+          "id": "others/288",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/288"
+        },
+        {
+          "id": "others/289",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/289"
+        },
+        {
+          "id": "others/300",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/300"
+        },
+        {
+          "id": "others/301",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/301"
+        },
+        {
+          "id": "others/302",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/302"
+        },
+        {
+          "id": "others/312",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/312"
+        },
+        {
+          "id": "others/313",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/313"
+        },
+        {
+          "id": "others/446",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/446"
+        },
+        {
+          "id": "others/447",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/447"
+        },
+        {
+          "id": "others/448",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/448"
+        },
+        {
+          "id": "others/449",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/449"
+        },
+        {
+          "id": "others/450",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/450"
+        },
+        {
+          "id": "others/476",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/476"
+        },
+        {
+          "id": "others/477",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/477"
+        },
+        {
+          "id": "others/478",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/478"
+        },
+        {
+          "id": "others/479",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/479"
+        },
+        {
+          "id": "others/480",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/480"
+        },
+        {
+          "id": "others/481",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/481"
+        },
+        {
+          "id": "others/482",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/482"
+        },
+        {
+          "id": "others/483",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/483"
+        },
+        {
+          "id": "others/484",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/484"
+        },
+        {
+          "id": "others/698",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/698"
+        },
+        {
+          "id": "others/699",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/699"
+        },
+        {
+          "id": "others/702",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/702"
+        },
+        {
+          "id": "others/703",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/703"
+        },
+        {
+          "id": "others/704",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/704"
+        },
+        {
+          "id": "others/705",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/705"
+        },
+        {
+          "id": "others/706",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/706"
+        },
+        {
+          "id": "others/707",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/707"
+        },
+        {
+          "id": "others/708",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/708"
+        },
+        {
+          "id": "others/709",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/709"
+        },
+        {
+          "id": "others/710",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/710"
+        },
+        {
+          "id": "others/711",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/711"
+        },
+        {
+          "id": "others/712",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/712"
+        },
+        {
+          "id": "others/713",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/713"
+        },
+        {
+          "id": "others/714",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/714"
+        },
+        {
+          "id": "others/715",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/715"
+        },
+        {
+          "id": "others/716",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/716"
+        },
+        {
+          "id": "others/717",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/717"
+        },
+        {
+          "id": "others/718",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/718"
+        },
+        {
+          "id": "others/719",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/719"
+        },
+        {
+          "id": "others/720",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/720"
+        },
+        {
+          "id": "others/721",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/721"
+        },
+        {
+          "id": "others/722",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/722"
+        },
+        {
+          "id": "others/723",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/723"
+        },
+        {
+          "id": "others/739",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/739"
+        },
+        {
+          "id": "others/740",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/740"
+        },
+        {
+          "id": "others/741",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/741"
+        },
+        {
+          "id": "others/742",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/742"
+        },
+        {
+          "id": "others/743",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/743"
+        },
+        {
+          "id": "others/744",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/744"
+        },
+        {
+          "id": "others/745",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/745"
+        },
+        {
+          "id": "others/746",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/746"
+        },
+        {
+          "id": "others/747",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/747"
+        },
+        {
+          "id": "others/748",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/748"
+        },
+        {
+          "id": "others/749",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/749"
+        },
+        {
+          "id": "others/750",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/750"
+        },
+        {
+          "id": "others/751",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/751"
+        },
+        {
+          "id": "others/752",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/752"
+        },
+        {
+          "id": "others/753",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/753"
+        },
+        {
+          "id": "others/754",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/754"
+        },
+        {
+          "id": "others/755",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/755"
+        },
+        {
+          "id": "others/766",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/766"
+        },
+        {
+          "id": "others/767",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/767"
+        },
+        {
+          "id": "others/768",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/768"
+        },
+        {
+          "id": "others/769",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/769"
+        },
+        {
+          "id": "others/770",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/770"
+        },
+        {
+          "id": "others/771",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/771"
+        },
+        {
+          "id": "others/772",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/772"
+        },
+        {
+          "id": "others/773",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/773"
+        },
+        {
+          "id": "others/774",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/774"
+        },
+        {
+          "id": "others/775",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/775"
+        },
+        {
+          "id": "others/777",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/777"
+        },
+        {
+          "id": "others/778",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/778"
+        },
+        {
+          "id": "others/787",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/787"
+        },
+        {
+          "id": "others/793",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/793"
+        },
+        {
+          "id": "others/794",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/794"
+        },
+        {
+          "id": "others/795",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/795"
+        },
+        {
+          "id": "others/796",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/796"
+        },
+        {
+          "id": "others/797",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/797"
+        },
+        {
+          "id": "others/819",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/819"
+        },
+        {
+          "id": "others/821",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/821"
+        },
+        {
+          "id": "others/822",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/822"
+        },
+        {
+          "id": "others/823",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/823"
+        },
+        {
+          "id": "others/825",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/825"
+        },
+        {
+          "id": "others/826",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/826"
+        },
+        {
+          "id": "others/827",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/827"
+        },
+        {
+          "id": "others/836",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/836"
+        },
+        {
+          "id": "others/837",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/837"
+        },
+        {
+          "id": "others/839",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/839"
+        },
+        {
+          "id": "others/840",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/840"
+        },
+        {
+          "id": "others/841",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/841"
+        },
+        {
+          "id": "others/842",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/842"
+        },
+        {
+          "id": "others/843",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/843"
+        },
+        {
+          "id": "others/844",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/844"
+        },
+        {
+          "id": "others/845",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/845"
+        },
+        {
+          "id": "others/846",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/846"
+        },
+        {
+          "id": "others/847",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/847"
+        },
+        {
+          "id": "others/848",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/848"
+        },
+        {
+          "id": "others/849",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/849"
+        },
+        {
+          "id": "others/850",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/850"
+        },
+        {
+          "id": "others/851",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/851"
+        },
+        {
+          "id": "others/852",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/852"
+        },
+        {
+          "id": "others/853",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/853"
+        },
+        {
+          "id": "others/854",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/854"
+        },
+        {
+          "id": "others/855",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/855"
+        },
+        {
+          "id": "others/856",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/856"
+        },
+        {
+          "id": "others/857",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/857"
+        },
+        {
+          "id": "others/858",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/858"
+        },
+        {
+          "id": "others/859",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/859"
+        },
+        {
+          "id": "others/860",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/860"
+        },
+        {
+          "id": "others/861",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/861"
+        },
+        {
+          "id": "others/894",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/894"
+        },
+        {
+          "id": "others/895",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/895"
+        },
+        {
+          "id": "others/896",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/896"
+        },
+        {
+          "id": "others/897",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/897"
+        },
+        {
+          "id": "others/898",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/898"
+        },
+        {
+          "id": "others/899",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/899"
+        },
+        {
+          "id": "others/900",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/900"
+        },
+        {
+          "id": "others/901",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/901"
+        },
+        {
+          "id": "others/902",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/902"
+        },
+        {
+          "id": "others/903",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/903"
+        },
+        {
+          "id": "others/904",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/904"
+        },
+        {
+          "id": "others/905",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/905"
+        },
+        {
+          "id": "others/906",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/906"
+        },
+        {
+          "id": "others/907",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/907"
+        },
+        {
+          "id": "others/908",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/908"
+        },
+        {
+          "id": "others/909",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/909"
+        },
+        {
+          "id": "others/910",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/910"
+        },
+        {
+          "id": "others/911",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/911"
+        },
+        {
+          "id": "others/912",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/912"
+        },
+        {
+          "id": "others/913",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/913"
+        },
+        {
+          "id": "others/914",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/914"
+        },
+        {
+          "id": "others/915",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/915"
+        },
+        {
+          "id": "others/916",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/916"
+        },
+        {
+          "id": "others/917",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/917"
+        },
+        {
+          "id": "others/918",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/918"
+        },
+        {
+          "id": "others/919",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/919"
+        },
+        {
+          "id": "others/920",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/920"
+        },
+        {
+          "id": "others/921",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/921"
+        },
+        {
+          "id": "others/922",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/922"
+        },
+        {
+          "id": "others/923",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/923"
+        },
+        {
+          "id": "others/924",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/924"
+        },
+        {
+          "id": "others/925",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/925"
+        },
+        {
+          "id": "others/926",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/926"
+        },
+        {
+          "id": "others/927",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/927"
+        },
+        {
+          "id": "others/928",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/928"
+        },
+        {
+          "id": "others/929",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/929"
+        },
+        {
+          "id": "others/930",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/930"
+        },
+        {
+          "id": "others/931",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/931"
+        },
+        {
+          "id": "others/932",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/932"
+        },
+        {
+          "id": "others/933",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/933"
+        },
+        {
+          "id": "others/934",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/934"
+        },
+        {
+          "id": "others/935",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/935"
+        },
+        {
+          "id": "others/936",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/936"
+        },
+        {
+          "id": "others/937",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/937"
+        },
+        {
+          "id": "others/938",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/938"
+        },
+        {
+          "id": "others/939",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/939"
+        },
+        {
+          "id": "others/940",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/940"
+        },
+        {
+          "id": "others/941",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/941"
+        },
+        {
+          "id": "others/942",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/942"
+        },
+        {
+          "id": "others/943",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/943"
+        },
+        {
+          "id": "others/944",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/944"
+        },
+        {
+          "id": "others/945",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/945"
+        },
+        {
+          "id": "others/946",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/946"
+        },
+        {
+          "id": "others/947",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/947"
+        },
+        {
+          "id": "others/948",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/948"
+        },
+        {
+          "id": "others/949",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/949"
+        },
+        {
+          "id": "others/950",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/950"
+        },
+        {
+          "id": "others/951",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/951"
+        },
+        {
+          "id": "others/952",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/952"
+        },
+        {
+          "id": "others/955",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/955"
+        },
+        {
+          "id": "others/975",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/975"
+        },
+        {
+          "id": "others/976",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/976"
+        },
+        {
+          "id": "others/983",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/983"
+        },
+        {
+          "id": "others/1007",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1007"
+        },
+        {
+          "id": "others/1011",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1011"
+        },
+        {
+          "id": "others/1012",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1012"
+        },
+        {
+          "id": "others/1013",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1013"
+        },
+        {
+          "id": "others/1014",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1014"
+        },
+        {
+          "id": "others/1015",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1015"
+        },
+        {
+          "id": "others/1019",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1019"
+        },
+        {
+          "id": "others/1020",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1020"
+        },
+        {
+          "id": "others/1021",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1021"
+        },
+        {
+          "id": "others/1022",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1022"
+        },
+        {
+          "id": "others/1023",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1023"
+        },
+        {
+          "id": "others/1024",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1024"
+        },
+        {
+          "id": "others/1025",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1025"
+        },
+        {
+          "id": "others/1026",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1026"
+        },
+        {
+          "id": "others/1027",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1027"
+        },
+        {
+          "id": "others/1028",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1028"
+        },
+        {
+          "id": "others/1029",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1029"
+        },
+        {
+          "id": "others/1030",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1030"
+        },
+        {
+          "id": "others/1031",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1031"
+        },
+        {
+          "id": "others/1032",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1032"
+        },
+        {
+          "id": "others/1033",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1033"
+        },
+        {
+          "id": "others/1034",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1034"
+        },
+        {
+          "id": "others/1035",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1035"
+        },
+        {
+          "id": "others/1036",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1036"
+        },
+        {
+          "id": "others/1037",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1037"
+        },
+        {
+          "id": "others/1038",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1038"
+        },
+        {
+          "id": "others/1039",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1039"
+        },
+        {
+          "id": "others/1040",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1040"
+        },
+        {
+          "id": "others/1041",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1041"
+        },
+        {
+          "id": "others/1042",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1042"
+        },
+        {
+          "id": "others/1043",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1043"
+        },
+        {
+          "id": "others/1044",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1044"
+        },
+        {
+          "id": "others/1045",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1045"
+        },
+        {
+          "id": "others/1046",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1046"
+        },
+        {
+          "id": "others/1047",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1047"
+        },
+        {
+          "id": "others/1048",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1048"
+        },
+        {
+          "id": "others/1049",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1049"
+        },
+        {
+          "id": "others/1050",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1050"
+        },
+        {
+          "id": "others/1051",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1051"
+        },
+        {
+          "id": "others/1053",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1053"
+        },
+        {
+          "id": "others/1054",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1054"
+        },
+        {
+          "id": "others/1055",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1055"
+        },
+        {
+          "id": "others/1056",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1056"
+        },
+        {
+          "id": "others/1057",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1057"
+        },
+        {
+          "id": "others/1058",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1058"
+        },
+        {
+          "id": "others/1059",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1059"
+        },
+        {
+          "id": "others/1060",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1060"
+        },
+        {
+          "id": "others/1061",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1061"
+        },
+        {
+          "id": "others/1062",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1062"
+        },
+        {
+          "id": "others/1063",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1063"
+        },
+        {
+          "id": "others/1064",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1064"
+        },
+        {
+          "id": "others/1065",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1065"
+        },
+        {
+          "id": "others/1066",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1066"
+        },
+        {
+          "id": "others/1067",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1067"
+        },
+        {
+          "id": "others/1068",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1068"
+        },
+        {
+          "id": "others/1069",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1069"
+        },
+        {
+          "id": "others/1070",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1070"
+        },
+        {
+          "id": "others/1071",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1071"
+        },
+        {
+          "id": "others/1072",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1072"
+        },
+        {
+          "id": "others/1073",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1073"
+        },
+        {
+          "id": "others/1097",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1097"
+        },
+        {
+          "id": "others/1098",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1098"
+        },
+        {
+          "id": "others/1099",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1099"
+        },
+        {
+          "id": "others/1100",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1100"
+        },
+        {
+          "id": "others/1101",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/1101"
+        },
+        {
+          "id": "others/517",
+          "name": "Толуол",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/517"
+        },
+        {
+          "id": "others/551",
+          "name": "Ящик с «Легкий бронежилет служебный",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/551"
+        },
+        {
+          "id": "others/549",
+          "name": "Ящик с «Легкий бронежилет»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/549"
+        },
+        {
+          "id": "others/570",
+          "name": "Ящик с «Просроченный эпинефрин»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/570"
+        },
+        {
+          "id": "others/572",
+          "name": "Ящик с «Списанный дефибриллятор»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/572"
+        },
+        {
+          "id": "others/552",
+          "name": "Ящик с «Тяжелый бронежилет служебный»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/552"
+        },
+        {
+          "id": "others/550",
+          "name": "Ящик с «Тяжелый бронежилет»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/550"
+        },
+        {
+          "id": "others/505",
+          "name": "Ящик с Азитромицином",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/505"
+        },
+        {
+          "id": "others/507",
+          "name": "Ящик с Активированным углём",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/507"
+        },
+        {
+          "id": "others/502",
+          "name": "Ящик с вакциной",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/502"
+        },
+        {
+          "id": "others/506",
+          "name": "Ящик с дефибриляторами",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/506"
+        },
+        {
+          "id": "others/562",
+          "name": "Ящик с Дрель 1500w",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/562"
+        },
+        {
+          "id": "others/580",
+          "name": "Ящик с запчастями",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/580"
+        },
+        {
+          "id": "others/556",
+          "name": "Ящик с ИРП Армии США",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/556"
+        },
+        {
+          "id": "others/503",
+          "name": "Ящик с Кодеиновыми таблетками",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/503"
+        },
+        {
+          "id": "others/565",
+          "name": "Ящик с наручниками",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/565"
+        },
+        {
+          "id": "others/554",
+          "name": "Ящик с оружием «Боевой дробовик»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/554"
+        },
+        {
+          "id": "others/497",
+          "name": "Ящик с оружием «Боевой ПОС",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/497"
+        },
+        {
+          "id": "others/494",
+          "name": "Ящик с оружием «Винтовка Marksman Mk2»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/494"
+        },
+        {
+          "id": "others/490",
+          "name": "Ящик с оружием «Винтовка Буллпап Mk2»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/490"
+        },
+        {
+          "id": "others/496",
+          "name": "Ящик с оружием «Военная винтовка»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/496"
+        },
+        {
+          "id": "others/492",
+          "name": "Ящик с оружием «Карабинная винтовка Mk2»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/492"
+        },
+        {
+          "id": "others/491",
+          "name": "Ящик с оружием «Карабинная винтовка»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/491"
+        },
+        {
+          "id": "others/561",
+          "name": "Ящик с оружием «Мини ПП»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/561"
+        },
+        {
+          "id": "others/498",
+          "name": "Ящик с оружием «Пистолет .50»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/498"
+        },
+        {
+          "id": "others/501",
+          "name": "Ящик с оружием «Пистолет-пулемёт Томпсона»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/501"
+        },
+        {
+          "id": "others/499",
+          "name": "Ящик с оружием «ПП Mk2»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/499"
+        },
+        {
+          "id": "others/495",
+          "name": "Ящик с оружием «Пулемёт Калашникова»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/495"
+        },
+        {
+          "id": "others/560",
+          "name": "Ящик с оружием «Револьвер»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/560"
+        },
+        {
+          "id": "others/564",
+          "name": "Ящик с оружием «Ручной пулемет Mk2»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/564"
+        },
+        {
+          "id": "others/563",
+          "name": "Ящик с оружием «Ручной пулемет»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/563"
+        },
+        {
+          "id": "others/553",
+          "name": "Ящик с оружием «Снайперская винтовка»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/553"
+        },
+        {
+          "id": "others/500",
+          "name": "Ящик с оружием «Специальный карабин Mk2»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/500"
+        },
+        {
+          "id": "others/558",
+          "name": "Ящик с оружием «Тяжелая снайперская винтовка Mk2»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/558"
+        },
+        {
+          "id": "others/557",
+          "name": "Ящик с оружием «Тяжелая снайперская винтовка»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/557"
+        },
+        {
+          "id": "others/493",
+          "name": "Ящик с оружием «Тяжелый дробовик»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/493"
+        },
+        {
+          "id": "others/596",
+          "name": "Ящик с оружием «Тяжёлая винтовка»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/596"
+        },
+        {
+          "id": "others/486",
+          "name": "Ящик с оружием «Улучшенная винтовка»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/486"
+        },
+        {
+          "id": "others/487",
+          "name": "Ящик с оружием «Штурмовая винтовка Mk2»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/487"
+        },
+        {
+          "id": "others/559",
+          "name": "Ящик с оружием «Штурмовая винтовка»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/559"
+        },
+        {
+          "id": "others/488",
+          "name": "Ящик с оружием «Штурмовой ПП»",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/488"
+        },
+        {
+          "id": "others/555",
+          "name": "Ящик с полицейским дроном",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/555"
+        },
+        {
+          "id": "others/566",
+          "name": "Ящик с полицейскими дубинками",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/566"
+        },
+        {
+          "id": "others/567",
+          "name": "Ящик с тазерами",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/567"
+        },
+        {
+          "id": "others/583",
+          "name": "Ящик с электроникой",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/583"
+        },
+        {
+          "id": "others/504",
+          "name": "Ящик с Эпинефрином",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/others/504"
+        }
+      ]
+    },
+    {
+      "slug": "personals",
+      "title": "Personals",
+      "items": [
+        {
+          "id": "personals/28",
+          "name": "Кожаный портфель",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/personals/28"
+        },
+        {
+          "id": "personals/35",
+          "name": "Лом",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/personals/35"
+        },
+        {
+          "id": "personals/86",
+          "name": "Палатка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/personals/86"
+        },
+        {
+          "id": "personals/129",
+          "name": "Разбитая бутылка",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/personals/129"
+        },
+        {
+          "id": "personals/785",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/personals/785"
+        },
+        {
+          "id": "personals/786",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/personals/786"
+        },
+        {
+          "id": "personals/788",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/personals/788"
+        },
+        {
+          "id": "personals/789",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/personals/789"
+        },
+        {
+          "id": "personals/790",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/personals/790"
+        }
+      ]
+    },
+    {
+      "slug": "products",
+      "title": "Products",
+      "items": [
+        {
+          "id": "products/29",
+          "name": "Пачка сигар Estancia",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/products/29"
+        },
+        {
+          "id": "products/24",
+          "name": "Пачка сигарет",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/products/24"
+        },
+        {
+          "id": "products/237",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/products/237"
+        },
+        {
+          "id": "products/323",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/products/323"
+        },
+        {
+          "id": "products/387",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/products/387"
+        }
+      ]
+    },
+    {
+      "slug": "rubbish",
+      "title": "Rubbish",
+      "items": [
+        {
+          "id": "rubbish/251",
+          "name": "Таблица предметов",
+          "description": "",
+          "url": "https://wiki.majestic-rp.ru/ru/items/rubbish/251"
+        }
+      ]
+    }
+  ]
+}

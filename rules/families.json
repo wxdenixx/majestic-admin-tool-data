@@ -1,0 +1,1013 @@
+{
+  "version": "2026.05.04.0951",
+  "releaseDate": "2026-05-04T09:51:52.149468+00:00",
+  "author": "scrape_rules.py",
+  "compatibilityVersion": "1",
+  "changelog": [
+    {
+      "version": "2026.05.04.0951",
+      "date": "2026-05-04T09:51:52.149468+00:00",
+      "changes": [
+        "Автоматический снимок раздела «Общие правила семейных организаций»"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "families.1.1",
+      "number": "1.1",
+      "title": "На участников семей распространяются все правила, которые действуют на обычных игроков",
+      "category": "Фракции",
+      "text": "На участников семей распространяются все правила, которые действуют на обычных игроков",
+      "explanation": "наказание в виде выговоров лидерам заменяется на часы/дни заморозки семей.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "участников",
+        "семей",
+        "распространяются",
+        "правила",
+        "действуют",
+        "обычных"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.1.2",
+      "number": "1.2",
+      "title": "При совершении криминальных действий на игроков семьи распространяются все основные правил…",
+      "category": "Фракции",
+      "text": "При совершении криминальных действий на игроков семьи распространяются все основные правила проекта, присущи любому мероприятию / действию",
+      "explanation": "общие правила проекта и основных мероприятий , правила криминальных организаций , правила государственных организаций .",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "совершении",
+        "криминальных",
+        "действий",
+        "игроков",
+        "семьи",
+        "распространяются"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.1.3",
+      "number": "1.3",
+      "title": "Запрещено сливать склад/баланс/имущество семьи",
+      "category": "Фракции",
+      "text": "Запрещено сливать склад/баланс/имущество семьи",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "60-100 минут",
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3-30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "15-30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "сливать",
+        "склад",
+        "баланс",
+        "имущество",
+        "семьи"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.1.4",
+      "number": "1.4",
+      "title": "Разрешено иметь 4 союза с другими семьями",
+      "category": "Фракции",
+      "text": "Разрешено иметь 4 союза с другими семьями",
+      "explanation": "при заключении / разрыве союзной или враждебной дипломатии она должна быть отписана в discord-канале Families, иначе она считается недействительной. Cообщение не может быть подвергнуто редакции или изменениям. Все новые союзы или их разрывы, должны быть написаны новым сообщением.",
+      "examples": [
+        "семья1 заключила союз с семья2 / семья1 разорвала союз с семья2;",
+        "семья1 объявила войну семья2 /",
+        "семья1 разорвала враждебную дипломатию с семья2",
+        "."
+      ],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "иметь",
+        "союза",
+        "другими",
+        "семьями"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.1.5",
+      "number": "1.5",
+      "title": "Запрещено использовать склад фракций для нужд семейных организаций",
+      "category": "Фракции",
+      "text": "Запрещено использовать склад фракций для нужд семейных организаций",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "HardBan",
+          "duration": "30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использовать",
+        "склад",
+        "фракций",
+        "нужд",
+        "семейных"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.1.6",
+      "number": "1.6",
+      "title": "В случае массовых нарушений состава семейной организации к ней могут быть применены санкци…",
+      "category": "Фракции",
+      "text": "В случае массовых нарушений состава семейной организации к ней могут быть применены санкции,",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "случае",
+        "массовых",
+        "нарушений",
+        "состава",
+        "семейной",
+        "организации"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.1.7",
+      "number": "1.7",
+      "title": "Респавном семьи является дом / офис, который был оформлен на семейную организацию",
+      "category": "Фракции",
+      "text": "Респавном семьи является дом / офис, который был оформлен на семейную организацию",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "респавном",
+        "семьи",
+        "является",
+        "офис",
+        "оформлен",
+        "семейную"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.1.8",
+      "number": "1.8",
+      "title": "Государственные организации вправе сделать рейд на семейный дом (респавн) или семейный скл…",
+      "category": "Фракции",
+      "text": "Государственные организации вправе сделать рейд на семейный дом (респавн) или семейный склад при наличии весомых доказательств, а также одобренного документа (ордера) администрацией сервера и правительством",
+      "explanation": "см. правила рейдов.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "государственные",
+        "организации",
+        "вправе",
+        "сделать",
+        "рейд",
+        "семейный"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.1.9",
+      "number": "1.9",
+      "title": "Семейные организации вправе захватывать другой семейный дом (респавн), при наличии весомых…",
+      "category": "Фракции",
+      "text": "Семейные организации вправе захватывать другой семейный дом (респавн), при наличии весомых доказательств, а также одобренного документа (кейс-файла) администрацией сервера",
+      "explanation": "см. правила захвата особняков .",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "семейные",
+        "организации",
+        "вправе",
+        "захватывать",
+        "другой",
+        "семейный"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.1.10",
+      "number": "1.10",
+      "title": "Если игрок состоит во фракции и семейной организации, то цвет при криминальных действиях о…",
+      "category": "Фракции",
+      "text": "Если игрок состоит во фракции и семейной организации, то цвет при криминальных действиях определяется характером действий (фракционные / семейные)",
+      "explanation": null,
+      "examples": [
+        "игрок состоит во фракции Ballas Gang и состоит в семье, у которой основной цвет - белый, совершая криминальные действия с фракцией игрок должен соблюдать дресс-код фракции Ballas Gang, а именно фиолетовый, если ограбления происходит исключительно в составе семьи, то цвет при криминальных действиях должен быть белый."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35-60 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "игрок",
+        "состоит",
+        "фракции",
+        "семейной",
+        "организации",
+        "цвет"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.1.11",
+      "number": "1.11",
+      "title": "Запрещен трансфер состава на любые семейные мероприятия, включая капты",
+      "category": "Фракции",
+      "text": "Запрещен трансфер состава на любые семейные мероприятия, включая капты",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Заморозка семьи на",
+          "duration": "2-7 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "15-30 дней",
+          "reason": null
+        },
+        {
+          "type": "Понижение на один уровень семьи, в",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "из которых произошел трансфер",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещен",
+        "трансфер",
+        "состава",
+        "любые",
+        "семейные",
+        "мероприятия"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.1.12",
+      "number": "1.12",
+      "title": "Запрещено принимать участие в мероприятиях, которые функционально закрыты у семейной орган…",
+      "category": "Фракции",
+      "text": "Запрещено принимать участие в мероприятиях, которые функционально закрыты у семейной организации",
+      "explanation": null,
+      "examples": [
+        "участие на ВЗА, ФЗ или поставках, когда функционально семья не имеет еще доступ к ним."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Заморозка семьи на",
+          "duration": "3-5 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "5-10 дней",
+          "reason": null
+        },
+        {
+          "type": "Понижение на",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "принимать",
+        "участие",
+        "мероприятиях",
+        "функционально",
+        "закрыты"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.1.13",
+      "number": "1.13",
+      "title": "Запрещена покупка/продажа/передача материалов, а также скрафченных предметов между разными…",
+      "category": "Фракции",
+      "text": "Запрещена покупка/продажа/передача материалов, а также скрафченных предметов между разными типами организаций",
+      "explanation": null,
+      "examples": [
+        "запрещен обмен материалов семья-фракция (и наоборот), разрешено обменивать материалы семья-семья."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "HardBan",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Заморозка семьи на",
+          "duration": "5-10 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещена",
+        "покупка",
+        "продажа",
+        "передача",
+        "материалов",
+        "скрафченных"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.1.14",
+      "number": "1.14",
+      "title": "Семье запрещено иметь оскорбительное/нецензурное название",
+      "category": "Фракции",
+      "text": "Семье запрещено иметь оскорбительное/нецензурное название",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Заморозка cемьи до смены названия",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Р асформирование семьи",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "семье",
+        "запрещено",
+        "иметь",
+        "оскорбительное",
+        "нецензурное",
+        "название"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.1.15",
+      "number": "1.15",
+      "title": "При рассекречивании лидера семьи путем РП-расследования, семья получает функциональную зам…",
+      "category": "Фракции",
+      "text": "При рассекречивании лидера семьи путем РП-расследования, семья получает функциональную заморозку сроком на 5 дней, а также сотрудники государственных фракций могут задерживать игроков в течении 14 дней с целью досмотра на нелегальные предметы",
+      "explanation": "игрок определяется дресс-кодом, который был рассекречен и указан в кейсе, в случае не обнаружения у игрока нелегальных предметов он должен быть освобожден.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "рассекречивании",
+        "лидера",
+        "семьи",
+        "путем",
+        "расследования",
+        "семья"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.2.1",
+      "number": "2.1",
+      "title": "Обычные квадраты захватываются в \"свободном\" формате",
+      "category": "Фракции",
+      "text": "Обычные квадраты захватываются в \"свободном\" формате",
+      "explanation": "администрация не решает спорные ситуации и не принимает участие в принятии финального решения.",
+      "examples": [],
+      "exceptions": [
+        "раздел 2 п. 2; раздел 2 п.6."
+      ],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "обычные",
+        "квадраты",
+        "захватываются",
+        "свободном",
+        "формате"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.2.2",
+      "number": "2.2",
+      "title": "Контрольные точки",
+      "category": "Фракции",
+      "text": "Контрольные точки",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "контрольные",
+        "точки"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.2.3",
+      "number": "2.3",
+      "title": "На каптах, которые находятся под модерацией администрации, каждый участник обязан вести ви…",
+      "category": "Фракции",
+      "text": "На каптах, которые находятся под модерацией администрации, каждый участник обязан вести видеозапись от начала и до конца капта, а также хранить её в течение 48 часов",
+      "explanation": "запись должна происходить через Nvidia Experience / Radeon Software или любые другие программы, которые захватывают весь рабочий стол, а не отдельные приложения. Видеозапись должна быть цельной, без каких-либо редакций и обработок. Качество видео должно быть не менее 480p и иметь оригинальный звук.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Заморозка каптов у семьи на",
+          "duration": "1-7 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "7-30 дней",
+          "reason": null
+        },
+        {
+          "type": "Permban",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "каптах",
+        "находятся",
+        "модерацией",
+        "администрации",
+        "каждый",
+        "участник"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.2.4",
+      "number": "2.4",
+      "title": "Любой администратор вправе запросить видеозапись от конкретных игроков с капта в течение 4…",
+      "category": "Фракции",
+      "text": "Любой администратор вправе запросить видеозапись от конкретных игроков с капта в течение 48 часов. В случае, если игрок не предоставляет видеозапись в течение 24-х часов, то считается, что игрок не вел видеозапись",
+      "explanation": "запрос от игроков должен быть сделан не позднее 12 часов после окончания капта. видеозаписи должны быть загружены только на площадку - YouTube / Twitch / Trovo / Rutube / Google Drive / Imgur (Видеозаписи загруженные в Discord не принимаются)",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "любой",
+        "администратор",
+        "вправе",
+        "запросить",
+        "видеозапись",
+        "конкретных"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.2.5",
+      "number": "2.5",
+      "title": "Запрещен любой багоюз",
+      "category": "Фракции",
+      "text": "Запрещен любой багоюз",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Заморозка каптов у семьи на",
+          "duration": "1-10 дней",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "60-100 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3-30 дней",
+          "reason": null
+        },
+        {
+          "type": "Hardban",
+          "duration": "3-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещен",
+        "любой",
+        "багоюз"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.2.6",
+      "number": "2.6",
+      "title": "В случае грубых нарушений главный куратор вправе изменить итоги капта, а так же вернуть /…",
+      "category": "Фракции",
+      "text": "В случае грубых нарушений главный куратор вправе изменить итоги капта, а так же вернуть / передать квадрат без объяснения причины",
+      "explanation": "верхняя (торс, майки, куртки) одежда должна полностью соответствовать цвету семьи.",
+      "examples": [
+        "у семьи А и Б белый цвет, на капте семьи А против Б допустимо использование семьей А черного цвета, с целью разделения союзных / враждебных игроков."
+      ],
+      "exceptions": [
+        "в случае одинаковых цветов семейных организаций, разрешено изменять дресс-код на капт, с целью отличия союзных / враждебных игроков."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "случае",
+        "грубых",
+        "нарушений",
+        "главный",
+        "куратор",
+        "вправе"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.2.8",
+      "number": "2.8",
+      "title": "Запрещено использование государственных бронежилетов (100%)",
+      "category": "Фракции",
+      "text": "Запрещено использование государственных бронежилетов (100%)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Заморозка каптов у семьи на",
+          "duration": "5-7 дней",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "100 минут",
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "2 дня",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "2 дня",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использование",
+        "государственных",
+        "бронежилетов"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.2.9",
+      "number": "2.9",
+      "title": "Запрещено намеренное нарушение правил сервера на немодерируемых квадратах, с целью выигрыш…",
+      "category": "Фракции",
+      "text": "Запрещено намеренное нарушение правил сервера на немодерируемых квадратах, с целью выигрыша территорий",
+      "explanation": "финальное решение принимает главный куратор криминальных структур.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Заморозка каптов у семьи на",
+          "duration": "5-15 дней",
+          "reason": null
+        },
+        {
+          "type": "Обнуление всех захваченных территорий",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "намеренное",
+        "нарушение",
+        "правил",
+        "сервера",
+        "немодерируемых"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.2.10",
+      "number": "2.10",
+      "title": "Запрещено входить / находиться в интерьерах",
+      "category": "Фракции",
+      "text": "Запрещено входить / находиться в интерьерах",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "30-90 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "входить",
+        "находиться",
+        "интерьерах"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.2.11",
+      "number": "2.11",
+      "title": "Запрещено какая-либо помеха / использование уязвимостей / абуз и т",
+      "category": "Фракции",
+      "text": "Запрещено какая-либо помеха / использование уязвимостей / абуз и т.п. при семейной войне за территорию",
+      "explanation": null,
+      "examples": [
+        "намеренное сбитие защит у другой семьи, игра сразу с 2х персонажей на 1 капте и т.п."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Заморозка каптов у семьи на",
+          "duration": "5-15 дней",
+          "reason": null
+        },
+        {
+          "type": "Обнуление всех захваченных территорий",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Расформирование семьи",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "какая",
+        "либо",
+        "помеха",
+        "использование",
+        "уязвимостей"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.2.12",
+      "number": "2.12",
+      "title": "Запрещено играть битву за семейные квадраты с союзной (по дипломатии) семьей",
+      "category": "Фракции",
+      "text": "Запрещено играть битву за семейные квадраты с союзной (по дипломатии) семьей",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "первый контур квадратов."
+      ],
+      "punishments": [
+        {
+          "type": "Заморозка каптов у семьи на",
+          "duration": "3-10 дней",
+          "reason": null
+        },
+        {
+          "type": "Аннулирование территорий",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "играть",
+        "битву",
+        "семейные",
+        "квадраты",
+        "союзной"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.2.13",
+      "number": "2.13",
+      "title": "Запрещена монополия на контрольные точки, помещения и особняки",
+      "category": "Фракции",
+      "text": "Запрещена монополия на контрольные точки, помещения и особняки",
+      "explanation": null,
+      "examples": [
+        "захват прилегающих квадратов к другому особняку, имея при этом активный особняк, с целью невозможности прохода другой семьи; захват нескольких контуров, с целью невозможности прохода семьи к другим точкам, которые не может захватить семья в виду функциональных лимитов; любая помеха для свободного доступа к особняку, имея при этом активный собственный особняк и т.п."
+      ],
+      "exceptions": [
+        "особые квадраты (бизнесы, точки крафта и т.д.) вокруг контрольных точек, помещений и особняков."
+      ],
+      "punishments": [
+        {
+          "type": "Перемещение квадратов в нейтральное состояние",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Заморозка каптов на",
+          "duration": "5-15 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "5-15 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещена",
+        "монополия",
+        "контрольные",
+        "точки",
+        "помещения",
+        "особняки"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    },
+    {
+      "id": "families.2.14",
+      "number": "2.14",
+      "title": "В случае, если на видеозаписи присутствуют неоднократные задержки из-за недостатка ресурсо…",
+      "category": "Фракции",
+      "text": "В случае, если на видеозаписи присутствуют неоднократные задержки из-за недостатка ресурсов компьютера, по решению главного куратора игрок может получить запрет на посещение каптов. Кроме того, при многочисленных просадках, фризах или не регистрации урона по конкретному игроку на видеозаписях от других игроков также может быть применен запрет",
+      "explanation": "наглядный список труднодоступных мест.",
+      "examples": [
+        "туннели, метро и т.п., возвышенности, на которые невозможно забраться без дополнительной помощи каких-либо объектов, верхние этажи парковки, разрешено занимать лишь первый и цокольный этаж."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "30-90 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3-7 дней",
+          "reason": null
+        },
+        {
+          "type": "Передача территории другой стороне",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-7 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "случае",
+        "видеозаписи",
+        "присутствуют",
+        "неоднократные",
+        "задержки",
+        "недостатка"
+      ],
+      "source": "forum:families:https://forum.majestic-rp.ru/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.148010+00:00"
+    }
+  ]
+}

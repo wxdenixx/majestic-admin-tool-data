@@ -1,7 +1,161 @@
 {
-  "version": "0.0.0",
-  "generatedAt": "2026-05-04T00:00:00+00:00",
+  "version": "2026.05.04.0959",
+  "generatedAt": "2026-05-04T09:59:39.208167+00:00",
   "schemaVersion": "1",
   "baseUrl": null,
-  "packages": []
+  "packages": [
+    {
+      "id": "rules.admins",
+      "kind": "rules",
+      "url": "rules/admins.json",
+      "sha256": "dad8cf62c990d956be50e5632c31cbcb9d9699e646c3f1d9eec655ee10d73e8e",
+      "size": 37264,
+      "version": "2026.05.04.0951",
+      "updatedAt": "2026-05-04T09:51:52.250148+00:00"
+    },
+    {
+      "id": "rules.bank-robbery",
+      "kind": "rules",
+      "url": "rules/bank-robbery.json",
+      "sha256": "2e8bf8ed5e2703801dade08bc794c481b60c039b593d4ae886a2a923208f2dd5",
+      "size": 19617,
+      "version": "2026.05.04.0951",
+      "updatedAt": "2026-05-04T09:51:52.247636+00:00"
+    },
+    {
+      "id": "rules.business-robbery",
+      "kind": "rules",
+      "url": "rules/business-robbery.json",
+      "sha256": "4756586745f236f71a6324b746b34f945f45ce03e534440c204841be79a945ab",
+      "size": 15352,
+      "version": "2026.05.04.0951",
+      "updatedAt": "2026-05-04T09:51:52.247636+00:00"
+    },
+    {
+      "id": "rules.captures-terror",
+      "kind": "rules",
+      "url": "rules/captures-terror.json",
+      "sha256": "8084f6544841afa3cda1dd7e07d8b87de8e81ba63b0819f1626cc22c0404233d",
+      "size": 41807,
+      "version": "2026.05.04.0951",
+      "updatedAt": "2026-05-04T09:51:52.249139+00:00"
+    },
+    {
+      "id": "rules.cayo-perico",
+      "kind": "rules",
+      "url": "rules/cayo-perico.json",
+      "sha256": "5a32cb840a234572f39d0023968486ae134398c4c190110ce2180ec5040653da",
+      "size": 31459,
+      "version": "2026.05.04.0951",
+      "updatedAt": "2026-05-04T09:51:52.242549+00:00"
+    },
+    {
+      "id": "rules.cheat-check",
+      "kind": "rules",
+      "url": "rules/cheat-check.json",
+      "sha256": "e8f3c5dd0a87cb02327da4752407d778e144bfbe0cb60abf1eaa096e0acc4f2a",
+      "size": 16004,
+      "version": "2026.05.04.0951",
+      "updatedAt": "2026-05-04T09:51:52.250148+00:00"
+    },
+    {
+      "id": "rules.dealer-capture",
+      "kind": "rules",
+      "url": "rules/dealer-capture.json",
+      "sha256": "42caa339897ff524acde94d38e2d3c94e3300e7f312be640cae64a06a73354ca",
+      "size": 21317,
+      "version": "2026.05.04.0951",
+      "updatedAt": "2026-05-04T09:51:52.244053+00:00"
+    },
+    {
+      "id": "rules.families",
+      "kind": "rules",
+      "url": "rules/families.json",
+      "sha256": "a0ad4b3d87c69d1026675b7b172420129d9ce4ff29346b3937e34dfc39d2a3a7",
+      "size": 43676,
+      "version": "2026.05.04.0951",
+      "updatedAt": "2026-05-04T09:51:52.249139+00:00"
+    },
+    {
+      "id": "rules.fort-zancudo",
+      "kind": "rules",
+      "url": "rules/fort-zancudo.json",
+      "sha256": "424fb021fbff086ef958d3c0c7b77c4799ae3fbbfe3f81d2899d836745fc3706",
+      "size": 51178,
+      "version": "2026.05.04.0951",
+      "updatedAt": "2026-05-04T09:51:52.244567+00:00"
+    },
+    {
+      "id": "rules.forum",
+      "kind": "rules",
+      "url": "rules/forum.json",
+      "sha256": "c03b87aac8a08116cf9c4c7fa0baa74c5b85f57801ada129f90d71016a84bf20",
+      "size": 41084,
+      "version": "2026.05.04.0951",
+      "updatedAt": "2026-05-04T09:51:52.250148+00:00"
+    },
+    {
+      "id": "rules.game-zones",
+      "kind": "rules",
+      "url": "rules/game-zones.json",
+      "sha256": "eb0c712223e3f3b56178c43d1e01fa856105d6b626943fc69aa574b7935b9ae1",
+      "size": 14298,
+      "version": "2026.05.04.0951",
+      "updatedAt": "2026-05-04T09:51:52.247636+00:00"
+    },
+    {
+      "id": "rules.general",
+      "kind": "rules",
+      "url": "rules/general.json",
+      "sha256": "f55be2abf4d4375bd265e8678ecbd96b315717d3cb011ba34b587be77886277b",
+      "size": 132751,
+      "version": "2026.05.04.0951",
+      "updatedAt": "2026-05-04T09:51:52.241549+00:00"
+    },
+    {
+      "id": "rules.leaders",
+      "kind": "rules",
+      "url": "rules/leaders.json",
+      "sha256": "e4e2996e7ad61866bef62506e97d301c5d4cc50f8c998255fb94943c2aa22dc3",
+      "size": 42486,
+      "version": "2026.05.04.0951",
+      "updatedAt": "2026-05-04T09:51:52.246636+00:00"
+    },
+    {
+      "id": "rules.military",
+      "kind": "rules",
+      "url": "rules/military.json",
+      "sha256": "7f6cb12acca9796184eec0ccc0f5270227c2677be499ecf36aee4295a76c8ce1",
+      "size": 25979,
+      "version": "2026.05.04.0951",
+      "updatedAt": "2026-05-04T09:51:52.241549+00:00"
+    },
+    {
+      "id": "rules.robbery",
+      "kind": "rules",
+      "url": "rules/robbery.json",
+      "sha256": "eec2f1a4d6bd55fa52b45f06d6f47d5db22f878f3958fdd4911fa1a4a535ab0d",
+      "size": 57104,
+      "version": "2026.05.04.0951",
+      "updatedAt": "2026-05-04T09:51:52.246636+00:00"
+    },
+    {
+      "id": "rules.supply-intercept",
+      "kind": "rules",
+      "url": "rules/supply-intercept.json",
+      "sha256": "014493936dfa1f0ab48146cd4c3ffdfb8e5748a40fc4588a0f48cc108c140642",
+      "size": 60135,
+      "version": "2026.05.04.0951",
+      "updatedAt": "2026-05-04T09:51:52.245572+00:00"
+    },
+    {
+      "id": "items.all",
+      "kind": "items",
+      "url": "items/all.json",
+      "sha256": "211f6f8c5f561112f5258153c7cd53f3af5f6d0c4e6f24350899a3b47c4ed203",
+      "size": 186604,
+      "version": "2026.05.04",
+      "updatedAt": "2026-05-04T09:59:25.126234+00:00"
+    }
+  ]
 }

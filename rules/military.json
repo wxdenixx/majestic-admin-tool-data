@@ -1,0 +1,642 @@
+{
+  "version": "2026.05.04.0951",
+  "releaseDate": "2026-05-04T09:51:51.905816+00:00",
+  "author": "scrape_rules.py",
+  "compatibilityVersion": "1",
+  "changelog": [
+    {
+      "version": "2026.05.04.0951",
+      "date": "2026-05-04T09:51:51.905816+00:00",
+      "changes": [
+        "Автоматический снимок раздела «Правила военного положения»"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "military.1.1",
+      "number": "1.1",
+      "title": "Режим военного положения вводится лидером Government, после публикации IC документации",
+      "category": "События",
+      "text": "Режим военного положения вводится лидером Government, после публикации IC документации",
+      "explanation": "IC документацией является дело, в котором зафиксированы основные IC нарушения от игроков различных криминальных организаций / семей, в деле не должно быть грамматических ошибок, а так же нарушений правил сервера. Дело должно быть одобрено главным куратором гос. структур и ГА.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "режим",
+        "военного",
+        "положения",
+        "вводится",
+        "лидером",
+        "government"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.1.2",
+      "number": "1.2",
+      "title": "Военное положение объявляется лишь по веским IC причинам",
+      "category": "События",
+      "text": "Военное положение объявляется лишь по веским IC причинам",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "военное",
+        "положение",
+        "объявляется",
+        "лишь",
+        "веским",
+        "причинам"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.1.3",
+      "number": "1.3",
+      "title": "Военное положение вводится максимум на 12 часов",
+      "category": "События",
+      "text": "Военное положение вводится максимум на 12 часов",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "военное",
+        "положение",
+        "вводится",
+        "максимум",
+        "часов"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.1.4",
+      "number": "1.4",
+      "title": "Разрешено вводить военное положение во время массовых беспорядков, террористических актах…",
+      "category": "События",
+      "text": "Разрешено вводить военное положение во время массовых беспорядков, террористических актах и иных веских IC причин",
+      "explanation": "данное ВП отличает от военного положения вводимое на отдельные территории, это кратковременное оцепление небольшого участка, на котором происходят массовые беспорядки, террористические акты и другие мероприятия, вводимое для устранения данных проблем.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "вводить",
+        "военное",
+        "положение",
+        "время",
+        "массовых"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.1.5",
+      "number": "1.5",
+      "title": "При военном положении распространяются все общие правила сервера",
+      "category": "События",
+      "text": "При военном положении распространяются все общие правила сервера",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "военном",
+        "положении",
+        "распространяются",
+        "общие",
+        "правила",
+        "сервера"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.1.6",
+      "number": "1.6",
+      "title": "Запрещен таран перекрытия",
+      "category": "События",
+      "text": "Запрещен таран перекрытия",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "Insurgent, riot2 и другая тяжелая бронированная спец. техника."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "15 - 35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещен",
+        "таран",
+        "перекрытия"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.1.7",
+      "number": "1.7",
+      "title": "Запрещен респавн фракционной техники",
+      "category": "События",
+      "text": "Запрещен респавн фракционной техники",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "одобрение куратора фракции."
+      ],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещен",
+        "респавн",
+        "фракционной",
+        "техники"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.1.8",
+      "number": "1.8",
+      "title": "До окончания военного положения запрещено устраивать капты",
+      "category": "События",
+      "text": "До окончания военного положения запрещено устраивать капты",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "окончания",
+        "военного",
+        "положения",
+        "запрещено",
+        "устраивать",
+        "капты"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.2.1",
+      "number": "2.1",
+      "title": "Разрешено устанавливать блокпосты на въездах/выездах с территории военного положения",
+      "category": "События",
+      "text": "Разрешено устанавливать блокпосты на въездах/выездах с территории военного положения",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "устанавливать",
+        "блокпосты",
+        "въездах",
+        "выездах",
+        "территории"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.2.2",
+      "number": "2.2",
+      "title": "Использовать огнестрельное оружие разрешено только силовым государственным структурам - FI…",
+      "category": "События",
+      "text": "Использовать огнестрельное оружие разрешено только силовым государственным структурам - FIB/LSPD/LSSD/SANG/USSS",
+      "explanation": "сотрудникам EMS/WN/Government запрещено участвовать в перестрелках.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "45 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "использовать",
+        "огнестрельное",
+        "оружие",
+        "разрешено",
+        "силовым",
+        "государственным"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.2.3",
+      "number": "2.3",
+      "title": "Губернатору/министрам и старшим рангам Government запрещено присутствовать на территории в…",
+      "category": "События",
+      "text": "Губернатору/министрам и старшим рангам Government запрещено присутствовать на территории военного положения",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "начало и конец военного положения."
+      ],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "губернатору",
+        "министрам",
+        "старшим",
+        "рангам",
+        "government",
+        "запрещено"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.2.4",
+      "number": "2.4",
+      "title": "Силовым государственным структурам, на территории военного положения необходимо установить…",
+      "category": "События",
+      "text": "Силовым государственным структурам, на территории военного положения необходимо установить штаб",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "силовым",
+        "государственным",
+        "структурам",
+        "территории",
+        "военного",
+        "положения"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.2.5",
+      "number": "2.5",
+      "title": "Во время военного положения, запрещено совершать рейды на криминальные организации на кото…",
+      "category": "События",
+      "text": "Во время военного положения, запрещено совершать рейды на криминальные организации на которые нет никаких расследований/открытых дел",
+      "explanation": "расследование / открытое дело - официальный IC документ, в котором есть все необходимые доказательства, с соответствующими РП отыгровками.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "время",
+        "военного",
+        "положения",
+        "запрещено",
+        "совершать",
+        "рейды"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.2.6",
+      "number": "2.6",
+      "title": "Рейд на респаун любой криминальной организации могут проводиться не чаще, чем один раз в ч…",
+      "category": "События",
+      "text": "Рейд на респаун любой криминальной организации могут проводиться не чаще, чем один раз в час",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "рейд",
+        "респаун",
+        "любой",
+        "криминальной",
+        "организации",
+        "могут"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.2.7",
+      "number": "2.7",
+      "title": "Материал, который будет заснят во время рейдов можно использовать для дальнейшего рассекре…",
+      "category": "События",
+      "text": "Материал, который будет заснят во время рейдов можно использовать для дальнейшего рассекречивания криминальной организации",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "материал",
+        "будет",
+        "заснят",
+        "время",
+        "рейдов",
+        "можно"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.2.8",
+      "number": "2.8",
+      "title": "По окончанию военного положения, государственным структурам необходимо покинуть территорию…",
+      "category": "События",
+      "text": "По окончанию военного положения, государственным структурам необходимо покинуть территорию в течение часа",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "15 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "окончанию",
+        "военного",
+        "положения",
+        "государственным",
+        "структурам",
+        "необходимо"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.2.9",
+      "number": "2.9",
+      "title": "Главнокомандующим на данном мероприятии являются старшие ранги FIB, все операции и само во…",
+      "category": "События",
+      "text": "Главнокомандующим на данном мероприятии являются старшие ранги FIB, все операции и само военное положение происходит под их контролем",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "главнокомандующим",
+        "данном",
+        "мероприятии",
+        "являются",
+        "старшие",
+        "ранги"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.2.10",
+      "number": "2.10",
+      "title": "Сотрудники государственных структур имеют право останавливать любых подозрительных граждан…",
+      "category": "События",
+      "text": "Сотрудники государственных структур имеют право останавливать любых подозрительных граждан с целью проверки",
+      "explanation": null,
+      "examples": [
+        "люди в масках, люди с оружием, скопление людей."
+      ],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "сотрудники",
+        "государственных",
+        "структур",
+        "имеют",
+        "право",
+        "останавливать"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.3.1",
+      "number": "3.1",
+      "title": "Разрешено объединение криминальных организаций / семей для противостояния государственным…",
+      "category": "События",
+      "text": "Разрешено объединение криминальных организаций / семей для противостояния государственным структурам",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "объединение",
+        "криминальных",
+        "организаций",
+        "семей",
+        "противостояния"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.3.2",
+      "number": "3.2",
+      "title": "Запрещено уходить на респауны фракций / семей во время погони/перестрелки",
+      "category": "События",
+      "text": "Запрещено уходить на респауны фракций / семей во время погони/перестрелки",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "2 дня",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "2 дня",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "уходить",
+        "респауны",
+        "фракций",
+        "семей",
+        "время"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    },
+    {
+      "id": "military.3.3",
+      "number": "3.3",
+      "title": "Запрещено во время военного положения совершать нападения на остров Кайо-Перико/территории…",
+      "category": "События",
+      "text": "Запрещено во время военного положения совершать нападения на остров Кайо-Перико/территории Форта-Занкудо",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру + изъятие предметов",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "время",
+        "военного",
+        "положения",
+        "совершать",
+        "нападения"
+      ],
+      "source": "forum:military:https://forum.majestic-rp.ru/threads/pravila-voyennogo-polozheniya.7524/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.905190+00:00"
+    }
+  ]
+}

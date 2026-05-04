@@ -1,0 +1,382 @@
+{
+  "version": "2026.05.04.0951",
+  "releaseDate": "2026-05-04T09:51:52.102307+00:00",
+  "author": "scrape_rules.py",
+  "compatibilityVersion": "1",
+  "changelog": [
+    {
+      "version": "2026.05.04.0951",
+      "date": "2026-05-04T09:51:52.102307+00:00",
+      "changes": [
+        "Автоматический снимок раздела «Ограбление бизнесов»"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "business-robbery.1.1",
+      "number": "1.1",
+      "title": "Ограбления бизнесов проводятся функционально с 12:00 до 01:00",
+      "category": "Преступления",
+      "text": "Ограбления бизнесов проводятся функционально с 12:00 до 01:00",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "ограбления",
+        "бизнесов",
+        "проводятся",
+        "функционально"
+      ],
+      "source": "forum:business-robbery:https://forum.majestic-rp.ru/threads/pravila-ogrableniya-biznesov.8050/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.101807+00:00"
+    },
+    {
+      "id": "business-robbery.1.2",
+      "number": "1.2",
+      "title": "Разрешено использование любого огнестрельного оружия",
+      "category": "Преступления",
+      "text": "Разрешено использование любого огнестрельного оружия",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "использование",
+        "любого",
+        "огнестрельного",
+        "оружия"
+      ],
+      "source": "forum:business-robbery:https://forum.majestic-rp.ru/threads/pravila-ogrableniya-biznesov.8050/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.101807+00:00"
+    },
+    {
+      "id": "business-robbery.1.3",
+      "number": "1.3",
+      "title": "Запрещено приезжать на ограбления, не имея при себе огнестрельного оружия",
+      "category": "Преступления",
+      "text": "Запрещено приезжать на ограбления, не имея при себе огнестрельного оружия",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "15-35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "приезжать",
+        "ограбления",
+        "имея",
+        "себе",
+        "огнестрельного"
+      ],
+      "source": "forum:business-robbery:https://forum.majestic-rp.ru/threads/pravila-ogrableniya-biznesov.8050/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.101807+00:00"
+    },
+    {
+      "id": "business-robbery.1.4",
+      "number": "1.4",
+      "title": "Запрещено караулить грабителей на респаунах фракции / семей, а так же на территории бизнес…",
+      "category": "Преступления",
+      "text": "Запрещено караулить грабителей на респаунах фракции / семей, а так же на территории бизнеса",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "детективы."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "караулить",
+        "грабителей",
+        "респаунах",
+        "фракции",
+        "семей"
+      ],
+      "source": "forum:business-robbery:https://forum.majestic-rp.ru/threads/pravila-ogrableniya-biznesov.8050/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.101807+00:00"
+    },
+    {
+      "id": "business-robbery.1.5",
+      "number": "1.5",
+      "title": "Игрокам, не находящимся в криминальной организации / семье, запрещено длительное время нах…",
+      "category": "Преступления",
+      "text": "Игрокам, не находящимся в криминальной организации / семье, запрещено длительное время находится поблизости к месту ограбления",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "заложник."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "15 - 60 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "игрокам",
+        "находящимся",
+        "криминальной",
+        "организации",
+        "семье",
+        "запрещено"
+      ],
+      "source": "forum:business-robbery:https://forum.majestic-rp.ru/threads/pravila-ogrableniya-biznesov.8050/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.101807+00:00"
+    },
+    {
+      "id": "business-robbery.1.6",
+      "number": "1.6",
+      "title": "Запрещено перекрывать входы/выходы из бизнеса транспортом",
+      "category": "Преступления",
+      "text": "Запрещено перекрывать входы/выходы из бизнеса транспортом",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "перекрывать",
+        "входы",
+        "выходы",
+        "бизнеса",
+        "транспортом"
+      ],
+      "source": "forum:business-robbery:https://forum.majestic-rp.ru/threads/pravila-ogrableniya-biznesov.8050/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.101807+00:00"
+    },
+    {
+      "id": "business-robbery.1.7",
+      "number": "1.7",
+      "title": "Если ограбление бизнеса происходит с участием заложника, то на данный процесс распространя…",
+      "category": "Преступления",
+      "text": "Если ограбление бизнеса происходит с участием заложника, то на данный процесс распространяются все правила похищения и ограбления",
+      "explanation": "выкуп при данном процессе просить нельзя, только зеленый коридор для безопасного отхода, действие зелёного коридора начинается с момента оглашения требований переговорщику. В случае запроса 750м зеленого коридора, грабители должны стремительно покинуть бизнес.",
+      "examples": [],
+      "exceptions": [
+        "р. 3, п. 9 правил ограблений и похищений не распространяется на данное похищение."
+      ],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "ограбление",
+        "бизнеса",
+        "происходит",
+        "участием",
+        "заложника",
+        "данный"
+      ],
+      "source": "forum:business-robbery:https://forum.majestic-rp.ru/threads/pravila-ogrableniya-biznesov.8050/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.101807+00:00"
+    },
+    {
+      "id": "business-robbery.1.8",
+      "number": "1.8",
+      "title": "Подъезд к бизнесу можно совершать на фракционном / семейном / личном транспорте, окрашенны…",
+      "category": "Преступления",
+      "text": "Подъезд к бизнесу можно совершать на фракционном / семейном / личном транспорте, окрашенным в цвет фракции / семьи",
+      "explanation": "цвет фракции определяется по цвету фракционного транспорта, цвет семьи \"Основным цветом\", выбранным при изменении/создании семьи.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "подъезд",
+        "бизнесу",
+        "можно",
+        "совершать",
+        "фракционном",
+        "семейном"
+      ],
+      "source": "forum:business-robbery:https://forum.majestic-rp.ru/threads/pravila-ogrableniya-biznesov.8050/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.101807+00:00"
+    },
+    {
+      "id": "business-robbery.2.1",
+      "number": "2.1",
+      "title": "Минимальное количество участников - 2",
+      "category": "Преступления",
+      "text": "Минимальное количество участников - 2",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "15 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "минимальное",
+        "количество",
+        "участников"
+      ],
+      "source": "forum:business-robbery:https://forum.majestic-rp.ru/threads/pravila-ogrableniya-biznesov.8050/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.101807+00:00"
+    },
+    {
+      "id": "business-robbery.2.2",
+      "number": "2.2",
+      "title": "Если криминальные организации / семьи сталкиваются между собой на территории ограбления од…",
+      "category": "Преступления",
+      "text": "Если криминальные организации / семьи сталкиваются между собой на территории ограбления одного бизнеса, то они обязаны начать перестрелку",
+      "explanation": "на игроков, грабящих бизнес не распространяется примечание правила PG, касаемо перестрелки 1x2, 2x5 и т.п.",
+      "examples": [],
+      "exceptions": [
+        "союзная дипломатия."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "криминальные",
+        "организации",
+        "семьи",
+        "сталкиваются",
+        "между",
+        "собой"
+      ],
+      "source": "forum:business-robbery:https://forum.majestic-rp.ru/threads/pravila-ogrableniya-biznesov.8050/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.101807+00:00"
+    },
+    {
+      "id": "business-robbery.2.3",
+      "number": "2.3",
+      "title": "Разрешено нападать на бизнес в союзе",
+      "category": "Преступления",
+      "text": "Разрешено нападать на бизнес в союзе",
+      "explanation": "между фракциями / семьями должен быть заключен IC союз, максимально допустимое количество союзов на нападении на бизнес - 1. 2. 4.1 Похищать человека на ограблении бизнеса разрешено лишь в том случае, если он заранее находился в интерьере данного бизнеса.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру.",
+          "duration": "15 минут",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "нападать",
+        "бизнес",
+        "союзе"
+      ],
+      "source": "forum:business-robbery:https://forum.majestic-rp.ru/threads/pravila-ogrableniya-biznesov.8050/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.101807+00:00"
+    }
+  ]
+}

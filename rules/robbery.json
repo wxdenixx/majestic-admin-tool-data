@@ -1,0 +1,1385 @@
+{
+  "version": "2026.05.04.0951",
+  "releaseDate": "2026-05-04T09:51:52.039083+00:00",
+  "author": "scrape_rules.py",
+  "compatibilityVersion": "1",
+  "changelog": [
+    {
+      "version": "2026.05.04.0951",
+      "date": "2026-05-04T09:51:52.039083+00:00",
+      "changes": [
+        "Автоматический снимок раздела «Ограбления и похищения»"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "robbery.1.1",
+      "number": "1.1",
+      "title": "При похищении/ограблении следуют опираться на правила игровых зон",
+      "category": "Преступления",
+      "text": "При похищении/ограблении следуют опираться на правила игровых зон",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "похищении",
+        "ограблении",
+        "следуют",
+        "опираться",
+        "правила",
+        "игровых"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.1.2",
+      "number": "1.2",
+      "title": "Все похищения/ограбления от криминальных организаций / семей могут совершаться на фракцион…",
+      "category": "Преступления",
+      "text": "Все похищения/ограбления от криминальных организаций / семей могут совершаться на фракционном/личном транспорте окрашенном в цвет фракции / семьи",
+      "explanation": "разбойное нападение так же приравнивается к ограблению, на него распространяются все правила, которые действуют при ограблении. *Примечание: цвет фракции определяется по цвету фракционного транспорта, цвет семьи \"Основным цветом\", выбранным при изменении/создании семьи. на швейной фабрике, в старых офисах FIB/Weazel News, в интерьере центра переработки металлолома \"rogers salvage scrap\", здании Pillbox Hill, в шахте Грейт-Чапарал запрещены .",
+      "examples": [],
+      "exceptions": [
+        "пешее ограбление.",
+        "1.3 З",
+        "апрещено держать жертву",
+        "в интерьерах с целью наживы.",
+        "неактивных интерьерах, которые не используются для чего-либо (фракции, работы и т.п.)."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3 дня",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3 дня",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "похищения",
+        "ограбления",
+        "криминальных",
+        "организаций",
+        "семей",
+        "могут"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.1.4",
+      "number": "1.4",
+      "title": "Запрещено похищать/грабить более 6 человек за раз",
+      "category": "Преступления",
+      "text": "Запрещено похищать/грабить более 6 человек за раз",
+      "explanation": "при похищении более 1 человека максимально допустимый интервал между похищениями - 5 минут.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35-90 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "похищать",
+        "грабить",
+        "более",
+        "человек"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.1.5",
+      "number": "1.5",
+      "title": "Грабителей/похитителей должно быть вдвое больше чем жертв",
+      "category": "Преступления",
+      "text": "Грабителей/похитителей должно быть вдвое больше чем жертв",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "требование покинуть локацию, исключение р. 2, п. 3, и р. 2, п. 4.1."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35-90 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "грабителей",
+        "похитителей",
+        "должно",
+        "вдвое",
+        "больше",
+        "жертв"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.1.6",
+      "number": "1.6",
+      "title": "Запрещено грабить/похищать, не имея огнестрельного/холодного оружия",
+      "category": "Преступления",
+      "text": "Запрещено грабить/похищать, не имея огнестрельного/холодного оружия",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "15-35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "грабить",
+        "похищать",
+        "имея",
+        "огнестрельного",
+        "холодного"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.1.7",
+      "number": "1.7",
+      "title": "Ограбления/похищения разрешены только членам криминальных организаций/семей",
+      "category": "Преступления",
+      "text": "Ограбления/похищения разрешены только членам криминальных организаций/семей",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "ограбления",
+        "похищения",
+        "разрешены",
+        "членам",
+        "криминальных",
+        "организаций"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.1.8",
+      "number": "1.8",
+      "title": "Причиной для убийства может быть: оскорбление, побег, опознание личности преступника, попы…",
+      "category": "Преступления",
+      "text": "Причиной для убийства может быть: оскорбление, побег, опознание личности преступника, попытка напугать расправой, нарушение правил PG",
+      "explanation": "запрещено снять маску, тем самым рассекретить свою личность, а после убить.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "120 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "причиной",
+        "убийства",
+        "оскорбление",
+        "побег",
+        "опознание",
+        "личности"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.1.9",
+      "number": "1.9",
+      "title": "Запрещено вызывать сотрудников спец",
+      "category": "Преступления",
+      "text": "Запрещено вызывать сотрудников спец. служб (такси/EMS/силовые структуры и т.д), подавать объявления в Weazel News, для последующих криминальных действий в их сторону",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "100 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "2-5 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "2-5 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "вызывать",
+        "сотрудников",
+        "спец",
+        "служб",
+        "такси"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.1.10",
+      "number": "1.10",
+      "title": "Запрещено требовать от жертвы использование гос",
+      "category": "Преступления",
+      "text": "Запрещено требовать от жертвы использование гос. волны",
+      "explanation": "/wnews (зеленка) так же приравнивается к гос. волне.",
+      "examples": [],
+      "exceptions": [
+        "р. 3, п. 2.4."
+      ],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "2 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "2 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "требовать",
+        "жертвы",
+        "использование",
+        "волны"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.1.11",
+      "number": "1.11",
+      "title": "Жертве ограбления/похищения запрещено использовать",
+      "category": "Преступления",
+      "text": "Жертве ограбления/похищения запрещено использовать",
+      "explanation": "б ронежилет разрешено срезать только в том случае, если он надет на жертве. если функционал не даёт посадить в автомобиль / багажник игрока, то его похищать запрещено.",
+      "examples": [
+        "заставить петь, кричать, заставить сказать какие-то аморальные вещи, требовать использование неуместной в рамках ограбления / похищения анимации, пытаться унизить с целью розжига",
+        "OOC",
+        "конфликта и с целью личного удовлетворения.",
+        "1. 12.2 Запрещено брить жертву без веской IC причины.",
+        "p.1, п.13.2; стрельба; враждебная дипломатия; оскорбления от жертвы и т.п.",
+        "1. 13.1",
+        "При похищении / ограблении с жертвой разрешено проводить лишь функциональное взаимодействие.",
+        "бритье, ограбление, срез бронежилета, парные анимации и т.п.",
+        "требование молчать, стоять, не двигаться, принять пощечину, поднять руки(функциональное требование) и т.п.",
+        "1. 14",
+        "Запрещено совместно похищать / грабить при нейтральной и(или) враждебной дипломатии.",
+        "инкассатор, почтальон, дальнобойщик, мусорщик, водитель автобуса, пожарный, электрик.",
+        "1. 15.2 Запрещено похищение рабочих."
+      ],
+      "exceptions": [
+        "требование передать / отдать содержимое тайника непосредственно на месте его нахождения; похищения с целью получения информации; краткие указания, необходимые для логичного развития ограбления / похищения (требование покинуть локацию, см. п. п. 1.12.1).",
+        "1. 13.2 В случае не выполнения кратких требований игроком (см. исключение п. 1.13.1) игроки криминальных структур вправе убить игрока, в соответствии с п. 5.1",
+        "основных правил проекта",
+        ".",
+        "функционал, описанный в пояснение, дает возможность похитить игрока."
+      ],
+      "punishments": [
+        {
+          "type": "WARN.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "эротическом характере",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "2-5 дней",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "60-100 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "2-5 дней",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "60-100 минут",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "60 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "2-5 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "2-5 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "жертве",
+        "ограбления",
+        "похищения",
+        "запрещено",
+        "использовать"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.2.1",
+      "number": "2.1",
+      "title": "Ограбления разрешено совершать исключительно через функционал сервера",
+      "category": "Преступления",
+      "text": "Ограбления разрешено совершать исключительно через функционал сервера",
+      "explanation": "при грабеже группой лиц (2 и более человека) нельзя повторно грабить человека, сначала один с помощью функционала (например, неудачно), затем второй. Один человек - одна жертва.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35-100 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "ограбления",
+        "разрешено",
+        "совершать",
+        "исключительно",
+        "через",
+        "функционал"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.2.2",
+      "number": "2.2",
+      "title": "Запрещено требовать передачу недвижимости/транспорта/денежных средств со счёта в банке/оде…",
+      "category": "Преступления",
+      "text": "Запрещено требовать передачу недвижимости/транспорта/денежных средств со счёта в банке/одежду/предметов",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "3 дня",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3 дня",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "требовать",
+        "передачу",
+        "недвижимости",
+        "транспорта",
+        "денежных"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.2.3",
+      "number": "2.3",
+      "title": "Минимальное количество грабителей при ограблении - 2 человека",
+      "category": "Преступления",
+      "text": "Минимальное количество грабителей при ограблении - 2 человека",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "в период с 17:00 до 10:00 на территории красных зон, разрешено грабить в одиночку.",
+        "2. 4.1 Минимальное количество грабителей для остановки жертвы в движении на транспортном средстве - 4 человека и 2 машины / мотоцикла.",
+        "при ограблении полного инкассаторского автомобиля / автомобиля почтальонов (4 человека) достаточно 6 грабителей;",
+        "в ночное время суток (с 22:00 до 08:00) на территории красных зон, разрешено грабить вдвоем на 1 транспорте; жертва движется на велосипеде.",
+        "2. 4.2 Ограбление легкового авто на мототехнике осуществляется наличием минимум 2-х мотоциклов.",
+        "ограбление тяжелого автомобиля (инкассаторский автомобиль, фура) осуществляется при наличии минимум 4х мотоциклов."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "15-35 минут",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "15-35 минут",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "10-35 минут",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "10-35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "минимальное",
+        "количество",
+        "грабителей",
+        "ограблении",
+        "человека"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.2.5",
+      "number": "2.5",
+      "title": "Запрещено оставлять жертву в стяжках / мешке / веревке / скотче",
+      "category": "Преступления",
+      "text": "Запрещено оставлять жертву в стяжках / мешке / веревке / скотче",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "тяжелораненый игрок при дальнейшем взаимодействии с ним, ограбление во время похищения, похищение (в случае, если был получен выкуп от гос. сотрудников и заложники переданы им)."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "60 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "оставлять",
+        "жертву",
+        "стяжках",
+        "мешке",
+        "веревке"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.3.1",
+      "number": "3.1",
+      "title": "Минимальное количество похитителей - 4",
+      "category": "Преступления",
+      "text": "Минимальное количество похитителей - 4",
+      "explanation": "В случае предоставления выкупа предметами, прочность предмета должна быть максимальной. 3. 2.5 При похищении и лидера, и заместителя, потребовать можно лишь одну часть выкупа.",
+      "examples": [
+        "при похищении и лидера, и заместителя нельзя запросить 3 снайперские винтовки, 12000 материалов, 600 эпинефрина и т.д."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "заместителя фракции",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "семьи, выкуп можно требовать по следующему критерию: Деньги (см. р.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "игрока враждебной фракции -",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "заместителя фракции -",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "спец. средствами за лидера",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "заместителя фракции: Лидер",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "заместитель LSPD",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "LSCSD -",
+          "duration": "3 M",
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "заместитель SANG -",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "заместитель",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "министр City Hall -",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "заместитель FIB -",
+          "duration": "1 H",
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": "2 H",
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "заместитель EMS -",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "заместитель банды - Территория +",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "заместитель семьи -",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "заместитель Weazel News - использование новостной волны",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "SMS (с соблюдением всех норм и правил) + технические материалы",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "60 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "минимальное",
+        "количество",
+        "похитителей"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.3.3",
+      "number": "3.3",
+      "title": "Весь процесс похищения должен быть записан на видео",
+      "category": "Преступления",
+      "text": "Весь процесс похищения должен быть записан на видео",
+      "explanation": "отсутствие видеозаписи откатывает ситуацию, начало процесса похищения начинается с момента начала криминальных действий в сторону жертвы. *Примечание: видеозапись необходимо хранить 72 часа, минимальное качество видео 720p, на видеозаписи должно быть четко слышно звук игры и автора, в случае необходимости администрация в праве сделать запрос отката, игрокам необходимо как можно скорей предоставить его, однако, не позднее 24 часов.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "15-35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "весь",
+        "процесс",
+        "похищения",
+        "должен",
+        "записан",
+        "видео"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.3.4",
+      "number": "3.4",
+      "title": "После получения выкупа за заложника, его необходимо отпустить в течение 5 минут или до мом…",
+      "category": "Преступления",
+      "text": "После получения выкупа за заложника, его необходимо отпустить в течение 5 минут или до момента выезда с локации похищения",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "разрешено захватить с собой двух заложников, но их необходимо освободить до момента окончания зеленого коридора."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "после",
+        "получения",
+        "выкупа",
+        "заложника",
+        "необходимо",
+        "отпустить"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.3.5",
+      "number": "3.5",
+      "title": "Запрещено брать переговорщика в заложники",
+      "category": "Преступления",
+      "text": "Запрещено брать переговорщика в заложники",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "брать",
+        "переговорщика",
+        "заложники"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.3.6",
+      "number": "3.6",
+      "title": "Запрещено совершать похищения в промежуток времени: с 02:00 по 10:00 МСК",
+      "category": "Преступления",
+      "text": "Запрещено совершать похищения в промежуток времени: с 02:00 по 10:00 МСК",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "похищение не несущее цель наживы (выкупа), а также похищение участников криминальных структур, выкуп за которых будет осуществляться другой криминальной организацией / семьей."
+      ],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "совершать",
+        "похищения",
+        "промежуток",
+        "времени"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.3.7",
+      "number": "3.7",
+      "title": "Каждая фракция / семья может совершить два похищения раз в 12 часов",
+      "category": "Преступления",
+      "text": "Каждая фракция / семья может совершить два похищения раз в 12 часов",
+      "explanation": "перерыв между похищениями должен составлять не менее 3 часов.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan на",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "каждая",
+        "фракция",
+        "семья",
+        "совершить",
+        "похищения",
+        "часов"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.3.8",
+      "number": "3.8",
+      "title": "Выкупающая сторона имеет право 1 раз убедиться в целостности и кол-ве заложников",
+      "category": "Преступления",
+      "text": "Выкупающая сторона имеет право 1 раз убедиться в целостности и кол-ве заложников",
+      "explanation": "данное условие является обязательным, отказ от выполнения данного требования будет считаться как неадекватное требование.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "выкупающая",
+        "сторона",
+        "имеет",
+        "право",
+        "убедиться",
+        "целостности"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.3.9",
+      "number": "3.9",
+      "title": "Запрещено намеренно затягивать похищение",
+      "category": "Преступления",
+      "text": "Запрещено намеренно затягивать похищение",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "обсуждение условий выкупа или обдумывание требований, длительностью не более 5 минут, не является затягиванием похищения."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "намеренно",
+        "затягивать",
+        "похищение"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.3.10",
+      "number": "3.10",
+      "title": "Запрещено требовать выкуп менее, чем за 15 минут",
+      "category": "Преступления",
+      "text": "Запрещено требовать выкуп менее, чем за 15 минут",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "5-15 дней",
+          "reason": null
+        },
+        {
+          "type": "Наказание согласно нарушенному пункту правил",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "5-15 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "требовать",
+        "выкуп",
+        "менее",
+        "минут"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.4.1",
+      "number": "4.1",
+      "title": "Водителям авто запрещено продолжать движение, если дорога полностью перекрыта",
+      "category": "Преступления",
+      "text": "Водителям авто запрещено продолжать движение, если дорога полностью перекрыта",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "водителям",
+        "авто",
+        "запрещено",
+        "продолжать",
+        "движение",
+        "дорога"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.4.2",
+      "number": "4.2",
+      "title": "Если по автомобилю открыли огонь на продолжительное время и грабителей в разы больше чем в…",
+      "category": "Преступления",
+      "text": "Если по автомобилю открыли огонь на продолжительное время и грабителей в разы больше чем в преследуемом авто - водителю необходимо остановиться",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "автомобилю",
+        "открыли",
+        "огонь",
+        "продолжительное",
+        "время",
+        "грабителей"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.4.3",
+      "number": "4.3",
+      "title": "Если был похищен лидер / заместитель фракции или семьи, либо министр City Hall, то он обяз…",
+      "category": "Преступления",
+      "text": "Если был похищен лидер / заместитель фракции или семьи, либо министр City Hall, то он обязан вести полную видео запись с момента похищения",
+      "explanation": "видеозапись необходимо хранить 72 часа, минимальное качество видео 720p, на видеозаписи должно быть четко слышно звук игры и автора, в случае необходимости администрация в праве сделать запрос отката, игрокам необходимо как можно скорей предоставить его, однако, не позднее 24 часов.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Заморозка",
+          "duration": "5-15 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "похищен",
+        "лидер",
+        "заместитель",
+        "фракции",
+        "семьи",
+        "либо"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.5.1",
+      "number": "5.1",
+      "title": "Сторона выкупа обязана соблюдать все требования со стороны похитителей (предоставить выкуп…",
+      "category": "Преступления",
+      "text": "Сторона выкупа обязана соблюдать все требования со стороны похитителей (предоставить выкуп, возможность отхода и т.д.)",
+      "explanation": "разрешено требовать отмену патруля и зеленый коридор не более, чем на 45 секунд или в радиусе до 750 метров. *Пояснение: отсчет времени идет с момента выезда похитителей с локации, на которой было произведено похищение.",
+      "examples": [],
+      "exceptions": [
+        "жертве ничего не угрожает.",
+        "5. 2.1 Разрешено начинать наступление только в том случае, если жертве ничего не угрожает.",
+        "по оцеплению/переговорщику был открыт огонь."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру, чья фракция являлась инициатором наступления",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "сторона",
+        "выкупа",
+        "обязана",
+        "соблюдать",
+        "требования",
+        "стороны"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.5.2.2",
+      "number": "5.2.2",
+      "title": "Разрешено нападать, если требования похитителей будут неадекватными",
+      "category": "Преступления",
+      "text": "Разрешено нападать, если требования похитителей будут неадекватными",
+      "explanation": "преступной организации / семье запрещено игнорировать переговорщика.",
+      "examples": [],
+      "exceptions": [
+        "взаимно одобренные требования.",
+        "Нарушение р. 3, п. 11 правил ограблений и похищений.",
+        "5. 2.3 Разрешено нападать, если переговорщика взяли в заложники или убили.",
+        "5. 2.4 Запрещено начинать штурм, если у переговорщика и стороны захвата не состоялось диалога.",
+        "по оцеплению/переговорщику был открыт огонь, игнорирование переговорщика."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "нападать",
+        "требования",
+        "похитителей",
+        "будут",
+        "неадекватными"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.5.3",
+      "number": "5.3",
+      "title": "Разрешено объявлять похитителя в розыск после прямого контакта с ним (встрече/диалоге)",
+      "category": "Преступления",
+      "text": "Разрешено объявлять похитителя в розыск после прямого контакта с ним (встрече/диалоге)",
+      "explanation": "если человек находился не в маске.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "25 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "объявлять",
+        "похитителя",
+        "розыск",
+        "после",
+        "прямого"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.5.4",
+      "number": "5.4",
+      "title": "Сторона выкупа обязана уведомить сторону захвата о том, что отправляют к ним переговорщика",
+      "category": "Преступления",
+      "text": "Сторона выкупа обязана уведомить сторону захвата о том, что отправляют к ним переговорщика",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "сторона",
+        "выкупа",
+        "обязана",
+        "уведомить",
+        "сторону",
+        "захвата"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    },
+    {
+      "id": "robbery.5.5",
+      "number": "5.5",
+      "title": "С момента поступления первого вызова о заложниках у гос",
+      "category": "Преступления",
+      "text": "С момента поступления первого вызова о заложниках у гос. структур есть 30 минут чтобы среагировать",
+      "explanation": "в случае реагирования переговорщика и его не приезда, ответственность несет лидер гос. фракции. В случае, если переговорщик не приезжает в течение 30 минут, игрокам из криминальной организации разрешено убивать 1 заложника раз в 5 минут. гос. сотрудникам необходимо реагировать как можно скорее, запрещено намеренно затягивать похищение.",
+      "examples": [],
+      "exceptions": [
+        "в случае отсутствия лидера FIB среагировать обязаны иные гос. структуры (LSPD, LSCSD), выговор лидеру FIB не выдается."
+      ],
+      "punishments": [
+        {
+          "type": "Выговор лидеру FIB",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидерам LSCSD, LSPD в случае отсутствия лидера FIB",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "момента",
+        "поступления",
+        "первого",
+        "вызова",
+        "заложниках",
+        "структур"
+      ],
+      "source": "forum:robbery:https://forum.majestic-rp.ru/threads/pravila-ograblenii-i-pokhishchenii.8254/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.033800+00:00"
+    }
+  ]
+}

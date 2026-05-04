@@ -1,0 +1,587 @@
+{
+  "version": "2026.05.04.0951",
+  "releaseDate": "2026-05-04T09:51:51.947182+00:00",
+  "author": "scrape_rules.py",
+  "compatibilityVersion": "1",
+  "changelog": [
+    {
+      "version": "2026.05.04.0951",
+      "date": "2026-05-04T09:51:51.947182+00:00",
+      "changes": [
+        "Автоматический снимок раздела «Захват цехов дилеров»"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "dealer-capture.1.1",
+      "number": "1.1",
+      "title": "В мероприятии могут участвовать игроки состоящие в бандах / семьях / государственных силов…",
+      "category": "События",
+      "text": "В мероприятии могут участвовать игроки состоящие в бандах / семьях / государственных силовых структурах",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "сотрудники USSS, National Guard."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "мероприятии",
+        "могут",
+        "участвовать",
+        "игроки",
+        "состоящие",
+        "бандах"
+      ],
+      "source": "forum:dealer-capture:https://forum.majestic-rp.ru/threads/pravila-zakhvata-tsekhov-dilerov.1823529/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.946590+00:00"
+    },
+    {
+      "id": "dealer-capture.1.2",
+      "number": "1.2",
+      "title": "Передвижение на мероприятии должно осуществляться на фракционном / семейном / личном транс…",
+      "category": "События",
+      "text": "Передвижение на мероприятии должно осуществляться на фракционном / семейном / личном транспорте окрашенным в цвет фракции / семьи",
+      "explanation": "цвет фракции определяется по цвету фракционного транспорта, цвет семьи \"Основным цветом\", выбранным при изменении / создании семьи.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "передвижение",
+        "мероприятии",
+        "должно",
+        "осуществляться",
+        "фракционном",
+        "семейном"
+      ],
+      "source": "forum:dealer-capture:https://forum.majestic-rp.ru/threads/pravila-zakhvata-tsekhov-dilerov.1823529/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.946590+00:00"
+    },
+    {
+      "id": "dealer-capture.1.3",
+      "number": "1.3",
+      "title": "На мероприятиях действуют все правила сервера",
+      "category": "События",
+      "text": "На мероприятиях действуют все правила сервера",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "DM (разрешено убийство лишь причастных к мероприятию); PG; nonRP drive для матовозки; NLR."
+      ],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "мероприятиях",
+        "действуют",
+        "правила",
+        "сервера"
+      ],
+      "source": "forum:dealer-capture:https://forum.majestic-rp.ru/threads/pravila-zakhvata-tsekhov-dilerov.1823529/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.946590+00:00"
+    },
+    {
+      "id": "dealer-capture.1.4",
+      "number": "1.4",
+      "title": "Запрещено DB",
+      "category": "События",
+      "text": "Запрещено DB",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "3-10 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "7-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-10 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено"
+      ],
+      "source": "forum:dealer-capture:https://forum.majestic-rp.ru/threads/pravila-zakhvata-tsekhov-dilerov.1823529/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.946590+00:00"
+    },
+    {
+      "id": "dealer-capture.1.5",
+      "number": "1.5",
+      "title": "Запрещено перекрывать дилеров / цех транспортными средствами",
+      "category": "События",
+      "text": "Запрещено перекрывать дилеров / цех транспортными средствами",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "перекрывать",
+        "дилеров",
+        "транспортными",
+        "средствами"
+      ],
+      "source": "forum:dealer-capture:https://forum.majestic-rp.ru/threads/pravila-zakhvata-tsekhov-dilerov.1823529/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.946590+00:00"
+    },
+    {
+      "id": "dealer-capture.1.6",
+      "number": "1.6",
+      "title": "На территории мероприятия запрещена высадка на любые здания, строения, объекты на летной т…",
+      "category": "События",
+      "text": "На территории мероприятия запрещена высадка на любые здания, строения, объекты на летной технике и парашютах",
+      "explanation": "занятие крыш за 30 минут до начала таймера приравнивается к нарушению данного пункта.",
+      "examples": [],
+      "exceptions": [
+        "конец мероприятия."
+      ],
+      "punishments": [
+        {
+          "type": "Dem organ",
+          "duration": "45 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "территории",
+        "мероприятия",
+        "запрещена",
+        "высадка",
+        "любые",
+        "здания"
+      ],
+      "source": "forum:dealer-capture:https://forum.majestic-rp.ru/threads/pravila-zakhvata-tsekhov-dilerov.1823529/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.946590+00:00"
+    },
+    {
+      "id": "dealer-capture.1.7",
+      "number": "1.7",
+      "title": "От каждой организации-участника требуется вести минимум 1 видеозапись",
+      "category": "События",
+      "text": "От каждой организации-участника требуется вести минимум 1 видеозапись",
+      "explanation": "на видео должен быть момент начала и конца мероприятия, оригинальный звук, качество не менее 720p, видеозапись необходимо хранить в течении 48 часов.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "каждой",
+        "организации",
+        "участника",
+        "требуется",
+        "вести",
+        "минимум"
+      ],
+      "source": "forum:dealer-capture:https://forum.majestic-rp.ru/threads/pravila-zakhvata-tsekhov-dilerov.1823529/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.946590+00:00"
+    },
+    {
+      "id": "dealer-capture.2.1",
+      "number": "2.1",
+      "title": "Во время мероприятия семья / бандам разрешен 1 IC союз",
+      "category": "События",
+      "text": "Во время мероприятия семья / бандам разрешен 1 IC союз",
+      "explanation": "должна быть заключена союзная дипломатия.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "время",
+        "мероприятия",
+        "семья",
+        "бандам",
+        "разрешен",
+        "союз"
+      ],
+      "source": "forum:dealer-capture:https://forum.majestic-rp.ru/threads/pravila-zakhvata-tsekhov-dilerov.1823529/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.946590+00:00"
+    },
+    {
+      "id": "dealer-capture.2.2",
+      "number": "2.2",
+      "title": "Запрещен трансфер / игра за несколько фракций / семей",
+      "category": "События",
+      "text": "Запрещен трансфер / игра за несколько фракций / семей",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "HardBan",
+          "duration": "30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещен",
+        "трансфер",
+        "игра",
+        "несколько",
+        "фракций",
+        "семей"
+      ],
+      "source": "forum:dealer-capture:https://forum.majestic-rp.ru/threads/pravila-zakhvata-tsekhov-dilerov.1823529/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.946590+00:00"
+    },
+    {
+      "id": "dealer-capture.2.3",
+      "number": "2.3",
+      "title": "В случае встречи нескольких криминальных организаций обязательно нужно начать перестрелку…",
+      "category": "События",
+      "text": "В случае встречи нескольких криминальных организаций обязательно нужно начать перестрелку друг с другом",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "случае",
+        "встречи",
+        "нескольких",
+        "криминальных",
+        "организаций",
+        "обязательно"
+      ],
+      "source": "forum:dealer-capture:https://forum.majestic-rp.ru/threads/pravila-zakhvata-tsekhov-dilerov.1823529/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.946590+00:00"
+    },
+    {
+      "id": "dealer-capture.2.4",
+      "number": "2.4",
+      "title": "После окончания мероприятия допустимо задержания до 4 игроков с целью дальнейших IC рассле…",
+      "category": "События",
+      "text": "После окончания мероприятия допустимо задержания до 4 игроков с целью дальнейших IC расследований",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "после",
+        "окончания",
+        "мероприятия",
+        "допустимо",
+        "задержания",
+        "игроков"
+      ],
+      "source": "forum:dealer-capture:https://forum.majestic-rp.ru/threads/pravila-zakhvata-tsekhov-dilerov.1823529/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.946590+00:00"
+    },
+    {
+      "id": "dealer-capture.3.1",
+      "number": "3.1",
+      "title": "Запрещено использование тазера, heavy sniper, heavy sniper mk2, стяжек, наручников, верево…",
+      "category": "События",
+      "text": "Запрещено использование тазера, heavy sniper, heavy sniper mk2, стяжек, наручников, веревок и дронов",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "3-5 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использование",
+        "тазера",
+        "heavy",
+        "sniper",
+        "стяжек"
+      ],
+      "source": "forum:dealer-capture:https://forum.majestic-rp.ru/threads/pravila-zakhvata-tsekhov-dilerov.1823529/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.946590+00:00"
+    },
+    {
+      "id": "dealer-capture.3.2",
+      "number": "3.2",
+      "title": "Запрещен любой багоюз",
+      "category": "События",
+      "text": "Запрещен любой багоюз",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "3-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещен",
+        "любой",
+        "багоюз"
+      ],
+      "source": "forum:dealer-capture:https://forum.majestic-rp.ru/threads/pravila-zakhvata-tsekhov-dilerov.1823529/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.946590+00:00"
+    },
+    {
+      "id": "dealer-capture.3.3",
+      "number": "3.3",
+      "title": "Запрещено входить/сидеть в функциональных интерьерах",
+      "category": "События",
+      "text": "Запрещено входить/сидеть в функциональных интерьерах",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "входить",
+        "сидеть",
+        "функциональных",
+        "интерьерах"
+      ],
+      "source": "forum:dealer-capture:https://forum.majestic-rp.ru/threads/pravila-zakhvata-tsekhov-dilerov.1823529/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.946590+00:00"
+    },
+    {
+      "id": "dealer-capture.3.4",
+      "number": "3.4",
+      "title": "Запрещено намеренное уничтожение/перехват/удержание вражеских матовозок",
+      "category": "События",
+      "text": "Запрещено намеренное уничтожение/перехват/удержание вражеских матовозок",
+      "explanation": "данные действия запрещены перед / во время / после мероприятия.",
+      "examples": [],
+      "exceptions": [
+        "применение силы на территории мероприятия, с целью забрать содержимое."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "60-100 минут",
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3 дня",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру + изъятие полученного",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3 дня",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "намеренное",
+        "уничтожение",
+        "перехват",
+        "удержание",
+        "вражеских"
+      ],
+      "source": "forum:dealer-capture:https://forum.majestic-rp.ru/threads/pravila-zakhvata-tsekhov-dilerov.1823529/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.946590+00:00"
+    },
+    {
+      "id": "dealer-capture.3.5",
+      "number": "3.5",
+      "title": "Запрещено респавнить транспорт",
+      "category": "События",
+      "text": "Запрещено респавнить транспорт",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "10 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "10 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "респавнить",
+        "транспорт"
+      ],
+      "source": "forum:dealer-capture:https://forum.majestic-rp.ru/threads/pravila-zakhvata-tsekhov-dilerov.1823529/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.946590+00:00"
+    }
+  ]
+}

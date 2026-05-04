@@ -1,0 +1,840 @@
+{
+  "version": "2026.05.04.0951",
+  "releaseDate": "2026-05-04T09:51:51.927145+00:00",
+  "author": "scrape_rules.py",
+  "compatibilityVersion": "1",
+  "changelog": [
+    {
+      "version": "2026.05.04.0951",
+      "date": "2026-05-04T09:51:51.927145+00:00",
+      "changes": [
+        "Автоматический снимок раздела «Нападение/оборона острова Кайо-Перико»"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "cayo-perico.1.1",
+      "number": "1.1",
+      "title": "График нападения на остров определяется и устанавливается Главным администратором",
+      "category": "События",
+      "text": "График нападения на остров определяется и устанавливается Главным администратором",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "график",
+        "нападения",
+        "остров",
+        "определяется",
+        "устанавливается",
+        "главным"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.1.2",
+      "number": "1.2",
+      "title": "На мероприятии действуют все общие правила сервера",
+      "category": "События",
+      "text": "На мероприятии действуют все общие правила сервера",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "PG, DM."
+      ],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "мероприятии",
+        "действуют",
+        "общие",
+        "правила",
+        "сервера"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.1.3",
+      "number": "1.3",
+      "title": "Запрещено использование",
+      "category": "События",
+      "text": "Запрещено использование",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "3-5 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использование"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.1.4",
+      "number": "1.4",
+      "title": "Запрещено занимать возвышенности, на которые невозможно попасть без летной техники",
+      "category": "События",
+      "text": "Запрещено занимать возвышенности, на которые невозможно попасть без летной техники",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "занимать",
+        "возвышенности",
+        "невозможно",
+        "попасть",
+        "летной"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.1.5",
+      "number": "1.5",
+      "title": "Запрещено нахождение игроков, не состоящих во фракции / семье",
+      "category": "События",
+      "text": "Запрещено нахождение игроков, не состоящих во фракции / семье",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "нахождение",
+        "игроков",
+        "состоящих",
+        "фракции",
+        "семье"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.1.6",
+      "number": "1.6",
+      "title": "Запрещена стрельба из/в территорию особняка",
+      "category": "События",
+      "text": "Запрещена стрельба из/в территорию особняка",
+      "explanation": "наказание выдается, как за SK.",
+      "examples": [],
+      "exceptions": [
+        "ответный огонь, можно стрелять только в человека, который открыл стрельбу с территории особняка."
+      ],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещена",
+        "стрельба",
+        "территорию",
+        "особняка"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.1.7",
+      "number": "1.7",
+      "title": "Запрещено поджидать игроков фракции у точки телепорта на остров",
+      "category": "События",
+      "text": "Запрещено поджидать игроков фракции у точки телепорта на остров",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "поджидать",
+        "игроков",
+        "фракции",
+        "точки",
+        "телепорта"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.1.8",
+      "number": "1.8",
+      "title": "Если материалы/предметы были получены с нарушением правил, то на усмотрение главного курат…",
+      "category": "События",
+      "text": "Если материалы/предметы были получены с нарушением правил, то на усмотрение главного куратора, они могут быть изъяты у фракции / семьи",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "материалы",
+        "предметы",
+        "были",
+        "получены",
+        "нарушением",
+        "правил"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.2.1",
+      "number": "2.1",
+      "title": "Запрещено использование наручников, а также ношение тепловизора",
+      "category": "События",
+      "text": "Запрещено использование наручников, а также ношение тепловизора",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "после нападения на территорию Кайо-Перико разрешено задержать причастных к нападению игроков."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "60-90 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использование",
+        "наручников",
+        "ношение",
+        "тепловизора"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.2.2",
+      "number": "2.2",
+      "title": "Запрещено уничтожение водной техники криминальных организаций",
+      "category": "События",
+      "text": "Запрещено уничтожение водной техники криминальных организаций",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "окончание мероприятия."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "уничтожение",
+        "водной",
+        "техники",
+        "криминальных",
+        "организаций"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.2.3",
+      "number": "2.3",
+      "title": "Запрещено использование любого типа транспорта, который нельзя заспавнить на острове",
+      "category": "События",
+      "text": "Запрещено использование любого типа транспорта, который нельзя заспавнить на острове",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использование",
+        "любого",
+        "типа",
+        "транспорта",
+        "нельзя"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.2.4",
+      "number": "2.4",
+      "title": "Запрещено выходить из особняка после смерти (NLR)",
+      "category": "События",
+      "text": "Запрещено выходить из особняка после смерти (NLR)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "при нападении на другую точку загрузки материалов таймер NLR сбрасывается."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "выходить",
+        "особняка",
+        "после",
+        "смерти"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.3.1",
+      "number": "3.1",
+      "title": "Разрешен один IC союз",
+      "category": "События",
+      "text": "Разрешен один IC союз",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Строгий выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешен",
+        "один",
+        "союз"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.3.2",
+      "number": "3.2",
+      "title": "При столкновении нескольких криминальных фракций / семей на территории острова они обязаны…",
+      "category": "События",
+      "text": "При столкновении нескольких криминальных фракций / семей на территории острова они обязаны начать перестрелку",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "столкновении",
+        "нескольких",
+        "криминальных",
+        "фракций",
+        "семей",
+        "территории"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.3.3",
+      "number": "3.3",
+      "title": "Запрещено использование стяжек, веревок, мешка, скотча",
+      "category": "События",
+      "text": "Запрещено использование стяжек, веревок, мешка, скотча",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "60 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использование",
+        "стяжек",
+        "веревок",
+        "мешка",
+        "скотча"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.3.4",
+      "number": "3.4",
+      "title": "Запрещено ограбление / похищение",
+      "category": "События",
+      "text": "Запрещено ограбление / похищение",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "60 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "ограбление",
+        "похищение"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.3.5",
+      "number": "3.5",
+      "title": "Запрещено намеренно бездействовать при нападении",
+      "category": "События",
+      "text": "Запрещено намеренно бездействовать при нападении",
+      "explanation": "за бездействие считается длительное нахождение на территории острова / точки после захвата материалов, захват точек с целью перестрелок и прочее.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35-90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "намеренно",
+        "бездействовать",
+        "нападении"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.3.6",
+      "number": "3.6",
+      "title": "Запрещено поджидать у вражеской лодки",
+      "category": "События",
+      "text": "Запрещено поджидать у вражеской лодки",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "поджидать",
+        "вражеской",
+        "лодки"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.3.7",
+      "number": "3.7",
+      "title": "Разрешен перехват захваченных материалов вне острова",
+      "category": "События",
+      "text": "Разрешен перехват захваченных материалов вне острова",
+      "explanation": "опираясь на правила перехвата поставок.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешен",
+        "перехват",
+        "захваченных",
+        "материалов",
+        "острова"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.3.8",
+      "number": "3.8",
+      "title": "Запрещено респавнить транспорт до окончания нападения",
+      "category": "События",
+      "text": "Запрещено респавнить транспорт до окончания нападения",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Беседа",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "респавнить",
+        "транспорт",
+        "окончания",
+        "нападения"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.3.9",
+      "number": "3.9",
+      "title": "От игроков криминальной фракции / семьи требуется вести минимум 1 видеозапись полного захв…",
+      "category": "События",
+      "text": "От игроков криминальной фракции / семьи требуется вести минимум 1 видеозапись полного захвата точки (от активации и до разгрузки)",
+      "explanation": "на видео должен быть оригинальный звук, качество не менее 720 p, участники обязаны хранить видеозапись 72 часа и предоставить её по первому требованию администрации.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "игроков",
+        "криминальной",
+        "фракции",
+        "семьи",
+        "требуется",
+        "вести"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.3.10",
+      "number": "3.10",
+      "title": "Запрещено захватывать / удерживать территорию особняка / поджидать гос",
+      "category": "События",
+      "text": "Запрещено захватывать / удерживать территорию особняка / поджидать гос. сотрудников у входа/выхода из интерьеров и т.п. (см. рис. 1)",
+      "explanation": null,
+      "examples": [
+        "контролировать территорию входа/выхода из особняка."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "захватывать",
+        "удерживать",
+        "территорию",
+        "особняка",
+        "поджидать"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.3.11",
+      "number": "3.11",
+      "title": "Запрещено захватывать / активировать более 3 точек в сутки",
+      "category": "События",
+      "text": "Запрещено захватывать / активировать более 3 точек в сутки",
+      "explanation": "отсчет / сброс начинается с 00:00.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "захватывать",
+        "активировать",
+        "более",
+        "точек",
+        "сутки"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.3.12",
+      "number": "3.12",
+      "title": "Запрещено удерживать точку более 30 минут",
+      "category": "События",
+      "text": "Запрещено удерживать точку более 30 минут",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "перестрелка, после её окончания и происшествия 30 минут с начала захвата, необходимо покинуть точку."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "удерживать",
+        "точку",
+        "более",
+        "минут"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.3.13",
+      "number": "3.13",
+      "title": "Запрещена погрузка материалов в матовозку (в т",
+      "category": "События",
+      "text": "Запрещена погрузка материалов в матовозку (в т.ч. водный транспорт) во время активной перестрелки",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещена",
+        "погрузка",
+        "материалов",
+        "матовозку",
+        "водный",
+        "транспорт"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    },
+    {
+      "id": "cayo-perico.3.14",
+      "number": "3.14",
+      "title": "Запрещено захватывать / активировать точки во время заморозки мероприятия",
+      "category": "События",
+      "text": "Запрещено захватывать / активировать точки во время заморозки мероприятия",
+      "explanation": "Узнать информацию о активных заморозках можно в discord-канале Families, или Collection of criminal fractions. Рис. 1.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру + изъятие полученного",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "захватывать",
+        "активировать",
+        "точки",
+        "время",
+        "заморозки"
+      ],
+      "source": "forum:cayo-perico:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.926241+00:00"
+    }
+  ]
+}

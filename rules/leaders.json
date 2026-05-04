@@ -1,0 +1,1145 @@
+{
+  "version": "2026.05.04.0951",
+  "releaseDate": "2026-05-04T09:51:52.061599+00:00",
+  "author": "scrape_rules.py",
+  "compatibilityVersion": "1",
+  "changelog": [
+    {
+      "version": "2026.05.04.0951",
+      "date": "2026-05-04T09:51:52.061599+00:00",
+      "changes": [
+        "Автоматический снимок раздела «Правила для лидеров фракций»"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "leaders.1.1",
+      "number": "1.1",
+      "title": "Лидерский срок составляет один месяц (30 дней), для лидера Government - 45 дней",
+      "category": "Руководство",
+      "text": "Лидерский срок составляет один месяц (30 дней), для лидера Government - 45 дней",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "лидерский",
+        "срок",
+        "составляет",
+        "один",
+        "месяц",
+        "дней"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.1.2",
+      "number": "1.2",
+      "title": "Если лидер не справляется со своими обязанностями, то заносится в",
+      "category": "Руководство",
+      "text": "Если лидер не справляется со своими обязанностями, то заносится в",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "р. 1, п. 3."
+      ],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "лидер",
+        "справляется",
+        "своими",
+        "обязанностями",
+        "заносится"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.1.3",
+      "number": "1.3",
+      "title": "Лидер может быть снят по РП-расследованию или государственным переворотом, в этом случае н…",
+      "category": "Руководство",
+      "text": "Лидер может быть снят по РП-расследованию или государственным переворотом, в этом случае на него не будет наложено никаких санкций",
+      "explanation": "запрещено подставные РП расследования для обхода р. 1, п. 2. выговор снимается на усмотрение главного куратора фракций. 1. 4.4 На усмотрение Главного администратора, лидер может быть убран с черного списка лидеров.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "7 дней",
+          "reason": null
+        },
+        {
+          "type": "организацию внутриигрового теракта, а также активное участие (либо победе) в мероприятиях от администрации, лидер может снять выговор, но не более",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "7 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "лидер",
+        "снят",
+        "расследованию",
+        "государственным",
+        "переворотом",
+        "случае"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.1.5",
+      "number": "1.5",
+      "title": "Если лидер, по мнению администрации, успешно отстоял срок, то он имеет возможность продолж…",
+      "category": "Руководство",
+      "text": "Если лидер, по мнению администрации, успешно отстоял срок, то он имеет возможность продолжить его",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "лидер City Hall всегда избирается путем выборов."
+      ],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "лидер",
+        "мнению",
+        "администрации",
+        "успешно",
+        "отстоял",
+        "срок"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.1.6",
+      "number": "1.6",
+      "title": "Лидер может занимать только 3 срока подряд на одной фракции",
+      "category": "Руководство",
+      "text": "Лидер может занимать только 3 срока подряд на одной фракции",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "лидер",
+        "занимать",
+        "срока",
+        "подряд",
+        "одной",
+        "фракции"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.1.7",
+      "number": "1.7",
+      "title": "Лидер несет ответственность за весь свой состав",
+      "category": "Руководство",
+      "text": "Лидер несет ответственность за весь свой состав",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Беседа",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "лидер",
+        "несет",
+        "ответственность",
+        "весь",
+        "свой",
+        "состав"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.1.8",
+      "number": "1.8",
+      "title": "Лидер имеет право иметь не более 3-х заместителей",
+      "category": "Руководство",
+      "text": "Лидер имеет право иметь не более 3-х заместителей",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "лидер правительства имеет право поставить только одного заместителя."
+      ],
+      "punishments": [
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "лидер",
+        "имеет",
+        "право",
+        "иметь",
+        "более",
+        "заместителей"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.1.9",
+      "number": "1.9",
+      "title": "В течении первых суток после постановления лидера, он имеет право назначать любой ранг чел…",
+      "category": "Руководство",
+      "text": "В течении первых суток после постановления лидера, он имеет право назначать любой ранг человеку",
+      "explanation": "день блата работает только при становлении на первый срок.",
+      "examples": [],
+      "exceptions": [
+        "одобрение гл. куратора; р.4 пункт 3.3, р.4 пункт 4; увольнение игрока во время дня блата."
+      ],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "течении",
+        "первых",
+        "суток",
+        "после",
+        "постановления",
+        "лидера"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.1.10",
+      "number": "1.10",
+      "title": "Запрещено подавать заявление на пост лидера занимая лидерский пост (на момент подачи заявк…",
+      "category": "Руководство",
+      "text": "Запрещено подавать заявление на пост лидера занимая лидерский пост (на момент подачи заявки)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "лидер фракции Government, в случае подачи заявки на тот же пост."
+      ],
+      "punishments": [
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "подавать",
+        "заявление",
+        "пост",
+        "лидера",
+        "занимая"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.2.1",
+      "number": "2.1",
+      "title": "Соблюдение правил сервера со стороны своей фракции",
+      "category": "Руководство",
+      "text": "Соблюдение правил сервера со стороны своей фракции",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Беседа",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "соблюдение",
+        "правил",
+        "сервера",
+        "стороны",
+        "своей",
+        "фракции"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.2.1.1",
+      "number": "2.1.1",
+      "title": "Иметь оформленный форумный раздел",
+      "category": "Руководство",
+      "text": "Иметь оформленный форумный раздел",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "иметь",
+        "оформленный",
+        "форумный",
+        "раздел"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.2.1.2",
+      "number": "2.1.2",
+      "title": "Модерация форумного раздела и фракционного дискорда",
+      "category": "Руководство",
+      "text": "Модерация форумного раздела и фракционного дискорда",
+      "explanation": "на актуализацию информации дается 48 часов.",
+      "examples": [],
+      "exceptions": [
+        "в случае изменения дипломатических отношений информация должна быть обновлена в течении 12 часов."
+      ],
+      "punishments": [
+        {
+          "type": "Беседа",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "модерация",
+        "форумного",
+        "раздела",
+        "фракционного",
+        "дискорда"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.2.2",
+      "number": "2.2",
+      "title": "Придерживаться минимального суточного онлайна в 2 часа",
+      "category": "Руководство",
+      "text": "Придерживаться минимального суточного онлайна в 2 часа",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "одобрение главного куратора; лидер Government и Судебной власти."
+      ],
+      "punishments": [
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "придерживаться",
+        "минимального",
+        "суточного",
+        "онлайна",
+        "часа"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.2.3",
+      "number": "2.3",
+      "title": "Поддерживать онлайн и активность фракции",
+      "category": "Руководство",
+      "text": "Поддерживать онлайн и активность фракции",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "поддерживать",
+        "онлайн",
+        "активность",
+        "фракции"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.2.4",
+      "number": "2.4",
+      "title": "Повышать досуг и RP уровень своей фракции",
+      "category": "Руководство",
+      "text": "Повышать досуг и RP уровень своей фракции",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "повышать",
+        "досуг",
+        "уровень",
+        "своей",
+        "фракции"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.2.5",
+      "number": "2.5",
+      "title": "Быть в курсе всех проблем своей фракции, устранять и пресекать внутрифракционные конфликты",
+      "category": "Руководство",
+      "text": "Быть в курсе всех проблем своей фракции, устранять и пресекать внутрифракционные конфликты",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "курсе",
+        "всех",
+        "проблем",
+        "своей",
+        "фракции",
+        "устранять"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.2.6",
+      "number": "2.6",
+      "title": ".1 По окончанию лидерского срока, лидер обязан оставить на балансе фракции минимум:",
+      "category": "Руководство",
+      "text": ".1 По окончанию лидерского срока, лидер обязан оставить на балансе фракции минимум:",
+      "explanation": "на усмотрение главного куратора значения могут отличаться, как в меньшую, так и в большую сторону. Деньги - 200.000$ Оружейные материалы - 3000 Технические материалы - 3000 Медицинские материалы - 1500",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "окончанию",
+        "лидерского",
+        "срока",
+        "лидер",
+        "обязан",
+        "оставить"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.2.6",
+      "number": "2.6",
+      "title": ".2 По окончанию лидерского срока запрещено забирать более 50% денежных средств / материало",
+      "category": "Руководство",
+      "text": ".2 По окончанию лидерского срока запрещено забирать более 50% денежных средств / материалов / предметов с целью личной выгоды",
+      "explanation": "только для криминальных организаций при одобрении главного куратора фракций.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "окончанию",
+        "лидерского",
+        "срока",
+        "запрещено",
+        "забирать",
+        "более"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.2.7",
+      "number": "2.7",
+      "title": "На усмотрение главного куратора фракция может быть заморожена, как частично, так и полност…",
+      "category": "Руководство",
+      "text": "На усмотрение главного куратора фракция может быть заморожена, как частично, так и полностью",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "усмотрение",
+        "главного",
+        "куратора",
+        "фракция",
+        "заморожена",
+        "частично"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.3.1",
+      "number": "3.1",
+      "title": "Иметь в составе игроков с nonRP никами на руководящих должностях",
+      "category": "Руководство",
+      "text": "Иметь в составе игроков с nonRP никами на руководящих должностях",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Понижение игрока до",
+          "duration": "30 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "иметь",
+        "составе",
+        "игроков",
+        "nonrp",
+        "никами",
+        "руководящих"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.3.2",
+      "number": "3.2",
+      "title": "Использовать деньги с баланса фракции в личных целях",
+      "category": "Руководство",
+      "text": "Использовать деньги с баланса фракции в личных целях",
+      "explanation": "требуется разрешение главного куратора.",
+      "examples": [],
+      "exceptions": [
+        "одобрение главного куратора фракций.",
+        "3. 3.2 Игра на других мультиплеерах и серверах проекта разрешена при выполненной суточной нормы онлайна, а так же активной фракции."
+      ],
+      "punishments": [
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "использовать",
+        "деньги",
+        "баланса",
+        "фракции",
+        "личных",
+        "целях"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.3.4",
+      "number": "3.4",
+      "title": "Любое nonRP движение во фракции",
+      "category": "Руководство",
+      "text": "Любое nonRP движение во фракции",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "любое",
+        "nonrp",
+        "движение",
+        "фракции"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.3.5",
+      "number": "3.5",
+      "title": "Грубое нарушение правил сервера",
+      "category": "Руководство",
+      "text": "Грубое нарушение правил сервера",
+      "explanation": "возможны исключения; грубым нарушением правил сервера считаются наказания, где игрок получает Ban / HardBan.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Беседа",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "грубое",
+        "нарушение",
+        "правил",
+        "сервера"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.3.6",
+      "number": "3.6",
+      "title": "Грубые унизительные/оскорбительные высказывания в сторону других игроков/администраторов н…",
+      "category": "Руководство",
+      "text": "Грубые унизительные/оскорбительные высказывания в сторону других игроков/администраторов на форуме и в официальных 'discord' серверах проекта",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "грубые",
+        "унизительные",
+        "оскорбительные",
+        "высказывания",
+        "сторону",
+        "других"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.3.7",
+      "number": "3.7",
+      "title": "Трансфер состава",
+      "category": "Руководство",
+      "text": "Трансфер состава",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "трансфер",
+        "состава"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.3.8",
+      "number": "3.8",
+      "title": "Запрещено расформировывать состав",
+      "category": "Руководство",
+      "text": "Запрещено расформировывать состав",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "одобрение главного куратора фракции."
+      ],
+      "punishments": [
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "расформировывать",
+        "состав"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.3.9",
+      "number": "3.9",
+      "title": "Запрещено первым оскорблять, а так же провоцировать на оскорбление других игроков в личных…",
+      "category": "Руководство",
+      "text": "Запрещено первым оскорблять, а так же провоцировать на оскорбление других игроков в личных сообщениях Discord'a",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Беседа",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "первым",
+        "оскорблять",
+        "провоцировать",
+        "оскорбление",
+        "других"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.3.10",
+      "number": "3.10",
+      "title": "Запрещено иметь дневной онлайн менее 20 человек",
+      "category": "Руководство",
+      "text": "Запрещено иметь дневной онлайн менее 20 человек",
+      "explanation": "возможны исключения, необходимо уточнять у главного куратора фракций. дневной онлайн считается с 15:00 до 22:00.",
+      "examples": [],
+      "exceptions": [
+        "окончательное количество минимального онлайна определяется главным куратором / ГА."
+      ],
+      "punishments": [
+        {
+          "type": "Выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "иметь",
+        "дневной",
+        "онлайн",
+        "менее",
+        "человек"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.4.1",
+      "number": "4.1",
+      "title": "Лидеру правительства разрешается повышать ключевых работников фракции на соответствующий р…",
+      "category": "Руководство",
+      "text": "Лидеру правительства разрешается повышать ключевых работников фракции на соответствующий ранг в обход общей системы повышения",
+      "explanation": null,
+      "examples": [
+        "министры, вице-губернатор, генеральный прокурор."
+      ],
+      "exceptions": [
+        "отклонение повышения от главного куратора фракций; игроки снятые по IC делу (суд, ордер, делопроизводство и т.д.); p.4 пункты 3.3 и 4."
+      ],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "лидеру",
+        "правительства",
+        "разрешается",
+        "повышать",
+        "ключевых",
+        "работников"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.4.2",
+      "number": "4.2",
+      "title": "Лидеру государственных организаций разрешено принимать только на 1 ранг",
+      "category": "Руководство",
+      "text": "Лидеру государственных организаций разрешено принимать только на 1 ранг",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "перевод или восстановление.",
+        "4. 3.1 Восстановления в должности допускаются лишь при условии, что игрок оставит заявление на восстановление с доказательствами о пребывании на ранге.",
+        "обжалование увольнения в IC инстанциях (прокуратура / суд)."
+      ],
+      "punishments": [
+        {
+          "type": "Выговор лидеру + понижение игрока на",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру + увольнение игрока.",
+          "duration": "30 дней",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "50-90 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру + увольнение игрока.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "принятию только на первый ранг, независимо от наличия диплома",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру + понижение игрока на",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "лидеру",
+        "государственных",
+        "организаций",
+        "разрешено",
+        "принимать",
+        "ранг"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.4.4",
+      "number": "4.4",
+      "title": "Восстановление в гос",
+      "category": "Руководство",
+      "text": "Восстановление в гос. фракции после получения",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "одобрение главного куратора гос. фракций или его заместителя."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "60-90 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру + понижение игрока на",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "восстановление",
+        "фракции",
+        "после",
+        "получения"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    },
+    {
+      "id": "leaders.4.5",
+      "number": "4.5",
+      "title": "Лидер имеет право уволить игрока из фракции, имея на то вескую IC причину",
+      "category": "Руководство",
+      "text": "Лидер имеет право уволить игрока из фракции, имея на то вескую IC причину",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "лидер",
+        "имеет",
+        "право",
+        "уволить",
+        "игрока",
+        "фракции"
+      ],
+      "source": "forum:leaders:https://forum.majestic-rp.ru/threads/pravila-dlya-liderov-fraktsii.8048/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.060293+00:00"
+    }
+  ]
+}

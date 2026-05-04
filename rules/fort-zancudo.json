@@ -1,0 +1,1337 @@
+{
+  "version": "2026.05.04.0951",
+  "releaseDate": "2026-05-04T09:51:51.973894+00:00",
+  "author": "scrape_rules.py",
+  "compatibilityVersion": "1",
+  "changelog": [
+    {
+      "version": "2026.05.04.0951",
+      "date": "2026-05-04T09:51:51.973894+00:00",
+      "changes": [
+        "Автоматический снимок раздела «Нападение/оборона территории Форта Занкудо»"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "fort-zancudo.1.1",
+      "number": "1.1",
+      "title": "График нападения на военную базу определяется и устанавливается Главным администратором",
+      "category": "События",
+      "text": "График нападения на военную базу определяется и устанавливается Главным администратором",
+      "explanation": "изменение графика должно оповещаться в лидерском чате, не менее, чем за 12 часов до самого мероприятия.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "график",
+        "нападения",
+        "военную",
+        "базу",
+        "определяется",
+        "устанавливается"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.1.2",
+      "number": "1.2",
+      "title": "На мероприятии действуют все общие правила сервера",
+      "category": "События",
+      "text": "На мероприятии действуют все общие правила сервера",
+      "explanation": "участниками мероприятия являются лишь те игроки, которые находятся в зоне мероприятия (см. рис. 1).",
+      "examples": [],
+      "exceptions": [
+        "PG, DM."
+      ],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "мероприятии",
+        "действуют",
+        "общие",
+        "правила",
+        "сервера"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.1.3",
+      "number": "1.3",
+      "title": "Запрещено использование",
+      "category": "События",
+      "text": "Запрещено использование",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "3-5 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использование"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.1.4",
+      "number": "1.4",
+      "title": "Запрещено занимать возвышенности, на которые невозможно попасть без летной техники",
+      "category": "События",
+      "text": "Запрещено занимать возвышенности, на которые невозможно попасть без летной техники",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "занимать",
+        "возвышенности",
+        "невозможно",
+        "попасть",
+        "летной"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.1.5",
+      "number": "1.5",
+      "title": "Запрещено намеренно уничтожать вражескую матовозку (speedo/bobcat/guardian)",
+      "category": "События",
+      "text": "Запрещено намеренно уничтожать вражескую матовозку (speedo/bobcat/guardian)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "окончание мероприятия."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 - 90 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "намеренно",
+        "уничтожать",
+        "вражескую",
+        "матовозку",
+        "speedo"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.1.6",
+      "number": "1.6",
+      "title": "Запрещено вести огонь вне обозначенной территории (см",
+      "category": "События",
+      "text": "Запрещено вести огонь вне обозначенной территории (см. рис. 1)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "вести",
+        "огонь",
+        "обозначенной",
+        "территории"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.1.7",
+      "number": "1.7",
+      "title": "Запрещено нахождение игроков, не состоящих во фракции / семье",
+      "category": "События",
+      "text": "Запрещено нахождение игроков, не состоящих во фракции / семье. |",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "нахождение",
+        "игроков",
+        "состоящих",
+        "фракции",
+        "семье"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.1.8",
+      "number": "1.8",
+      "title": "Материалы/предметы, полученные с нарушением правил, могут быть изъяты на усмотрение главно…",
+      "category": "События",
+      "text": "Материалы/предметы, полученные с нарушением правил, могут быть изъяты на усмотрение главного куратора",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "материалы",
+        "предметы",
+        "полученные",
+        "нарушением",
+        "правил",
+        "могут"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.2.1",
+      "number": "2.1",
+      "title": "Запрещено выходить из лазарета после смерти (NLR)",
+      "category": "События",
+      "text": "Запрещено выходить из лазарета после смерти (NLR)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "при нападении на другую точку загрузки материалов таймер NLR сбрасывается."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "выходить",
+        "лазарета",
+        "после",
+        "смерти"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.2.2",
+      "number": "2.2",
+      "title": "Запрещено заранее готовиться к мероприятию",
+      "category": "События",
+      "text": "Запрещено заранее готовиться к мероприятию",
+      "explanation": "запрещено заранее патрулировать, усиливать патрули и прочие MG действия с целью нахождения информации.",
+      "examples": [],
+      "exceptions": [
+        "IC информация от других сотрудников гос. фракций."
+      ],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "заранее",
+        "готовиться",
+        "мероприятию"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.2.3",
+      "number": "2.3",
+      "title": "Разрешено запрашивать поддержку других государственных структур при какой-либо информации…",
+      "category": "События",
+      "text": "Разрешено запрашивать поддержку других государственных структур при какой-либо информации о нападении",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "запрашивать",
+        "поддержку",
+        "других",
+        "государственных",
+        "структур"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.2.4",
+      "number": "2.4",
+      "title": "Разрешено использовать фракционный транспорт в качестве баррикад и укрытий",
+      "category": "События",
+      "text": "Разрешено использовать фракционный транспорт в качестве баррикад и укрытий",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "запрещено выстраивать труднопроходимые лабиринты / змейки из транспорта, запрещено выстраивать \"тоннели\" из техники."
+      ],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "использовать",
+        "фракционный",
+        "транспорт",
+        "качестве",
+        "баррикад"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.2.5",
+      "number": "2.5",
+      "title": "Запрещено вести огонь с транспорта",
+      "category": "События",
+      "text": "Запрещено вести огонь с транспорта",
+      "explanation": "выйти из техники, пострелять по нападающей стороне, а затем обратно сесть в технику, приравнивается к стрельбе из транспорта.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "вести",
+        "огонь",
+        "транспорта"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.3.1",
+      "number": "3.1",
+      "title": "Разрешено оказывать подкрепление национальной гвардии только после сообщения в /dep или фу…",
+      "category": "События",
+      "text": "Разрешено оказывать подкрепление национальной гвардии только после сообщения в /dep или функционального вызова в планшете",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "оказывать",
+        "подкрепление",
+        "национальной",
+        "гвардии",
+        "после"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.3.2",
+      "number": "3.2",
+      "title": "Максимальное кол-во сотрудников со стороны одной государственной структуры - 20",
+      "category": "События",
+      "text": "Максимальное кол-во сотрудников со стороны одной государственной структуры - 20",
+      "explanation": "оказывать помощь могут сотрудники FIB, LSPD, LSCSD.",
+      "examples": [],
+      "exceptions": [
+        "окончательное кол-во участников со стороны государственных структур определяется главным куратором государственных фракций, а так же ГА / ЗГА определенного сервера."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "45 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидерам",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "максимальное",
+        "сотрудников",
+        "стороны",
+        "одной",
+        "государственной",
+        "структуры"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.3.3",
+      "number": "3.3",
+      "title": "Помощь национальной гвардии осуществляется на территории Форта-Занкудо",
+      "category": "События",
+      "text": "Помощь национальной гвардии осуществляется на территории Форта-Занкудо",
+      "explanation": "запрещено перекрывать дорогу на территории мероприятия (см. рис. 1).",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидерам",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "помощь",
+        "национальной",
+        "гвардии",
+        "осуществляется",
+        "территории",
+        "форта"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.3.4",
+      "number": "3.4",
+      "title": "Запрещено перекрывать КПП-1 / КПП-2",
+      "category": "События",
+      "text": "Запрещено перекрывать КПП-1 / КПП-2",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "перекрывать"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.3.5",
+      "number": "3.5",
+      "title": "Запрещено использовать наручники",
+      "category": "События",
+      "text": "Запрещено использовать наручники",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "после нападения на территорию Форта-Занкудо разрешено задержать причастных к нападению игроков."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использовать",
+        "наручники"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.3.6",
+      "number": "3.6",
+      "title": "Запрещено использование матовозки криминальных организаций",
+      "category": "События",
+      "text": "Запрещено использование матовозки криминальных организаций",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "после окончания мероприятия разрешен взлом матовозки."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использование",
+        "матовозки",
+        "криминальных",
+        "организаций"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.1",
+      "number": "4.1",
+      "title": "Разрешен один IC союз",
+      "category": "События",
+      "text": "Разрешен один IC союз",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешен",
+        "один",
+        "союз"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.2",
+      "number": "4.2",
+      "title": "Минимальное количество участников - 15 человек",
+      "category": "События",
+      "text": "Минимальное количество участников - 15 человек",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "60 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "минимальное",
+        "количество",
+        "участников",
+        "человек"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.3",
+      "number": "4.3",
+      "title": "Максимальное количество участников - 80 человек",
+      "category": "События",
+      "text": "Максимальное количество участников - 80 человек",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "окончательное максимальное кол-во участников со стороны криминальных структур определяется ГА / ЗГА сервера. Если ГА / ЗГА не сообщили о финальном количестве участников, то оно равняется 80."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "60 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "максимальное",
+        "количество",
+        "участников",
+        "человек"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.4",
+      "number": "4.4",
+      "title": "Подъезд к территории Форт-Занкудо разрешен на фракционном / семейном транспорте, а так же…",
+      "category": "События",
+      "text": "Подъезд к территории Форт-Занкудо разрешен на фракционном / семейном транспорте, а так же на личном транспорте, который окрашен в цвет фракции / семьи",
+      "explanation": "см. рис. 1, красная зона - территория Форта-Занкудо.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "подъезд",
+        "территории",
+        "форт",
+        "занкудо",
+        "разрешен",
+        "фракционном"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.5",
+      "number": "4.5",
+      "title": "Максимальное количество доступных нападений за день со стороны одной фракции / семьи - 1",
+      "category": "События",
+      "text": "Максимальное количество доступных нападений за день со стороны одной фракции / семьи - 1",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "максимальное",
+        "количество",
+        "доступных",
+        "нападений",
+        "день",
+        "стороны"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.6",
+      "number": "4.6",
+      "title": "За 1 нападение можно использовать не более 2 маячков (маячки разных типов суммируются и ид…",
+      "category": "События",
+      "text": "За 1 нападение можно использовать не более 2 маячков (маячки разных типов суммируются и идут в учет)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру + Изъятие материалов",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "нападение",
+        "можно",
+        "использовать",
+        "более",
+        "маячков",
+        "маячки"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.7",
+      "number": "4.7",
+      "title": "Разрешено проникать на территорию военной базы только через КПП-1/КПП-2",
+      "category": "События",
+      "text": "Разрешено проникать на территорию военной базы только через КПП-1/КПП-2",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "15 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "проникать",
+        "территорию",
+        "военной",
+        "базы",
+        "через"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.8",
+      "number": "4.8",
+      "title": "Запрещено загружать матовозку (speedo/bobcat/guardian) во время перестрелки около точки за…",
+      "category": "События",
+      "text": "Запрещено загружать матовозку (speedo/bobcat/guardian) во время перестрелки около точки загрузки",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        },
+        {
+          "type": "изъятие материалов",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "загружать",
+        "матовозку",
+        "speedo",
+        "bobcat",
+        "guardian"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.9",
+      "number": "4.9",
+      "title": "При столкновении нескольких криминальных фракций / семей на территории ФЗ они обязаны нача…",
+      "category": "События",
+      "text": "При столкновении нескольких криминальных фракций / семей на территории ФЗ они обязаны начать перестрелку",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "60 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "столкновении",
+        "нескольких",
+        "криминальных",
+        "фракций",
+        "семей",
+        "территории"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.10",
+      "number": "4.10",
+      "title": "На территории форта запрещено передвижение на любом транспорте",
+      "category": "События",
+      "text": "На территории форта запрещено передвижение на любом транспорте",
+      "explanation": "см. рис. 1.",
+      "examples": [],
+      "exceptions": [
+        "матовозки (speedo/bobcat/guardian)."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35-90 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "территории",
+        "форта",
+        "запрещено",
+        "передвижение",
+        "любом",
+        "транспорте"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.11",
+      "number": "4.11",
+      "title": "Запрещено использование стяжек, веревок, мешка, скотча, дронов",
+      "category": "События",
+      "text": "Запрещено использование стяжек, веревок, мешка, скотча, дронов",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использование",
+        "стяжек",
+        "веревок",
+        "мешка",
+        "скотча"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.12",
+      "number": "4.12",
+      "title": "Запрещено ограбление / похищение",
+      "category": "События",
+      "text": "Запрещено ограбление / похищение",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "ограбление",
+        "похищение"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.13",
+      "number": "4.13",
+      "title": "Запрещено намеренно бездействовать при нападении на территорию Форта-Занкудо",
+      "category": "События",
+      "text": "Запрещено намеренно бездействовать при нападении на территорию Форта-Занкудо",
+      "explanation": "за бездействие считается длительное нахождение на ФЗ после загрузки материалов, захват точек с целью перестрелок и прочее.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35-90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "намеренно",
+        "бездействовать",
+        "нападении",
+        "территорию",
+        "форта"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.14",
+      "number": "4.14",
+      "title": "Запрещено захватывать(в т",
+      "category": "События",
+      "text": "Запрещено захватывать(в т.ч не давать зайти/выйти) Диспетчерскую Вышку, бункер, лазарет, складское здание, раздевалку, казармы, а также любой закрытый интерьер на территории Форта-Занкудо",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35-90 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "захватывать",
+        "давать",
+        "зайти",
+        "выйти",
+        "диспетчерскую"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.15",
+      "number": "4.15",
+      "title": "Запрещено удерживать вражескую матовозку на респавне своей / союзной фракции / семьи",
+      "category": "События",
+      "text": "Запрещено удерживать вражескую матовозку на респавне своей / союзной фракции / семьи",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "удерживать",
+        "вражескую",
+        "матовозку",
+        "респавне",
+        "своей"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.16",
+      "number": "4.16",
+      "title": "Запрещено перехватывать вражеские матовозки на территории мероприятия, а также после самог…",
+      "category": "События",
+      "text": "Запрещено перехватывать вражеские матовозки на территории мероприятия, а также после самого мероприятия",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "перехватывать",
+        "вражеские",
+        "матовозки",
+        "территории",
+        "мероприятия"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.17",
+      "number": "4.17",
+      "title": "Запрещено респавнить транспорт до окончания нападения на ФЗ",
+      "category": "События",
+      "text": "Запрещено респавнить транспорт до окончания нападения на ФЗ",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "респавнить",
+        "транспорт",
+        "окончания",
+        "нападения"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.18",
+      "number": "4.18",
+      "title": "От игроков криминальной фракции / семьи требуется минимум 1 видеозапись с момента захода н…",
+      "category": "События",
+      "text": "От игроков криминальной фракции / семьи требуется минимум 1 видеозапись с момента захода на территорию ФЗ",
+      "explanation": "на видео должен быть оригинальный звук, качество не менее 720p, участники обязаны хранить видеозапись 72 часа и предоставить её по первому требованию администрации.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Выговор лидеру",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "игроков",
+        "криминальной",
+        "фракции",
+        "семьи",
+        "требуется",
+        "минимум"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.19",
+      "number": "4.19",
+      "title": "Материалы можно вывозить исключительно на матовозке (speedo/bobcat/guardian)",
+      "category": "События",
+      "text": "Материалы можно вывозить исключительно на матовозке (speedo/bobcat/guardian)",
+      "explanation": "Узнать информацию о активных заморозках можно в discord-канале Families, или Collection of criminal fractions.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan на",
+          "duration": "60 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру + изъятие материалов.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "активировать точки во время заморозки мероприятия",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру + изъятие полученного",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "материалы",
+        "можно",
+        "вывозить",
+        "исключительно",
+        "матовозке",
+        "speedo"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    },
+    {
+      "id": "fort-zancudo.4.21",
+      "number": "4.21",
+      "title": "Запрещено загружать материалы, полученные в ходе нападения, в матовозку вне обозначенной т…",
+      "category": "События",
+      "text": "Запрещено загружать материалы, полученные в ходе нападения, в матовозку вне обозначенной территории (см. рис. 1)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Выговор лидеру. Карта мероприятия ​ Рисунок",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "загружать",
+        "материалы",
+        "полученные",
+        "ходе",
+        "нападения"
+      ],
+      "source": "forum:fort-zancudo:https://forum.majestic-rp.ru/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.972559+00:00"
+    }
+  ]
+}

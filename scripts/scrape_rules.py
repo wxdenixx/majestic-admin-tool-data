@@ -45,7 +45,7 @@ def extract_first_post_text(html: str) -> str:
     Inside the article, the rule text is in `.bbWrapper`. We take the
     plain-text content so the line-based parser can do its job.
     """
-    soup = BeautifulSoup(html, "lxml")
+    soup = BeautifulSoup(html, "html.parser")
     article = soup.select_one("article.message .bbWrapper")
     if not article:
         # fallback: any message-body on the page

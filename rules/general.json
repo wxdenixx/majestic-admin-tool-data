@@ -1,0 +1,3515 @@
+{
+  "version": "2026.05.04.0951",
+  "releaseDate": "2026-05-04T09:51:51.886742+00:00",
+  "author": "scrape_rules.py",
+  "compatibilityVersion": "1",
+  "changelog": [
+    {
+      "version": "2026.05.04.0951",
+      "date": "2026-05-04T09:51:51.886742+00:00",
+      "changes": [
+        "Автоматический снимок раздела «Основные правила проекта»"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "general.1.1",
+      "number": "1.1",
+      "title": "На проекте действует прецедентная система правил",
+      "category": "Общие",
+      "text": "На проекте действует прецедентная система правил. (Если игрок совершил правонарушение, которое не описано ни в каких правилах проекта, то он может быть наказан с разрешения ГА. Сделано это не с целью выдумывать правила \"на ходу\" и наказывать по ним, а потому, что все мы люди, могли что-то и забыть или не учесть)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "проекте",
+        "действует",
+        "прецедентная",
+        "система",
+        "правил",
+        "игрок"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.1.2",
+      "number": "1.2",
+      "title": "Проект позиционирует себя как русскоязычный, все диалоги должны происходить на русском язы…",
+      "category": "Общие",
+      "text": "Проект позиционирует себя как русскоязычный, все диалоги должны происходить на русском языке",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "отдельные слова и фразы для отыгровки роли своего персонажа."
+      ],
+      "punishments": [
+        {
+          "type": "Mute",
+          "duration": "60-240 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_mute",
+          "presetDuration": "60-240 минут",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "проект",
+        "позиционирует",
+        "себя",
+        "русскоязычный",
+        "диалоги",
+        "должны"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.1.3",
+      "number": "1.3",
+      "title": "Администрация не компенсирует средства, услуги, предметы и т",
+      "category": "Общие",
+      "text": "Администрация не компенсирует средства, услуги, предметы и т.д., которые были утрачены в силу функционального воздействия / задумки системы",
+      "explanation": "подразумеваемое изъятие предметов происходит без участия администрации, либо других лиц, все функциональные системы автономны. Например, если Вы не успели забрать вовремя предметы после покупки на маркетплейсе, то они у Вас пропадут.",
+      "examples": [
+        "пропажа предметов со склада маркетплейса и т.п."
+      ],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "администрация",
+        "компенсирует",
+        "средства",
+        "услуги",
+        "предметы",
+        "были"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.1.4",
+      "number": "1.4",
+      "title": "На проекте существуют различные виды наказаний; исходя из обстоятельств ситуации, а также…",
+      "category": "Общие",
+      "text": "На проекте существуют различные виды наказаний; исходя из обстоятельств ситуации, а также грубости и многократности нарушения игрок может получить:",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "проекте",
+        "существуют",
+        "различные",
+        "виды",
+        "наказаний",
+        "исходя"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.2.1",
+      "number": "2.1",
+      "title": "Максимальное количество разрешенных аккаунтов на одного человека - один",
+      "category": "Общие",
+      "text": "Максимальное количество разрешенных аккаунтов на одного человека - один",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Блокировка всех аккаунтов на",
+          "duration": "30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "максимальное",
+        "количество",
+        "разрешенных",
+        "аккаунтов",
+        "одного",
+        "человека"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.2.2",
+      "number": "2.2",
+      "title": "Запрещено передавать аккаунт 3-м лицам",
+      "category": "Общие",
+      "text": "Запрещено передавать аккаунт 3-м лицам",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "передавать",
+        "аккаунт",
+        "лицам"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.2.3",
+      "number": "2.3",
+      "title": "Администрация не несет ответственности за аккаунт игрока в случае его передачи, взлома, об…",
+      "category": "Общие",
+      "text": "Администрация не несет ответственности за аккаунт игрока в случае его передачи, взлома, обмана и т.д",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "администрация",
+        "несет",
+        "ответственности",
+        "аккаунт",
+        "игрока",
+        "случае"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.2.4",
+      "number": "2.4",
+      "title": "Запрещена продажа / обмен игровых аккаунтов",
+      "category": "Общие",
+      "text": "Запрещена продажа / обмен игровых аккаунтов",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещена",
+        "продажа",
+        "обмен",
+        "игровых",
+        "аккаунтов"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.2.5",
+      "number": "2.5",
+      "title": "Запрещено одновременно состоять несколькими персонажами во фракции / семье",
+      "category": "Общие",
+      "text": "Запрещено одновременно состоять несколькими персонажами во фракции / семье",
+      "explanation": "какой именно персонаж находится во фракции / семье (1 и 3, 2 и 3, либо 1 и 2) не имеет никакого значения. запрещено находится на старших / руководящих рангах в обеих фракциях.",
+      "examples": [],
+      "exceptions": [
+        "при покупке третьего персонажа можно вступать в любые две фракции / семьи (все три персонажа должны быть созданы)."
+      ],
+      "punishments": [
+        {
+          "type": "WARN персонажей",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "одновременно",
+        "состоять",
+        "несколькими",
+        "персонажами",
+        "фракции"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.2.6",
+      "number": "2.6",
+      "title": "Ограничения по участию в различного рода мероприятиях накладываются на персонажа, вне зави…",
+      "category": "Общие",
+      "text": "Ограничения по участию в различного рода мероприятиях накладываются на персонажа, вне зависимости от его фракции/семьи",
+      "explanation": null,
+      "examples": [
+        "игрок А находясь в семье и фракции не может участвовать 4 раза в перехвате поставки, лимит нападений для игрока А составляет 2, вне зависимости от того нападает он с фракцией или с семьей.",
+        "Положение об игровом имуществе:"
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "7 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "ограничения",
+        "участию",
+        "различного",
+        "рода",
+        "мероприятиях",
+        "накладываются"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.2.7",
+      "number": "2.7",
+      "title": "Запрещено владеть имуществом без игровой активности",
+      "category": "Общие",
+      "text": "Запрещено владеть имуществом без игровой активности",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "решение ГА; в случае возникновения уважительных причин отсутствия активности возможно предупреждение ГА, с дальнейшим исключением и не изъятием имущества (только при одобрении и согласовании с ГА сервера)."
+      ],
+      "punishments": [
+        {
+          "type": "Изъятие имущества. Игровая активность - это активность персонажа, которая присуща каждому игроку во время игры (перестрелки, игровые покупки, игра в азартные игры и т.п.) Игровой активностью не считается: Оплата налогов Оплата заказов АФК Езда на автомобиле без конкретных целей (езда по кругу, чтоб начислялось зарплата, чтоб сделать видимость игровой активности и т.п.) Для сохранения своего имущества необходимо минимум",
+          "duration": "1-2 часа",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "владеть",
+        "имуществом",
+        "игровой",
+        "активности"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.2.8",
+      "number": "2.8",
+      "title": "Запрещено иметь более 1 бизнеса на аккаунте",
+      "category": "Общие",
+      "text": "Запрещено иметь более 1 бизнеса на аккаунте",
+      "explanation": "банкоматы не относятся к бизнесам.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Изъятие бизнесов",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "иметь",
+        "более",
+        "бизнеса",
+        "аккаунте"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.2.9",
+      "number": "2.9",
+      "title": "Персонажу запрещено иметь nonRP \"Имя Фамилия\", к nonRP никнеймам относятся:",
+      "category": "Общие",
+      "text": "Персонажу запрещено иметь nonRP \"Имя Фамилия\", к nonRP никнеймам относятся:",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "персонажу",
+        "запрещено",
+        "иметь",
+        "nonrp",
+        "фамилия",
+        "никнеймам"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.2.10",
+      "number": "2.10",
+      "title": "Запрещено играть за персонажа противоположного Вам пола",
+      "category": "Общие",
+      "text": "Запрещено играть за персонажа противоположного Вам пола",
+      "explanation": "в случае получения игроком наказания за внешность, дальнейшей ее смены, а затем возврата идентичной или такой же внешности, игрок получает 150 минут demorgan'a.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan до смены внешности персонажа",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "играть",
+        "персонажа",
+        "противоположного",
+        "пола"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.3.1",
+      "number": "3.1",
+      "title": "Администрация сервера вправе вынести наказания по зафиксированному нарушению с модерируемы…",
+      "category": "Общие",
+      "text": "Администрация сервера вправе вынести наказания по зафиксированному нарушению с модерируемых платформ",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "администрация",
+        "сервера",
+        "вправе",
+        "вынести",
+        "наказания",
+        "зафиксированному"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.3.2",
+      "number": "3.2",
+      "title": "Под модерацией находятся следующие платформы:",
+      "category": "Общие",
+      "text": "Под модерацией находятся следующие платформы:",
+      "explanation": "в подобных системах запрещено любое нарушение правил сервера, начиная от запрещенных слов / контента, заканчивая оскорблением родных.",
+      "examples": [
+        "автомобильные номера, ID карта, удостоверение, маркетплейс, диалоги с ботами, в которых интегрированы ИИ и т.п."
+      ],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "модерацией",
+        "находятся",
+        "следующие",
+        "платформы"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.3.3",
+      "number": "3.3",
+      "title": "Наказание по зафиксированным нарушением выдается согласно общему регламенту проекта",
+      "category": "Общие",
+      "text": "Наказание по зафиксированным нарушением выдается согласно общему регламенту проекта",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "наказание",
+        "зафиксированным",
+        "нарушением",
+        "выдается",
+        "согласно",
+        "общему"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.3.4",
+      "number": "3.4",
+      "title": "Сообщения между игроками не входят в зону модерации администрацией",
+      "category": "Общие",
+      "text": "Сообщения между игроками не входят в зону модерации администрацией",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "распространение / угрозы распространения личной информации, покупка / продажа игрового имущества за реальные деньги, распространение закрытой информации, использование / распространение / продажа запрещенного ПО, угрозы в реальной жизни",
+        "и др. грубые нарушения."
+      ],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "сообщения",
+        "между",
+        "игроками",
+        "входят",
+        "зону",
+        "модерации"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.3.5",
+      "number": "3.5",
+      "title": "В случае грубого нарушения человек, оформляющий жалобу, может воспользоваться любым видеом…",
+      "category": "Общие",
+      "text": "В случае грубого нарушения человек, оформляющий жалобу, может воспользоваться любым видеоматериалом из перечисленных платформ, дабы доказать нарушение игрока",
+      "explanation": null,
+      "examples": [
+        "распространение / угрозы распространения личной информации, покупка / продажа игрового имущества за реальные деньги, распространение закрытой информации, использование / распространение / продажа запрещенного ПО",
+        "и др. грубые нарушения."
+      ],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "случае",
+        "грубого",
+        "нарушения",
+        "человек",
+        "оформляющий",
+        "жалобу"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.3.6",
+      "number": "3.6",
+      "title": "Запрещено использовать запрещенные стримерской платформой (twitch, youtube и др",
+      "category": "Общие",
+      "text": "Запрещено использовать запрещенные стримерской платформой (twitch, youtube и др.) слова, высказывания, предложения и прочее",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Mute",
+          "duration": "60-120 минут",
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3-10 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "15-30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_mute",
+          "presetDuration": "60-120 минут",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-10 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использовать",
+        "запрещенные",
+        "стримерской",
+        "платформой",
+        "twitch"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.3.7",
+      "number": "3.7",
+      "title": ".1 Запрещен намеренный \"стрим-снайп\"",
+      "category": "Общие",
+      "text": ".1 Запрещен намеренный \"стрим-снайп\"",
+      "explanation": "помеха стримерам / ютуберам, порча им игрового процесса, слишком навязчивая помощь без надобности / просьб и т.п.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "7-30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "15-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "7-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещен",
+        "намеренный",
+        "стрим",
+        "снайп"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.3.7",
+      "number": "3.7",
+      "title": ".2 Запрещено оказывать помощь стримерам, передавать деньги, подарки, предлагать рукопожати",
+      "category": "Общие",
+      "text": ".2 Запрещено оказывать помощь стримерам, передавать деньги, подарки, предлагать рукопожатия и т.п. действия",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "просьба / инициатива самого стримера."
+      ],
+      "punishments": [
+        {
+          "type": "Kick",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "15 минут",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "7 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_kick",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "оказывать",
+        "помощь",
+        "стримерам",
+        "передавать",
+        "деньги"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.4.1",
+      "number": "4.1",
+      "title": "Текстовый и голосовой чат является исключительно IC чатом, где запрещено любое общение по",
+      "category": "Общие",
+      "text": "Текстовый и голосовой чат является исключительно IC чатом, где запрещено любое общение по",
+      "explanation": "в ся OOC информация передается исключительно через /b, /fb, /gb и /cb чаты.",
+      "examples": [],
+      "exceptions": [
+        "текстовые чаты /b (и подобные),",
+        "обоюдное согласие при наличии не более 4 игроков, присутствие рядом администрации (с функциональной \"короной\"), разговоры в функциональных зеленых зонах, где преимущественное большинство игроков не против (более 75%)."
+      ],
+      "punishments": [
+        {
+          "type": "Mute",
+          "duration": "30-90 минут",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "5 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_mute",
+          "presetDuration": "30-90 минут",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "текстовый",
+        "голосовой",
+        "является",
+        "исключительно",
+        "чатом",
+        "запрещено"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.4.2",
+      "number": "4.2",
+      "title": "Запрещено завуалированное оскорбление или упоминание родственников в оскорбительном, либо…",
+      "category": "Общие",
+      "text": "Запрещено завуалированное оскорбление или упоминание родственников в оскорбительном, либо шуточном характере",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "5-30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "15 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "5-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "завуалированное",
+        "оскорбление",
+        "упоминание",
+        "родственников",
+        "оскорбительном"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.4.3",
+      "number": "4.3",
+      "title": "Запрещено прямое оскорбление родственников",
+      "category": "Общие",
+      "text": "Запрещено прямое оскорбление родственников",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "HardBan",
+          "duration": "30-60 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "прямое",
+        "оскорбление",
+        "родственников"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.4.4",
+      "number": "4.4",
+      "title": "Запрещен спам, флуд сообщениями или текстом в любые текстовые чаты",
+      "category": "Общие",
+      "text": "Запрещен спам, флуд сообщениями или текстом в любые текстовые чаты",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Mute",
+          "duration": "10-60 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_mute",
+          "presetDuration": "10-60 минут",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещен",
+        "спам",
+        "флуд",
+        "сообщениями",
+        "текстом",
+        "любые"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.4.5",
+      "number": "4.5",
+      "title": "Запрещено использование программ для изменения тональности голоса",
+      "category": "Общие",
+      "text": "Запрещено использование программ для изменения тональности голоса",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Mute",
+          "duration": "10-60 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_mute",
+          "presetDuration": "10-60 минут",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использование",
+        "программ",
+        "изменения",
+        "тональности",
+        "голоса"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.4.6",
+      "number": "4.6",
+      "title": "Запрещено издавать громкие или мешающие звуки",
+      "category": "Общие",
+      "text": "Запрещено издавать громкие или мешающие звуки",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Mute",
+          "duration": "10-120 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_mute",
+          "presetDuration": "10-120 минут",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "издавать",
+        "громкие",
+        "мешающие",
+        "звуки"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.4.7",
+      "number": "4.7",
+      "title": "Запрещена",
+      "category": "Общие",
+      "text": "Запрещена",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "15-60 минут",
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3-10 дней",
+          "reason": null
+        },
+        {
+          "type": "dep",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "gnews",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "wnews",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "mark)",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-10 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещена"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.4.8",
+      "number": "4.8",
+      "title": "Запрещены",
+      "category": "Общие",
+      "text": "Запрещены",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "использование голосовой рации."
+      ],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещены"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.4.9",
+      "number": "4.9",
+      "title": "Запрещена MG /",
+      "category": "Общие",
+      "text": "Запрещена MG /",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещена"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.4.10",
+      "number": "4.10",
+      "title": "Запрещены сообщения / диалоги не несущие смысловую нагрузку",
+      "category": "Общие",
+      "text": "Запрещены сообщения / диалоги не несущие смысловую нагрузку",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "отдельные каналы в рации, в котором участники данного канала не возражают."
+      ],
+      "punishments": [
+        {
+          "type": "Mute",
+          "duration": "240 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_mute",
+          "presetDuration": "240 минут",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещены",
+        "сообщения",
+        "диалоги",
+        "несущие",
+        "смысловую",
+        "нагрузку"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.4.11",
+      "number": "4.11",
+      "title": "Запрещено использование CapsLock",
+      "category": "Общие",
+      "text": "Запрещено использование CapsLock",
+      "explanation": null,
+      "examples": [
+        "\"САНГ, НА СВЯЗЬ\"."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Mute",
+          "duration": "120-240 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_mute",
+          "presetDuration": "120-240 минут",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "использование",
+        "capslock"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.4.12",
+      "number": "4.12",
+      "title": "Запрещен спам / флуд нажатием включения рации",
+      "category": "Общие",
+      "text": "Запрещен спам / флуд нажатием включения рации",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Mute",
+          "duration": "120 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_mute",
+          "presetDuration": "120 минут",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещен",
+        "спам",
+        "флуд",
+        "нажатием",
+        "включения",
+        "рации"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.1",
+      "number": "5.1",
+      "title": "DM (Deathmatch - прямое убийство / нанесение урона / стрельба по игроку, а также транспорт…",
+      "category": "Общие",
+      "text": "DM (Deathmatch - прямое убийство / нанесение урона / стрельба по игроку, а также транспортному средству где сидит игрок (включая дроны и др. подобные функциональные предметы), без IC причины и IC диалога)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "IC диалог не является обязательным фактором в следующих ситуациях:",
+        "Угроза жизни персонажу / его союзникам (игроки из фракции, семьи), а именно: прицеливание оружием в сторону игроков, нанесение ударов, намеренный наезд на персонажа / союзников транспортом.",
+        "Грубые оскорбления персонажа / его союзников (игроки из фракции, семьи).",
+        "Грубым оскорблением считается:",
+        "оскорбление / упоминание родственников, нации, этноса; нецензурные (матерные) оскорбления.",
+        "Угон личного и/или семейного транспортного средства.",
+        "Ограбление бизнеса (разрешено убийство причастных к ограблению, запрещено убийство мимо проезжающих рабочих и т.п.).",
+        "Ограбление личного/семейного дома (запрещено убийство игроков непричастных к ограблению).",
+        "Точки расположения тайников в",
+        "опасной",
+        "и",
+        "запретной",
+        "зоне (остров Кайо-Перико)",
+        "*распространяется",
+        "только",
+        "на игроков, которые взаимодействовали или взаимодействуют с тайником.",
+        "Пролет на дроне в опасных местах (местах скопления вооруженных людей, ограбления бизнесов, поставок, перестрелке и т.п.)",
+        "Отключение камер игроками криминальных структур.",
+        "Мероприятие захват цехов / дилеров (разрешено убийство причастных к мероприятиям, запрещено убийство мимо проезжающих рабочих и т.п.)",
+        "Нарушение правил PG от игрока."
+      ],
+      "punishments": [
+        {
+          "type": "GunBan",
+          "duration": "6 часов",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "120 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "deathmatch",
+        "прямое",
+        "убийство",
+        "нанесение",
+        "урона",
+        "стрельба"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.2",
+      "number": "5.2",
+      "title": "DB (DriveBy - целенаправленный / умышленный наезд на игрока транспортом)",
+      "category": "Общие",
+      "text": "DB (DriveBy - целенаправленный / умышленный наезд на игрока транспортом)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "30-90 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "driveby",
+        "целенаправленный",
+        "умышленный",
+        "наезд",
+        "игрока",
+        "транспортом"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.3",
+      "number": "5.3",
+      "title": "NonRP",
+      "category": "Общие",
+      "text": "NonRP",
+      "explanation": "наличие внедорожного транспорта ( hummer , g63amg6x6 , xclass , xclass monster-track , ram , f150 , Buckingham XK , dubsta3, caracara , everon , bruiser 1/2/3, mesa3, marshall, monster , rebel , sandking SWB , guardian, sandking XL , contender , kamacho , draugur, warthog , snowshark ) даёт возможность ездить по соответствующей местности, оценивая обстановку вокруг. Fly - управление воздушным средством в невозможных для этого условиях. после смерти персонажа, он забывает последние 15 минут своей жизни и не может использовать данную информацию.",
+      "examples": [
+        "заезд в интерьеры зданий, езда по горам, воде, рекам, езда по встречной полосе более 750 м / 15 секунд (в зависимости от ситуации), таран авто, таран легковым автомобилем более тяжелого и т.д.",
+        "низкие полеты над землей при большой скорости, близкие полеты около деревьев, пролеты под мостами. А так же совершать посадку вне предназначенных для этого местах: склоны более 40%, камни, дороги на которых в данный момент происходит оживленное движение транспортных средств и т.д.",
+        "5. 4",
+        "NLR (New Life Rule - правила новой жизни)",
+        "-",
+        "после получения критических повреждений запрещено",
+        "возвращение на место гибели, нанесение урона, убийство игрока, за то что он нанёс урон/убил вас, посредством мести."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "15-90 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "3-30 дней",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "nonrp"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.5",
+      "number": "5.5",
+      "title": "PG (Power gaming) - преувеличение возможностей своего персонажа",
+      "category": "Общие",
+      "text": "PG (Power gaming) - преувеличение возможностей своего персонажа. Поведение игрока, которое он не смог бы себе позволить в реальной жизни",
+      "explanation": "правило PG работает по принципу 1x1. 2x3 - не будет являться нарушением, 1х2 и более - PG.",
+      "examples": [],
+      "exceptions": [
+        "на сотрудников государственных силовых структур правило работает по принципу 1х2, 2х4, но только при наличии бронежилета; п.2.2",
+        "игровых зон",
+        ";",
+        "п. 1.13.1 и 1.13.2 правил ограблений и похищений",
+        "."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35-90 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "2-7 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "2-7 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "power",
+        "gaming",
+        "преувеличение",
+        "возможностей",
+        "персонажа",
+        "поведение"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.6",
+      "number": "5.6",
+      "title": "SK (Spawn kill) - стрельба по игрокам, нанесение урона, убийство на месте появления / бази…",
+      "category": "Общие",
+      "text": "SK (Spawn kill) - стрельба по игрокам, нанесение урона, убийство на месте появления / базирования определенной группы лиц или человека",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "функциональное ограбление дома.",
+        "Спойлер:",
+        "Территории респавнов банд и особняков семей",
+        "Спойлер:",
+        "Банды",
+        "The Ballas Gang",
+        "The Bloods Gang",
+        "The Famillies",
+        "Los-Santos Vagos",
+        "Marabunta Grande",
+        "​",
+        "Спойлер:",
+        "Особняки семей",
+        "Особняк -309-",
+        "Особняк -2327-",
+        "Особняк -1228-",
+        "Особняк -1233-",
+        "Особняк -2991-",
+        "Особняк -968-",
+        "Особняк -2664-",
+        "Особняк -3312-",
+        "​",
+        "Ссылка на исходные изображения"
+      ],
+      "punishments": [
+        {
+          "type": "GunBan",
+          "duration": "8 часов",
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "2-5 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "2-7 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "2-5 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "spawn",
+        "kill",
+        "стрельба",
+        "игрокам",
+        "нанесение",
+        "урона"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.7",
+      "number": "5.7",
+      "title": "TK (Team kill) - намеренное нанесение урона, убийство игроков / напарников, которые состоя…",
+      "category": "Общие",
+      "text": "TK (Team kill) - намеренное нанесение урона, убийство игроков / напарников, которые состоят с вами в одной организации / семье",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "самооборона."
+      ],
+      "punishments": [
+        {
+          "type": "GunBan",
+          "duration": "2-6 часов",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "50-120 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3-10 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-10 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "team",
+        "kill",
+        "намеренное",
+        "нанесение",
+        "урона",
+        "убийство"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.8",
+      "number": "5.8",
+      "title": "MG",
+      "category": "Общие",
+      "text": "MG",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "20-90 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "2-5 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "2-5 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.9",
+      "number": "5.9",
+      "title": "Уход от RP",
+      "category": "Общие",
+      "text": "Уход от RP",
+      "explanation": "уход в АФК во время RP процесса, выход из игры, уход в воду / закрытый интерьер / использование дрона во время погони, так же приравнивается к уходу от RP, игнорирование отыгровок (в /do и т.д.) с упоминанием игрока через @dynamicID, использование вертикальной лестницы с целью уйти от погони.",
+      "examples": [],
+      "exceptions": [
+        "согласие обеих сторон."
+      ],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "4-8 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "уход"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.10",
+      "number": "5.10",
+      "title": "Любые криминальные действия по отношению к сотрудникам EMS в рабочее время",
+      "category": "Общие",
+      "text": "Любые криминальные действия по отношению к сотрудникам EMS в рабочее время",
+      "explanation": "на сотрудников EMS так же распространяются правила PG, они обязаны учитывать все обстоятельства.",
+      "examples": [],
+      "exceptions": [
+        "PG со стороны сотрудника EMS."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "любые",
+        "криминальные",
+        "действия",
+        "отношению",
+        "сотрудникам",
+        "рабочее"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.11",
+      "number": "5.11",
+      "title": "Поднимать предметы во время перестрелки",
+      "category": "Общие",
+      "text": "Поднимать предметы во время перестрелки",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "поднимать",
+        "предметы",
+        "время",
+        "перестрелки"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.12",
+      "number": "5.12",
+      "title": "Намеренно менять / убирать оружие с целью его сохранения",
+      "category": "Общие",
+      "text": "Намеренно менять / убирать оружие с целью его сохранения",
+      "explanation": "пункт правил распространяется только в случае смерти игрового персонажа.",
+      "examples": [],
+      "exceptions": [
+        "в оружии закончилась обойма / барабан."
+      ],
+      "punishments": [
+        {
+          "type": "Изъятие спец. вооружения (Heavy Sniper, Heavy Sniper Mk",
+          "duration": "100 минут",
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "2-5 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "3-7 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "2-5 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "намеренно",
+        "менять",
+        "убирать",
+        "оружие",
+        "целью",
+        "сохранения"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.13",
+      "number": "5.13",
+      "title": "Запрещен вызов гос",
+      "category": "Общие",
+      "text": "Запрещен вызов гос. структур с целью провокации или дальнейших криминальных действий в сторону гос. сотрудников, а также вызовы не несущие смысловой нагрузки",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "15 - 60 минут",
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "2 дня",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "2 дня",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещен",
+        "вызов",
+        "структур",
+        "целью",
+        "провокации",
+        "дальнейших"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.14",
+      "number": "5.14",
+      "title": "Провоцировать игроков на нарушение правил сервера",
+      "category": "Общие",
+      "text": "Провоцировать игроков на нарушение правил сервера",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35-90 минут",
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3-30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "15-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "провоцировать",
+        "игроков",
+        "нарушение",
+        "правил",
+        "сервера"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.15",
+      "number": "5.15",
+      "title": "Запрещены любые виды, а также попытки",
+      "category": "Общие",
+      "text": "Запрещены любые виды, а также попытки",
+      "explanation": "все сделки должны проводиться с помощью функционала сервера, не прибегая к составлению сторонних IC / OOC договоров; по страдавшая сторона не получает возврата потерянного имущества.",
+      "examples": [
+        "игра в кости на имущество, игра в кости на сумму, которую не позволяет функционал проекта (10.000.001 и более), о",
+        "бмен имущества на 2 и более транспорта и т.п."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "HardBan",
+          "duration": "30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan + обнуление (в т.ч. сообщникам)",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещены",
+        "любые",
+        "виды",
+        "попытки"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.16",
+      "number": "5.16",
+      "title": "Запрещены любые увольнения / повышения / понижения / премирование / снятие / пополнение ср…",
+      "category": "Общие",
+      "text": "Запрещены любые увольнения / повышения / понижения / премирование / снятие / пополнение средств / выдача предупреждений /",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "60 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3-7 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-7 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещены",
+        "любые",
+        "увольнения",
+        "повышения",
+        "понижения",
+        "премирование"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.17",
+      "number": "5.17",
+      "title": "В случае намеренного нарушения игроком(-ами) правил сервера в функциональных зеленых зонах…",
+      "category": "Общие",
+      "text": "В случае намеренного нарушения игроком(-ами) правил сервера в функциональных зеленых зонах, разрешено игнорировать ситуацию / действия",
+      "explanation": "под игнорированием подразумевается полное отсутствие какой-либо реакции на действия/ситуацию, запрещены провокации и агрессивные действия, в ином случае может быть выдано наказание. Запрещено нарушать правила отыгровок:",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "случае",
+        "намеренного",
+        "нарушения",
+        "игроком",
+        "правил",
+        "сервера"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.18",
+      "number": "5.18",
+      "title": "Запрещены любые оскорбительные и неуместные отыгровки в \"/me, /do, /try\"",
+      "category": "Общие",
+      "text": "Запрещены любые оскорбительные и неуместные отыгровки в \"/me, /do, /try\"",
+      "explanation": "если игрок отыгрывает команды некорректно то его отыгровки не считаются действительными.",
+      "examples": [
+        "игрок в /do задает вопрос о состоянии человека, человек отвечает с маленькой буквы и без точки в конце, люди \"не видят\" данную отыгровку (так как она некорректная), в следствии чего игроку выдается наказание за уход от РП."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "10-35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещены",
+        "любые",
+        "оскорбительные",
+        "неуместные",
+        "отыгровки"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.19",
+      "number": "5.19",
+      "title": "Запрещены отыгровки в свою пользу",
+      "category": "Общие",
+      "text": "Запрещены отыгровки в свою пользу",
+      "explanation": null,
+      "examples": [
+        "задавать вопросы в /do следующего характера - /do Человек является работником LSPD?"
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "15-35 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещены",
+        "отыгровки",
+        "свою",
+        "пользу"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.20",
+      "number": "5.20",
+      "title": "Разрешено игнорирование отыгровок /do не несущих смысловую нагрузку либо, не дающую никаки…",
+      "category": "Общие",
+      "text": "Разрешено игнорирование отыгровок /do не несущих смысловую нагрузку либо, не дающую никаких RP последствий, либо идущие в разрез функционалу проекта",
+      "explanation": null,
+      "examples": [
+        "/do Что у человека находится при себе? (есть функциональный обыск), /do VIN номер авто закрашен; /do Номера замазаны грязью; /do Документы утеряны, любые /do отыгровки связанные с угнанным транспортом (не даёт никаких RP последствий и/или идет в разрез функционалу)."
+      ],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "игнорирование",
+        "отыгровок",
+        "несущих",
+        "смысловую",
+        "нагрузку"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.5.21",
+      "number": "5.21",
+      "title": "Разрешено не отыгрывать функциональные действия, сопровождающиеся автоматической отыгровко…",
+      "category": "Общие",
+      "text": "Разрешено не отыгрывать функциональные действия, сопровождающиеся автоматической отыгровкой",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "разрешено",
+        "отыгрывать",
+        "функциональные",
+        "действия",
+        "сопровождающиеся",
+        "автоматической"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.1",
+      "number": "6.1",
+      "title": "Запрещена любая помеха работе администрации",
+      "category": "Общие",
+      "text": "Запрещена любая помеха работе администрации",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Kick",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Mute",
+          "duration": "10-60 минут",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "10-100 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3-30 дней",
+          "reason": null
+        },
+        {
+          "type": "хелпер - OOC персонаж, его цель всячески помогать игрокам и решать различные конфликтные",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "спорные игровые ситуации; Все, что происходит в присутствии администратора со знаком над головой, является OOC процессом; Перебивать администратора, препятствовать решению ситуации абсолютно в любом виде - запрещено; Запрещены любые нарушения правил OOC",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "IC процесса, например DM, во время разбора ситуации администратором; За нарушение выдается наказание в соответствии с регламентом пункта правил, и исключительно на усмотрение самого администратора Запрещено",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_kick",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_mute",
+          "presetDuration": "10-60 минут",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещена",
+        "любая",
+        "помеха",
+        "работе",
+        "администрации"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.2",
+      "number": "6.2",
+      "title": "Скрывать от администрации баги и уязвимости системы, а так же распространять",
+      "category": "Общие",
+      "text": "Скрывать от администрации баги и уязвимости системы, а так же распространять",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "7-30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "7-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "скрывать",
+        "администрации",
+        "баги",
+        "уязвимости",
+        "системы",
+        "распространять"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.3",
+      "number": "6.3",
+      "title": "Скрывать от администрации злоумышленников",
+      "category": "Общие",
+      "text": "Скрывать от администрации злоумышленников",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "HardBan",
+          "duration": "15-30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "скрывать",
+        "администрации",
+        "злоумышленников"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.4",
+      "number": "6.4",
+      "title": "Оскорбление, неуважительное отношение, унижение и неуважительное общение к администрации с…",
+      "category": "Общие",
+      "text": "Оскорбление, неуважительное отношение, унижение и неуважительное общение к администрации сервера, серверу и/или проекту",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "5-30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "10-60 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "5-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "оскорбление",
+        "неуважительное",
+        "отношение",
+        "унижение",
+        "общение",
+        "администрации"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.5",
+      "number": "6.5",
+      "title": "Выдавать себя за администратора сервера",
+      "category": "Общие",
+      "text": "Выдавать себя за администратора сервера",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "7-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "7-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "выдавать",
+        "себя",
+        "администратора",
+        "сервера"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.6",
+      "number": "6.6",
+      "title": "При подаче жалобы в игре, запрещено удалять доказательства нарушения, если прошло менее 48…",
+      "category": "Общие",
+      "text": "При подаче жалобы в игре, запрещено удалять доказательства нарушения, если прошло менее 48 часов",
+      "explanation": "автору видео(жалобы) необходимо указывать в названии видео: свой static, static нарушителя, время и дату.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "2 дня",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "2 дня",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "подаче",
+        "жалобы",
+        "игре",
+        "запрещено",
+        "удалять",
+        "доказательства"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.7",
+      "number": "6.7",
+      "title": "Нанесение вреда экономике сервера",
+      "category": "Общие",
+      "text": "Нанесение вреда экономике сервера",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "нанесение",
+        "вреда",
+        "экономике",
+        "сервера"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.8",
+      "number": "6.8",
+      "title": "Использовать уязвимости системы и баги",
+      "category": "Общие",
+      "text": "Использовать уязвимости системы и баги",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "35 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3-30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "3-30 дней",
+          "reason": null
+        },
+        {
+          "type": "Permban",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "использовать",
+        "уязвимости",
+        "системы",
+        "баги"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.9",
+      "number": "6.9",
+      "title": "Переносить конфликты из",
+      "category": "Общие",
+      "text": "Переносить конфликты из",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "5-30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "15-30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "5-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "переносить",
+        "конфликты"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.10",
+      "number": "6.10",
+      "title": "Любые угрозы в реальной жизни",
+      "category": "Общие",
+      "text": "Любые угрозы в реальной жизни",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "10-30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "15-30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "10-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "любые",
+        "угрозы",
+        "реальной",
+        "жизни"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.11",
+      "number": "6.11",
+      "title": "Обходить систему Anti-AFK",
+      "category": "Общие",
+      "text": "Обходить систему Anti-AFK",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "5-30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "15-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "5-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "обходить",
+        "систему",
+        "anti"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.12",
+      "number": "6.12",
+      "title": "Действия, направленные на возбуждение ненависти, либо вражды, в IC и",
+      "category": "Общие",
+      "text": "Действия, направленные на возбуждение ненависти, либо вражды, в IC и",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "90 минут",
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3-15 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "3-15 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-15 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "действия",
+        "направленные",
+        "возбуждение",
+        "ненависти",
+        "либо",
+        "вражды"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.13",
+      "number": "6.13",
+      "title": "Любые завуалированные оскорбление вероисповедания, религии и нации, а также действия, напр…",
+      "category": "Общие",
+      "text": "Любые завуалированные оскорбление вероисповедания, религии и нации, а также действия, направленные на возбуждение ненависти, либо вражды, в IC и",
+      "explanation": "запрещены оскорбления на любых языках, а так же оскорбительные \"сленги\".",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "15-30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "15-30 дней",
+          "reason": null
+        },
+        {
+          "type": "Permban",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "15-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "любые",
+        "завуалированные",
+        "оскорбление",
+        "вероисповедания",
+        "религии",
+        "нации"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.14",
+      "number": "6.14",
+      "title": "Запрещены прямые оскорбления вероисповедования, религии, нации, а так же угнетения по како…",
+      "category": "Общие",
+      "text": "Запрещены прямые оскорбления вероисповедования, религии, нации, а так же угнетения по какому-либо признаку или принадлежности",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "HardBan",
+          "duration": "30-60 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещены",
+        "прямые",
+        "оскорбления",
+        "вероисповедования",
+        "религии",
+        "нации"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.15",
+      "number": "6.15",
+      "title": "Совершать многочисленные нарушения правил сервера",
+      "category": "Общие",
+      "text": "Совершать многочисленные нарушения правил сервера",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "15-30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "15-30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "15-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "совершать",
+        "многочисленные",
+        "нарушения",
+        "правил",
+        "сервера"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.16",
+      "number": "6.16",
+      "title": "Использование постороннего ПО для получения игрового преимущества",
+      "category": "Общие",
+      "text": "Использование постороннего ПО для получения игрового преимущества",
+      "explanation": "администрация имеет право сделать проверку ПК подозрительного игрока, в случае обнаружения какого-либо стороннего ПО выдается бан как за его использование. Отказ от проверки / выход во время проверки воспринимается как наличие стороннего ПО.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "использование",
+        "постороннего",
+        "получения",
+        "игрового",
+        "преимущества"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.17",
+      "number": "6.17",
+      "title": "Использование файлов/утилит для получения игрового преимущества",
+      "category": "Общие",
+      "text": "Использование файлов/утилит для получения игрового преимущества",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "HardBan",
+          "duration": "30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "использование",
+        "файлов",
+        "утилит",
+        "получения",
+        "игрового",
+        "преимущества"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.18",
+      "number": "6.18",
+      "title": "Какой-либо обход наказаний",
+      "category": "Общие",
+      "text": "Какой-либо обход наказаний",
+      "explanation": "при первом обходе наказания игроку выдается ЧС сервера, на котором было совершено нарушение, при втором обходе наказания игроку выдается ЧС проекта.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Permban",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "какой",
+        "либо",
+        "обход",
+        "наказаний"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.19",
+      "number": "6.19",
+      "title": "Реклама посторонних ресурсов",
+      "category": "Общие",
+      "text": "Реклама посторонних ресурсов",
+      "explanation": null,
+      "examples": [
+        "сторонние ссылки, проекты GTA V, неофициальные дискорды и т.п."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "HardBan",
+          "duration": "15-30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "реклама",
+        "посторонних",
+        "ресурсов"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.20",
+      "number": "6.20",
+      "title": "Пользоваться уязвимостью правил сервера",
+      "category": "Общие",
+      "text": "Пользоваться уязвимостью правил сервера",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "5-30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "5-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "5-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "пользоваться",
+        "уязвимостью",
+        "правил",
+        "сервера"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.21",
+      "number": "6.21",
+      "title": "Запрещены любые финансовые операции / договоренности, связанные с продажей игровой валюты,…",
+      "category": "Общие",
+      "text": "Запрещены любые финансовые операции / договоренности, связанные с продажей игровой валюты, ценностей или услуг за реальные деньги / имущество",
+      "explanation": "запрещена любая заинтересованность. любые транзакции должны происходить исключительно через официальный сайт или через F2 - Магазин, в игре.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "15-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещены",
+        "любые",
+        "финансовые",
+        "операции",
+        "договоренности",
+        "связанные"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.22",
+      "number": "6.22",
+      "title": "Трансфер имущества между серверами",
+      "category": "Общие",
+      "text": "Трансфер имущества между серверами",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "HardBan",
+          "duration": "30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan + аннулирование сделки",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "трансфер",
+        "имущества",
+        "между",
+        "серверами"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.23",
+      "number": "6.23",
+      "title": "Распространение информации или материалов касающихся работы администрации проекта",
+      "category": "Общие",
+      "text": "Распространение информации или материалов касающихся работы администрации проекта",
+      "explanation": "к данной информации относятся: закрытые голосовые каналы / чаты администрации, видеозаписи работы администрации от его лица и т.п.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "HardBan",
+          "duration": "30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "распространение",
+        "информации",
+        "материалов",
+        "касающихся",
+        "работы",
+        "администрации"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.24",
+      "number": "6.24",
+      "title": "Распространение / угрозы распространения личной информации игроков / администрации и их ро…",
+      "category": "Общие",
+      "text": "Распространение / угрозы распространения личной информации игроков / администрации и их родственников",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "HardBan",
+          "duration": "30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "распространение",
+        "угрозы",
+        "распространения",
+        "личной",
+        "информации",
+        "игроков"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.25",
+      "number": "6.25",
+      "title": "Вредительство проекту, серверу, форуму, официальным Discord серверам проекта, а также репу…",
+      "category": "Общие",
+      "text": "Вредительство проекту, серверу, форуму, официальным Discord серверам проекта, а также репутации администрации, сервера или проекта",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "HardBan",
+          "duration": "30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "вредительство",
+        "проекту",
+        "серверу",
+        "форуму",
+        "официальным",
+        "discord"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.26",
+      "number": "6.26",
+      "title": "Вводить в заблуждения / обманывать администрацию проекта",
+      "category": "Общие",
+      "text": "Вводить в заблуждения / обманывать администрацию проекта",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "10-30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "10-30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "10-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "вводить",
+        "заблуждения",
+        "обманывать",
+        "администрацию",
+        "проекта"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.27",
+      "number": "6.27",
+      "title": "Злоупотребление функционалом сервера",
+      "category": "Общие",
+      "text": "Злоупотребление функционалом сервера",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3-30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "10-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "злоупотребление",
+        "функционалом",
+        "сервера"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.28",
+      "number": "6.28",
+      "title": "Обход функционала сервера",
+      "category": "Общие",
+      "text": "Обход функционала сервера",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "3-30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "10-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "обход",
+        "функционала",
+        "сервера"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.29",
+      "number": "6.29",
+      "title": "Помеха РП процессу",
+      "category": "Общие",
+      "text": "Помеха РП процессу",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "2-5 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "2-5 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "помеха",
+        "процессу"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.30",
+      "number": "6.30",
+      "title": "Намеренно подставлять лидера, для дальнейшего получения им выговора / снятия",
+      "category": "Общие",
+      "text": "Намеренно подставлять лидера, для дальнейшего получения им выговора / снятия",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "5-30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "15-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "5-30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "намеренно",
+        "подставлять",
+        "лидера",
+        "дальнейшего",
+        "получения",
+        "выговора"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.31",
+      "number": "6.31",
+      "title": "Создавать помехи игрокам, выполняющим задания в деморгане",
+      "category": "Общие",
+      "text": "Создавать помехи игрокам, выполняющим задания в деморгане",
+      "explanation": null,
+      "examples": [
+        "бить другого игрока выполняющего задание, преграждать открытие клетки и т.п.",
+        "6. 32.1 Нарушение правил сервера с целью получения / сохранения спец. средств (вооружения и т.д)."
+      ],
+      "exceptions": [
+        "свап, выход из игры в наручниках (оружие изымается системой).",
+        "6. 32.2 В случае дальнейшей реализации выбитых спец. средств с нарушением п.32.1 игрок получает",
+        "HardBan 999 дней / PermBan."
+      ],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "2-5 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "10-20 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "2-5 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "создавать",
+        "помехи",
+        "игрокам",
+        "выполняющим",
+        "задания",
+        "деморгане"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.33",
+      "number": "6.33",
+      "title": "Активная реклама личных промокодов, соц",
+      "category": "Общие",
+      "text": "Активная реклама личных промокодов, соц. сетей и т.п. ресурсов",
+      "explanation": null,
+      "examples": [
+        "реклама промокода на спавне новичков."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Удаление промокода + Ban",
+          "duration": "5-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "активная",
+        "реклама",
+        "личных",
+        "промокодов",
+        "сетей",
+        "ресурсов"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.34",
+      "number": "6.34",
+      "title": "Внутриигровые обмены донат-услуг на имущество",
+      "category": "Общие",
+      "text": "Внутриигровые обмены донат-услуг на имущество",
+      "explanation": null,
+      "examples": [
+        "обмен виртуальной валюты на подарочный опыт боевого пропуска; покупка уровней боевого пропуска другому игроку с целью наград, которые получит игрок и т.п.."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "30 дней",
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "внутриигровые",
+        "обмены",
+        "донат",
+        "услуг",
+        "имущество"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    },
+    {
+      "id": "general.6.35",
+      "number": "6.35",
+      "title": "Взлом игровых аккаунтов / имущества, а также соучастие во взломе",
+      "category": "Общие",
+      "text": "Взлом игровых аккаунтов / имущества, а также соучастие во взломе",
+      "explanation": "нарушением считается, если участники аукциона, имея финансовую возможность и экономически рациональное решение об участии в аукционе, намеренно упускает такую возможность с целью победы другого игрока и дальнейшего его приобретения по заниженной стоимости.",
+      "examples": [
+        "договорённости по распределению бизнесов и отсутствие борьбы за другие лоты, разделение бизнесов между участниками аукциона и так далее."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "HardBan",
+          "duration": "30 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Изъятие полученного имущества",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "взлом",
+        "игровых",
+        "аккаунтов",
+        "имущества",
+        "соучастие",
+        "взломе"
+      ],
+      "source": "forum:general:https://forum.majestic-rp.ru/threads/osnovnyye-pravila-proyekta.8036/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:51.882212+00:00"
+    }
+  ]
+}

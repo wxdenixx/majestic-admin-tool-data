@@ -1,0 +1,335 @@
+{
+  "version": "2026.05.04.0951",
+  "releaseDate": "2026-05-04T09:51:52.220749+00:00",
+  "author": "scrape_rules.py",
+  "compatibilityVersion": "1",
+  "changelog": [
+    {
+      "version": "2026.05.04.0951",
+      "date": "2026-05-04T09:51:52.220749+00:00",
+      "changes": [
+        "Автоматический снимок раздела «Проверка на стороннее ПО»"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "cheat-check.1.1",
+      "number": "1.1",
+      "title": "Проверки проводятся исключительно в официальном discord'e проекта администраторами, имеющи…",
+      "category": "Технические",
+      "text": "Проверки проводятся исключительно в официальном discord'e проекта администраторами, имеющими роль \"Cheats Hunter\" либо в Google Meet/Yandex Телемост",
+      "explanation": "к официальным дискордам, в которых могут осуществляться проверки, относятся: Majestic RP | RU ссылку на Google Meet/Yandex Телемост вам предоставляет администратор в специальном игровом уведомлении. 1. 1.2 Во время проверки администрация обязуется вести диалог с уважением к проверяемому.",
+      "examples": [],
+      "exceptions": [
+        "ГА/зГА."
+      ],
+      "punishments": [
+        {
+          "type": "Строгий выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Строгий выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "проверки",
+        "проводятся",
+        "исключительно",
+        "официальном",
+        "discord",
+        "проекта"
+      ],
+      "source": "forum:cheat-check:https://forum.majestic-rp.ru/threads/pravila-proverki-na-storonneye-po.166680/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.220289+00:00"
+    },
+    {
+      "id": "cheat-check.1.2",
+      "number": "1.2",
+      "title": "Проверка проводится исключительно в том случае, если игрок вызывал подозрения",
+      "category": "Технические",
+      "text": "Проверка проводится исключительно в том случае, если игрок вызывал подозрения",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "проверка",
+        "проводится",
+        "исключительно",
+        "случае",
+        "игрок",
+        "вызывал"
+      ],
+      "source": "forum:cheat-check:https://forum.majestic-rp.ru/threads/pravila-proverki-na-storonneye-po.166680/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.220289+00:00"
+    },
+    {
+      "id": "cheat-check.1.3",
+      "number": "1.3",
+      "title": "Во время проверки игрок вправе отказать от демонстрации каких-либо ресурсов, если он посчи…",
+      "category": "Технические",
+      "text": "Во время проверки игрок вправе отказать от демонстрации каких-либо ресурсов, если он посчитает это нужным",
+      "explanation": "отказ может повлиять на итоговое решение администрации.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "время",
+        "проверки",
+        "игрок",
+        "вправе",
+        "отказать",
+        "демонстрации"
+      ],
+      "source": "forum:cheat-check:https://forum.majestic-rp.ru/threads/pravila-proverki-na-storonneye-po.166680/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.220289+00:00"
+    },
+    {
+      "id": "cheat-check.1.4",
+      "number": "1.4",
+      "title": "Игрок вправе отказаться / остановить проверку в любой момент, если он посчитает это нужным",
+      "category": "Технические",
+      "text": "Игрок вправе отказаться / остановить проверку в любой момент, если он посчитает это нужным",
+      "explanation": "отказ может повлиять на итоговое решение администрации.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "игрок",
+        "вправе",
+        "отказаться",
+        "остановить",
+        "проверку",
+        "любой"
+      ],
+      "source": "forum:cheat-check:https://forum.majestic-rp.ru/threads/pravila-proverki-na-storonneye-po.166680/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.220289+00:00"
+    },
+    {
+      "id": "cheat-check.1.5",
+      "number": "1.5",
+      "title": "Администратор не имеет право запрашивать / просматривать личные переписки, либо файлы без…",
+      "category": "Технические",
+      "text": "Администратор не имеет право запрашивать / просматривать личные переписки, либо файлы без Вашего согласия",
+      "explanation": "диалоги от сообществ по распространению стороннего ПО в различных соц. сетях - не является личной перепиской.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Строгий выговор",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "администратор",
+        "имеет",
+        "право",
+        "запрашивать",
+        "просматривать",
+        "личные"
+      ],
+      "source": "forum:cheat-check:https://forum.majestic-rp.ru/threads/pravila-proverki-na-storonneye-po.166680/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.220289+00:00"
+    },
+    {
+      "id": "cheat-check.1.6",
+      "number": "1.6",
+      "title": "Проверка ресурсов происходит на добровольной основе, администрация не в праве заставлять д…",
+      "category": "Технические",
+      "text": "Проверка ресурсов происходит на добровольной основе, администрация не в праве заставлять делать какие-либо действия",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "проверка",
+        "ресурсов",
+        "происходит",
+        "добровольной",
+        "основе",
+        "администрация"
+      ],
+      "source": "forum:cheat-check:https://forum.majestic-rp.ru/threads/pravila-proverki-na-storonneye-po.166680/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.220289+00:00"
+    },
+    {
+      "id": "cheat-check.1.7",
+      "number": "1.7",
+      "title": "Администрации сервера запрещается разглашать информацию пользователя полученную в ходе про…",
+      "category": "Технические",
+      "text": "Администрации сервера запрещается разглашать информацию пользователя полученную в ходе проверки лицам не являющимися действующими администраторами",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Снятие + ЧС проекта (в случае нарушения)",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "администрации",
+        "сервера",
+        "запрещается",
+        "разглашать",
+        "информацию",
+        "пользователя"
+      ],
+      "source": "forum:cheat-check:https://forum.majestic-rp.ru/threads/pravila-proverki-na-storonneye-po.166680/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.220289+00:00"
+    },
+    {
+      "id": "cheat-check.1.8",
+      "number": "1.8",
+      "title": "В случае нахождения посторонних файлов у проверяемого, администрация вправе выдать блокиро…",
+      "category": "Технические",
+      "text": "В случае нахождения посторонних файлов у проверяемого, администрация вправе выдать блокировку аккаунта и завершить проверку",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "случае",
+        "нахождения",
+        "посторонних",
+        "файлов",
+        "проверяемого",
+        "администрация"
+      ],
+      "source": "forum:cheat-check:https://forum.majestic-rp.ru/threads/pravila-proverki-na-storonneye-po.166680/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.220289+00:00"
+    },
+    {
+      "id": "cheat-check.1.9",
+      "number": "1.9",
+      "title": "Если в ходе проверки были выявлены другие нарушения (продажа / покупка валюты), администра…",
+      "category": "Технические",
+      "text": "Если в ходе проверки были выявлены другие нарушения (продажа / покупка валюты), администрация вправе выдать соответствующие наказание",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "ходе",
+        "проверки",
+        "были",
+        "выявлены",
+        "другие",
+        "нарушения"
+      ],
+      "source": "forum:cheat-check:https://forum.majestic-rp.ru/threads/pravila-proverki-na-storonneye-po.166680/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.220289+00:00"
+    },
+    {
+      "id": "cheat-check.1.10",
+      "number": "1.10",
+      "title": "Проверка на сторонне ПО не исключает факт наличия / использования стороннего ПО",
+      "category": "Технические",
+      "text": "Проверка на сторонне ПО не исключает факт наличия / использования стороннего ПО. В случае, если в ходе проверки не было выявлено нарушений, то игрок всё равно может получить игровую блокировку",
+      "explanation": "скачивать необходимо только с верифицированных сайтов, например: nirsoft , voidtools . 1. 11.2 Любые файлы, которые относятся к исключению, игрок может проверить на вирусы, вредоносное ПО и прочее, на любом удобном ему сайте. администратор не вправе как-либо препятствовать или выбирать сайт для проверки, всё это делается на личное усмотрение игрока.",
+      "examples": [],
+      "exceptions": [
+        "LastActivityView, Everything, OpenIV, ProcessHacker,SystemInformer,BrowsingHistoryview, Journal Trace, USBDeview, UserAssistView. Recuva, EaseUS Data Recovery, Echo Bam, ShadowExplorer, CodeWalker, HWiNFO64, Zenmap."
+      ],
+      "punishments": [
+        {
+          "type": "Снятие",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "проверка",
+        "сторонне",
+        "исключает",
+        "факт",
+        "наличия",
+        "использования"
+      ],
+      "source": "forum:cheat-check:https://forum.majestic-rp.ru/threads/pravila-proverki-na-storonneye-po.166680/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.220289+00:00"
+    },
+    {
+      "id": "cheat-check.1.12",
+      "number": "1.12",
+      "title": "Запрещено записывать и публиковать материалы, связанные с процессом проверки, проводимой а…",
+      "category": "Технические",
+      "text": "Запрещено записывать и публиковать материалы, связанные с процессом проверки, проводимой администрацией с ролью \"Cheats Hunter\" в официальном Discord'е проекта. Это включает в себя видеозаписи, аудиозаписи, скриншоты, а также любые другие способы фиксации и последующего распространения информации о проверке",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "записывать",
+        "публиковать",
+        "материалы",
+        "связанные",
+        "процессом"
+      ],
+      "source": "forum:cheat-check:https://forum.majestic-rp.ru/threads/pravila-proverki-na-storonneye-po.166680/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.220289+00:00"
+    }
+  ]
+}

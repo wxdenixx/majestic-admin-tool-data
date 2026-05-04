@@ -1,0 +1,326 @@
+{
+  "version": "2026.05.04.0951",
+  "releaseDate": "2026-05-04T09:51:52.122265+00:00",
+  "author": "scrape_rules.py",
+  "compatibilityVersion": "1",
+  "changelog": [
+    {
+      "version": "2026.05.04.0951",
+      "date": "2026-05-04T09:51:52.122265+00:00",
+      "changes": [
+        "Автоматический снимок раздела «Игровые зоны»"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "game-zones.1.1",
+      "number": "1.1",
+      "title": "Запрещены любые криминальные действия",
+      "category": "Геймплей",
+      "text": "Запрещены любые криминальные действия",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "террористические акты, государственный переворот, разбойное нападение на территории личного / семейного дома; функциональные мероприятия."
+      ],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "10-120 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "3 дня",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "3 дня",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещены",
+        "любые",
+        "криминальные",
+        "действия"
+      ],
+      "source": "forum:game-zones:https://forum.majestic-rp.ru/threads/pravila-igrovykh-zon.8084/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.121560+00:00"
+    },
+    {
+      "id": "game-zones.1.2",
+      "number": "1.2",
+      "title": "Запрещено устраивать перестрелки / стрельбу",
+      "category": "Геймплей",
+      "text": "Запрещено устраивать перестрелки / стрельбу",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "ответный огонь в целях самообороны, стрельба сотрудникам государственных структур при веской IC причине, самооборона в случае нападения животных, стрельба по мишеням в тире, стрельба на территории личного дома (в целях самообороны / защиты территории);",
+        "; функциональные мероприятия."
+      ],
+      "punishments": [
+        {
+          "type": "GunBan",
+          "duration": "1-6 часов",
+          "reason": null
+        },
+        {
+          "type": "Demorgan",
+          "duration": "35-120 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Hardban",
+          "duration": "3-30 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        },
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "устраивать",
+        "перестрелки",
+        "стрельбу"
+      ],
+      "source": "forum:game-zones:https://forum.majestic-rp.ru/threads/pravila-igrovykh-zon.8084/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.121560+00:00"
+    },
+    {
+      "id": "game-zones.1.3",
+      "number": "1.3",
+      "title": "Запрещены ограбления / похищения",
+      "category": "Геймплей",
+      "text": "Запрещены ограбления / похищения",
+      "explanation": "в случае ограбления/похищения наказания применяются ко всем игрокам, причастным к преступлению.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "HardBan",
+          "duration": "7 дней",
+          "reason": null
+        },
+        {
+          "type": "PermBan (в случае ограбления и намеренной передачи денежных средств на другого (своего) персонажа",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "другу)",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещены",
+        "ограбления",
+        "похищения"
+      ],
+      "source": "forum:game-zones:https://forum.majestic-rp.ru/threads/pravila-igrovykh-zon.8084/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.121560+00:00"
+    },
+    {
+      "id": "game-zones.1.4",
+      "number": "1.4",
+      "title": "Уходить от погони и перестрелок / прятаться от погони и перестрелок в зеленых зонах запрещ…",
+      "category": "Геймплей",
+      "text": "Уходить от погони и перестрелок / прятаться от погони и перестрелок в зеленых зонах запрещено",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Demorgan",
+          "duration": "20-90 минут",
+          "reason": null
+        },
+        {
+          "type": "WARN",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_warn",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "уходить",
+        "погони",
+        "перестрелок",
+        "прятаться",
+        "зеленых",
+        "зонах"
+      ],
+      "source": "forum:game-zones:https://forum.majestic-rp.ru/threads/pravila-igrovykh-zon.8084/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.121560+00:00"
+    },
+    {
+      "id": "game-zones.1.5",
+      "number": "1.5",
+      "title": "Запрещено включать музыку и иные программы для использования посторонних звуков",
+      "category": "Геймплей",
+      "text": "Запрещено включать музыку и иные программы для использования посторонних звуков",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "крупные мероприятия, ночные клубы, функциональный микрофон на пляже Дель-Перро, разрешение администрации, отсутствие помехи другим игрокам (с правильными и полными отыгровками, а так же обязательное наличие гитары / бумбокса)."
+      ],
+      "punishments": [
+        {
+          "type": "Mute",
+          "duration": "30-60 минут",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_mute",
+          "presetDuration": "30-60 минут",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "включать",
+        "музыку",
+        "иные",
+        "программы",
+        "использования"
+      ],
+      "source": "forum:game-zones:https://forum.majestic-rp.ru/threads/pravila-igrovykh-zon.8084/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.121560+00:00"
+    },
+    {
+      "id": "game-zones.1.6",
+      "number": "1.6",
+      "title": "Если игрок находится в Green zone, а Вы нет, то любые запрещенные действия в Green zone с…",
+      "category": "Геймплей",
+      "text": "Если игрок находится в Green zone, а Вы нет, то любые запрещенные действия в Green zone с вашей стороны по отношению к нему будут считаться нарушением правил Green zone",
+      "explanation": null,
+      "examples": [
+        "игрок находится в магазине одежды который расположен в красной зоне, но имеет внутренний интерьер - Green zone, а вы находитесь вне территории магазина. В данном случае вам запрещено предпринимать к нему любые действия которые запрещены в Green zone.",
+        "Список территорий, относящихся к",
+        "Green zone",
+        ":",
+        "Государственные учреждения:",
+        "городской аэропорт, здание мэрии, полицейский департамент, департамент шерифов, EMS, FIB, автошкола, News, Департамент в Сенди-Шорс, больница в Сенди-Шорс.",
+        "Работы:",
+        "инкассатор, лесоруб, мусорная переработка, пожарный, электрик, строитель, таксопарк, точки погрузки/разгрузки (всех работ, ЗЗ только для работников), почтальон, ферма, грибник, контракты и все вытекающие точки (ЗЗ только для работников), кладоискатель (ЗЗ только для работников).",
+        "Прочее:",
+        "автосервисы, автомастерские, банкоматы, банки, аренды лодок и прилегающие к ним территории, прием транспорта на свалке, GunGame, казино и прилегающая к нему территория, метро, сцены, авианосец, пирс Дель-Перро, кинотеатр",
+        "на пляже Дель-Перро,",
+        "яхта, массовые мероприятия и наборы фракций, место появления новичков, места рыбалки; дом, квартира, офис, а также вход и прилегающая территория (в красной зоне без прилегающей территории); клубы, качалка, места сдачи закладок/автомобилей/мусора, церковь и прилегающая к ней территория, зоны игры в армрестлинг, семейные склады, маркетплейс и прилегающая к нему территория, Human Labs (",
+        "исключением",
+        "являются стычки за тайники), обсерватория, амфитеатр и прилегающая к ним территория."
+      ],
+      "exceptions": [
+        "в клубах разрешено включать музыку. Стяжки, а так же применение силы разрешено только работникам клуба."
+      ],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "игрок",
+        "находится",
+        "green",
+        "zone",
+        "любые",
+        "запрещенные"
+      ],
+      "source": "forum:game-zones:https://forum.majestic-rp.ru/threads/pravila-igrovykh-zon.8084/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.121560+00:00"
+    },
+    {
+      "id": "game-zones.2.3",
+      "number": "2.3",
+      "title": "На острове Кайо-Перико (",
+      "category": "Геймплей",
+      "text": "На острове Кайо-Перико (",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "острове",
+        "кайо",
+        "перико"
+      ],
+      "source": "forum:game-zones:https://forum.majestic-rp.ru/threads/pravila-igrovykh-zon.8084/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.121560+00:00"
+    }
+  ]
+}

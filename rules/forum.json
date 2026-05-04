@@ -1,0 +1,1038 @@
+{
+  "version": "2026.05.04.0951",
+  "releaseDate": "2026-05-04T09:51:52.205002+00:00",
+  "author": "scrape_rules.py",
+  "compatibilityVersion": "1",
+  "changelog": [
+    {
+      "version": "2026.05.04.0951",
+      "date": "2026-05-04T09:51:52.205002+00:00",
+      "changes": [
+        "Автоматический снимок раздела «Правила форума»"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "forum.1.1",
+      "number": "1.1",
+      "title": "Данные правила являются обязательными для ознакомления",
+      "category": "Форум",
+      "text": "Данные правила являются обязательными для ознакомления",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "данные",
+        "правила",
+        "являются",
+        "обязательными",
+        "ознакомления"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.1.2",
+      "number": "1.2",
+      "title": "Модератор форума согласно регламентом самостоятельно определяют наказание за нарушение дан…",
+      "category": "Форум",
+      "text": "Модератор форума согласно регламентом самостоятельно определяют наказание за нарушение данных правил пользователями",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "модератор",
+        "форума",
+        "согласно",
+        "регламентом",
+        "самостоятельно",
+        "определяют"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.1.3",
+      "number": "1.3",
+      "title": "Незнание правил не освобождает от ответственности",
+      "category": "Форум",
+      "text": "Незнание правил не освобождает от ответственности",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "незнание",
+        "правил",
+        "освобождает",
+        "ответственности"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.1.4",
+      "number": "1.4",
+      "title": "Данные правила могут быть изменены и дополнены",
+      "category": "Форум",
+      "text": "Данные правила могут быть изменены и дополнены",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "данные",
+        "правила",
+        "могут",
+        "изменены",
+        "дополнены"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.1.5",
+      "number": "1.5",
+      "title": "В некоторых разделах допускается создание локальных актов, которые устанавливают дополните…",
+      "category": "Форум",
+      "text": "В некоторых разделах допускается создание локальных актов, которые устанавливают дополнительные правила для данного раздела",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "некоторых",
+        "разделах",
+        "допускается",
+        "создание",
+        "локальных",
+        "актов"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.1.6",
+      "number": "1.6",
+      "title": "Ответственность за аккаунт и весь контент несёт исключительно владелец аккаунта",
+      "category": "Форум",
+      "text": "Ответственность за аккаунт и весь контент несёт исключительно владелец аккаунта",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "ответственность",
+        "аккаунт",
+        "весь",
+        "контент",
+        "исключительно",
+        "владелец"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.1.7",
+      "number": "1.7",
+      "title": "Модератор форума вправе сам назначать срок через который истекают баллы",
+      "category": "Форум",
+      "text": "Модератор форума вправе сам назначать срок через который истекают баллы",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "модератор",
+        "форума",
+        "вправе",
+        "назначать",
+        "срок",
+        "через"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.1.8",
+      "number": "1.8",
+      "title": "Частые нарушения форумных правил могут привести к игровой блокировке",
+      "category": "Форум",
+      "text": "Частые нарушения форумных правил могут привести к игровой блокировке",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "частые",
+        "нарушения",
+        "форумных",
+        "правил",
+        "могут",
+        "привести"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.1.9",
+      "number": "1.9",
+      "title": "На форуме действует прецедентная система правил",
+      "category": "Форум",
+      "text": "На форуме действует прецедентная система правил. (Если пользователь совершил правонарушение, которое не описано в правилах форума, то он может быть наказан с разрешения Чиф форума/ЗГА/ГА. Сделано это не с целью выдумывать правила \"на ходу\" и наказывать по ним, а потому, что все мы люди, могли что-то и забыть или не учесть)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "форуме",
+        "действует",
+        "прецедентная",
+        "система",
+        "правил",
+        "пользователь"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.1.10",
+      "number": "1.10",
+      "title": "Администрация/модерация проекта вправе на свое усмотрение удалить/выделить публичным наруш…",
+      "category": "Форум",
+      "text": "Администрация/модерация проекта вправе на свое усмотрение удалить/выделить публичным нарушением, контент нарушающий регламент форума",
+      "explanation": "темы не несущие серьезного нарушения удаляются только с разрешения Чиф форума/Куратора раздела/ЗГА/ГА.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "администрация",
+        "модерация",
+        "проекта",
+        "вправе",
+        "свое",
+        "усмотрение"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.2.1",
+      "number": "2.1",
+      "title": "Запрещено продавать/передавать аккаунт третьим лицам",
+      "category": "Форум",
+      "text": "Запрещено продавать/передавать аккаунт третьим лицам",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Блокировка аккаунта",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "продавать",
+        "передавать",
+        "аккаунт",
+        "третьим",
+        "лицам"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.2.2",
+      "number": "2.2",
+      "title": "Запрещено представляться другим человеком на форуме",
+      "category": "Форум",
+      "text": "Запрещено представляться другим человеком на форуме",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "5 - 30 дней",
+          "reason": null
+        },
+        {
+          "type": "Блокировка аккаунта",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "5 - 30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "представляться",
+        "другим",
+        "человеком",
+        "форуме"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.2.3",
+      "number": "2.3",
+      "title": "Запрещено иметь несколько аккаунтов (мультиаккаунт)",
+      "category": "Форум",
+      "text": "Запрещено иметь несколько аккаунтов (мультиаккаунт)",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Блокировка всех аккаунтов",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "иметь",
+        "несколько",
+        "аккаунтов",
+        "мультиаккаунт"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.2.4",
+      "number": "2.4",
+      "title": "Запрещено иметь ник с использованием ненормативной или оскорбительной лексики",
+      "category": "Форум",
+      "text": "Запрещено иметь ник с использованием ненормативной или оскорбительной лексики",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Смена ника",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Блокировка форумного аккаунта",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Блокировка форумного аккаунта до редакции данных",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "иметь",
+        "использованием",
+        "ненормативной",
+        "оскорбительной",
+        "лексики"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.2.6",
+      "number": "2.6",
+      "title": "Запрещено устанавливать на баннерах, аватарах, подписях, статусах, информации о профиле, с…",
+      "category": "Форум",
+      "text": "Запрещено устанавливать на баннерах, аватарах, подписях, статусах, информации о профиле, сообщениях в профиле. Контент эротического характера (18+) или содержащий сцены насильственного и жестокого характера, контент содержащий возбуждение ненависти, а также унижение достоинства человека либо группы лиц по признакам национальности, религиозных взглядах и политики, контент относящиеся к изготовлению/употреблению наркотических, взрывчатых веществ, контент рекламирующий какие-либо сторонние проекты, контент с упоминанием стороннего ПО, оскорбляющий проект или администрацию",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "устанавливать",
+        "баннерах",
+        "аватарах",
+        "подписях",
+        "статусах"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.2.8",
+      "number": "2.8",
+      "title": "Личные сообщения на форуме между игроками не входят в зону модерации администрацией",
+      "category": "Форум",
+      "text": "Личные сообщения на форуме между игроками не входят в зону модерации администрацией",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "распространение / угрозы распространения личной информации, покупка / продажа игрового имущества за реальные деньги, распространение закрытой информации, использование / распространение / продажа запрещенного ПО, угрозы в реальной жизни, оскорбление проекта / сервера и др. грубые нарушения."
+      ],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "5 - 30 дней",
+          "reason": null
+        },
+        {
+          "type": "Permban",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "5 - 30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "личные",
+        "сообщения",
+        "форуме",
+        "между",
+        "игроками",
+        "входят"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.2.9",
+      "number": "2.9",
+      "title": "Запрещено устанавливать в подписях токсичный, оскорбительный контент, а так же контент, уп…",
+      "category": "Форум",
+      "text": "Запрещено устанавливать в подписях токсичный, оскорбительный контент, а так же контент, упоминающий родственников в оскорбительном либо шуточном характере",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "устанавливать",
+        "подписях",
+        "токсичный",
+        "оскорбительный",
+        "контент"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.2.10",
+      "number": "2.10",
+      "title": "Запрещено размещать в подписях, аватарах и других элементах профиля контент, затрудняющий…",
+      "category": "Форум",
+      "text": "Запрещено размещать в подписях, аватарах и других элементах профиля контент, затрудняющий чтение, восприятие Тем/сообщений",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "размещать",
+        "подписях",
+        "аватарах",
+        "других",
+        "элементах"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.3.1",
+      "number": "3.1",
+      "title": "Общение на форуме происходит исключительно на международных языках (официально признанных)",
+      "category": "Форум",
+      "text": "Общение на форуме происходит исключительно на международных языках (официально признанных)",
+      "explanation": "wikipedia",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "удаление сообщения",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "общение",
+        "форуме",
+        "происходит",
+        "исключительно",
+        "международных",
+        "языках"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.3.2",
+      "number": "3.2",
+      "title": "Запрещено оскорбление пользователей, токсичное поведение, провокация на оскорбления",
+      "category": "Форум",
+      "text": "Запрещено оскорбление пользователей, токсичное поведение, провокация на оскорбления",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "оскорбление",
+        "пользователей",
+        "токсичное",
+        "поведение",
+        "провокация"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.3.3",
+      "number": "3.3",
+      "title": "Запрещено угрожать расправой в реальной жизни",
+      "category": "Форум",
+      "text": "Запрещено угрожать расправой в реальной жизни",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "5 - 30 дней",
+          "reason": null
+        },
+        {
+          "type": "Permban. + удаление сообщения",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "5 - 30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "угрожать",
+        "расправой",
+        "реальной",
+        "жизни"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.3.4",
+      "number": "3.4",
+      "title": "Запрещено упоминание родственников в оскорбительном либо шуточном характере, а так же оско…",
+      "category": "Форум",
+      "text": "Запрещено упоминание родственников в оскорбительном либо шуточном характере, а так же оскорбление / действия направленные на розжиг конфликтов на почве разногласий о политических взглядах, политических ситуациях различных стран, вероисповедании, религии и на почве разногласия о расовой, национальной, этнической, языковой принадлежности",
+      "explanation": "запрещены завуалированные оскорбления на любых языках, а так же оскорбительные \"сленги\".",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "5 - 30 дней",
+          "reason": null
+        },
+        {
+          "type": "Permban",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "5 - 30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "упоминание",
+        "родственников",
+        "оскорбительном",
+        "либо",
+        "шуточном"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.3.5",
+      "number": "3.5",
+      "title": "Запрещено флудить/спамить в темах, а так же писать сообщения не несущие никакой смысловой…",
+      "category": "Форум",
+      "text": "Запрещено флудить/спамить в темах, а так же писать сообщения не несущие никакой смысловой нагрузки",
+      "explanation": "ответ от лица Администратора, приравнивается к нарушению. 3. 6 Запрещена публикация сообщений эротического характера (18+), сообщения рекламирующие какие-либо посторонние проекты, призывающие к суициду, или относящиеся к изготовлению/употреблению наркотических, взрывчатых веществ, нарушающий законы Российской Федерации и других стран, а так же запрещенного ПО.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "15 - 30 дней",
+          "reason": null
+        },
+        {
+          "type": "Permban + удаление запрещенного контента.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Блокировка форумного аккаунта + удаление сообщения.",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "администрацию в заблуждение",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Блокировка форумного аккаунта + удаление сообщения",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "15 - 30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "флудить",
+        "спамить",
+        "темах",
+        "писать",
+        "сообщения"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.3.11",
+      "number": "3.11",
+      "title": "Запрещено продавать/передавать и обменивать аккаунты, имущество и другие игровые ценности",
+      "category": "Форум",
+      "text": "Запрещено продавать/передавать и обменивать аккаунты, имущество и другие игровые ценности",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Блокировка форумного аккаунта",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban игрового аккаунта",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "продавать",
+        "передавать",
+        "обменивать",
+        "аккаунты",
+        "имущество"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.3.12",
+      "number": "3.12",
+      "title": "Запрещено неуважительное отношение, оскорбление, унижение и неуважительное общение к админ…",
+      "category": "Форум",
+      "text": "Запрещено неуважительное отношение, оскорбление, унижение и неуважительное общение к администрации проекта, а так же оскорбление проекта / серверов",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Ban",
+          "duration": "5 - 30 дней",
+          "reason": null
+        },
+        {
+          "type": "Permban",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "5 - 30 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "неуважительное",
+        "отношение",
+        "оскорбление",
+        "унижение",
+        "общение"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.3.13",
+      "number": "3.13",
+      "title": "Запрещена публикация внутренней информации проекта, а так же внутренняя информация о работ…",
+      "category": "Форум",
+      "text": "Запрещена публикация внутренней информации проекта, а так же внутренняя информация о работе администрации",
+      "explanation": "из дискорда/форума/ЛС и т.п.",
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "perm + Удаление сообщения",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": null,
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещена",
+        "публикация",
+        "внутренней",
+        "информации",
+        "проекта",
+        "внутренняя"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.4.1",
+      "number": "4.1",
+      "title": "Запрещено флудить, спамить темами форума, а так же создавать темы не несущие смысловой наг…",
+      "category": "Форум",
+      "text": "Запрещено флудить, спамить темами форума, а так же создавать темы не несущие смысловой нагрузки/имеющие шуточный характер",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "флудить",
+        "спамить",
+        "темами",
+        "форума",
+        "создавать"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.4.2",
+      "number": "4.2",
+      "title": "Запрещена публикация дублирующих тем, а так же тем, которые относятся к одной RP ситуации",
+      "category": "Форум",
+      "text": "Запрещена публикация дублирующих тем, а так же тем, которые относятся к одной RP ситуации",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [
+        "закрытие темы сотрудником проекта."
+      ],
+      "punishments": [
+        {
+          "type": "unknown",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Ban",
+          "duration": "5 - 15 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [
+        {
+          "punishmentId": "punishment_ban",
+          "presetDuration": "5 - 15 дней",
+          "presetReason": null,
+          "note": "Авто по форуму"
+        }
+      ],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещена",
+        "публикация",
+        "дублирующих",
+        "относятся",
+        "одной",
+        "ситуации"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.4.3",
+      "number": "4.3",
+      "title": "Запрещено удалять любые доказательства из раздела \"Жалобы\" ранее 48ч с момента рассмотрени…",
+      "category": "Форум",
+      "text": "Запрещено удалять любые доказательства из раздела \"Жалобы\" ранее 48ч с момента рассмотрения жалобы",
+      "explanation": null,
+      "examples": [],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Блокировка форумного аккаунта на",
+          "duration": "15 дней",
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "удалять",
+        "любые",
+        "доказательства",
+        "раздела",
+        "жалобы"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    },
+    {
+      "id": "forum.4.4",
+      "number": "4.4",
+      "title": "Запрещено вести паразитическую деятельность на форуме",
+      "category": "Форум",
+      "text": "Запрещено вести паразитическую деятельность на форуме",
+      "explanation": null,
+      "examples": [
+        "намеренная \"душка\" лидеров или/и администрации, жалобы не несущие смысловую нагрузку и т.п."
+      ],
+      "exceptions": [],
+      "punishments": [
+        {
+          "type": "Статус \"Нежелательный\"",
+          "duration": null,
+          "reason": null
+        },
+        {
+          "type": "Блокировка форумного аккаунта",
+          "duration": null,
+          "reason": null
+        }
+      ],
+      "linkedPunishments": [],
+      "relatedTemplates": [],
+      "tags": [
+        "запрещено",
+        "вести",
+        "паразитическую",
+        "деятельность",
+        "форуме"
+      ],
+      "source": "forum:forum:https://forum.majestic-rp.ru/threads/pravila-foruma.5245/",
+      "status": "Active",
+      "updatedAt": "2026-05-04T09:51:52.203750+00:00"
+    }
+  ]
+}
