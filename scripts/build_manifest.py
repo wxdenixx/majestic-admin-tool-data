@@ -115,7 +115,11 @@ def main() -> int:
         print(body)
         return 0
 
-    MANIFEST_PATH.write_text(body, encoding="utf-8")
+    # Write manifest.json with LF newlines so its own bytes on disk match
+    # what git + GitHub raw serve. (Python's write_text would translate
+    # \n → \r\n on Windows otherwise, invalidating any external integrity
+    # checks run against our own file.)
+    MANIFEST_PATH.write_bytes(body.encode("utf-8"))
     log.info("wrote %s (%d packages, %d bytes)",
              MANIFEST_PATH.name, len(manifest["packages"]), len(body))
     return 0

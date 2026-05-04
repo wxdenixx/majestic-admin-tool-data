@@ -1,0 +1,24 @@
+# Force LF line endings on all text files so the hashes produced by
+# scripts/build_manifest.py (run locally on Windows) match the bytes that
+# GitHub raw serves to the Majestic Admin Tool client.
+#
+# Without this, Git normalised CRLF→LF at push time while build_manifest.py
+# hashed the CRLF copy on disk → every SHA-256 in manifest.json was
+# invalidated and every package failed with "SHA-256 mismatch".
+
+* text=auto eol=lf
+
+*.json      text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+*.md        text eol=lf
+*.py        text eol=lf
+*.sh        text eol=lf
+
+# Binary file types (prevent Git from touching them)
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.ico       binary
+*.zip       binary
