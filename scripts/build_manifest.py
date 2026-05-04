@@ -28,12 +28,12 @@ log = logging.getLogger("build_manifest")
 SCHEMA_VERSION = "1"
 
 
-def sha256_hex(path: Path) -> str:
-    h = hashlib.sha256()
-    with path.open("rb") as f:
-        for chunk in iter(lambda: f.read(64 * 1024), b""):
-            h.update(chunk)
-    return h.hexdigest()
+def sha256_and_size(path: Path) -> tuple[str, int]:
+    """Hash and measure the file AFTER normalising CRLF->LF so the manifest
+    SHA-256 matches the bytes GitHub raw serves regardless of local Git
+    autocrlf settings on the scraper machine."""
+    data = path.read_bytes().replace(b"\r\n", b"\n")
+    return hashlib.sha256(data).hexdigest(), len(data)
 
 
 def scan_directory(directory: Path, kind: str, id_prefix: str) -> list[dict]:
@@ -47,17 +47,18 @@ def scan_directory(directory: Path, kind: str, id_prefix: str) -> list[dict]:
         package_id = f"{id_prefix}.{file.stem}"
         # package version = its first changelog entry, if present
         version = _peek_version(file)
+        sha, size = sha256_and_size(file)
         packages.append({
             "id": package_id,
             "kind": kind,
             "url": f"{directory.name}/{file.name}",
-            "sha256": sha256_hex(file),
-            "size": stat.st_size,
+            "sha256": sha,
+            "size": size,
             "version": version,
             "updatedAt": datetime.fromtimestamp(stat.st_mtime, tz=timezone.utc).isoformat(),
         })
-        log.info("  %s (%d bytes, sha256 %s…)",
-                 package_id, stat.st_size, packages[-1]["sha256"][:8])
+        log.info("  %s (%d bytes LF-norm, sha256 %s...)",
+                 package_id, size, sha[:8])
 
     return packages
 
