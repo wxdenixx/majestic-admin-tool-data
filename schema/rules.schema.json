@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/wxdenixx/majestic-admin-tool-data/main/schema/rules.schema.json",
+  "title": "Majestic Admin Tool — RulesBundle",
+  "type": "object",
+  "required": ["version", "rules"],
+  "properties": {
+    "version": { "type": "string" },
+    "releaseDate": { "type": "string", "format": "date-time" },
+    "author": { "type": "string" },
+    "compatibilityVersion": { "type": "string" },
+    "changelog": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["version", "date", "changes"],
+        "properties": {
+          "version": { "type": "string" },
+          "date": { "type": "string", "format": "date-time" },
+          "changes": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "number", "title", "text"],
+        "properties": {
+          "id":          { "type": "string", "minLength": 1 },
+          "number":      { "type": "string", "pattern": "^[0-9]+\\.[0-9]+(\\.[0-9]+)?$" },
+          "title":       { "type": "string", "minLength": 1 },
+          "category":    { "type": "string" },
+          "text":        { "type": "string" },
+          "explanation": { "type": ["string", "null"] },
+          "examples":    { "type": "array", "items": { "type": "string" } },
+          "exceptions":  { "type": "array", "items": { "type": "string" } },
+          "punishments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["type"],
+              "properties": {
+                "type":     { "type": "string" },
+                "duration": { "type": ["string", "null"] },
+                "reason":   { "type": ["string", "null"] }
+              }
+            }
+          },
+          "linkedPunishments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["punishmentId"],
+              "properties": {
+                "punishmentId":   { "type": "string", "minLength": 1 },
+                "presetDuration": { "type": ["string", "null"] },
+                "presetReason":   { "type": ["string", "null"] },
+                "note":           { "type": ["string", "null"] }
+              }
+            }
+          },
+          "relatedTemplates": { "type": "array", "items": { "type": "string" } },
+          "tags":              { "type": "array", "items": { "type": "string" } },
+          "source":            { "type": ["string", "null"] },
+          "status":            { "type": "string", "enum": ["Active", "Draft", "Deprecated"] },
+          "updatedAt":         { "type": "string", "format": "date-time" }
+        }
+      }
+    }
+  }
+}

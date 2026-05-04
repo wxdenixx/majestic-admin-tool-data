@@ -1,0 +1,114 @@
+# Majestic Admin Tool — scraper configuration.
+#
+# Каждый раздел форума раз в сутки конвертируется в отдельный JSON-пакет
+# в rules/{id}.json. Имена файлов и ID пакетов стабильны между прогонами,
+# чтобы ETag-кеш в тулсе работал корректно.
+#
+# Чтобы добавить новый раздел — просто дописать его в sections. Скрипт
+# подхватит без изменения кода.
+
+base_url: "https://forum.majestic-rp.ru"
+user_agent: "majestic-admin-tool-scraper/0.4 (+https://github.com/wxdenixx/majestic-admin-tool-data)"
+timeout_seconds: 60
+retry_attempts: 3
+retry_backoff_seconds: [10, 30, 60]
+
+# challenge_wait_selector = CSS-селектор, который появляется на странице
+# после того как R3ACTLB-cookie установлена и сервер отдал настоящий HTML
+# треда, а не JS-заглушку.
+challenge_wait_selector: "article.message .bbWrapper"
+
+sections:
+  - id: "general"
+    title: "Основные правила проекта"
+    url: "/threads/osnovnyye-pravila-proyekta.8036/"
+    category: "Общие"
+
+  - id: "military"
+    title: "Правила военного положения"
+    url: "/threads/pravila-voyennogo-polozheniya.7524/"
+    category: "События"
+
+  - id: "cayo-perico"
+    title: "Нападение/оборона острова Кайо-Перико"
+    url: "/threads/pravila-napadeniya-oborony-ostrova-kaio-periko.645651/"
+    category: "События"
+
+  - id: "dealer-capture"
+    title: "Захват цехов дилеров"
+    url: "/threads/pravila-zakhvata-tsekhov-dilerov.1823529/"
+    category: "События"
+
+  - id: "fort-zancudo"
+    title: "Нападение/оборона территории Форта Занкудо"
+    url: "/threads/pravila-napadeniya-oborony-territorii-forta-zankudo.8115/"
+    category: "События"
+
+  - id: "supply-intercept"
+    title: "Перехват поставок"
+    url: "/threads/pravila-perekhvata-postavok.123972/"
+    category: "События"
+
+  - id: "robbery"
+    title: "Ограбления и похищения"
+    url: "/threads/pravila-ograblenii-i-pokhishchenii.8254/"
+    category: "Преступления"
+
+  - id: "leaders"
+    title: "Правила для лидеров фракций"
+    url: "/threads/pravila-dlya-liderov-fraktsii.8048/"
+    category: "Руководство"
+
+  - id: "bank-robbery"
+    title: "Ограбление банков"
+    url: "/threads/pravila-ogrableniya-bankov.299735/"
+    category: "Преступления"
+
+  - id: "business-robbery"
+    title: "Ограбление бизнесов"
+    url: "/threads/pravila-ogrableniya-biznesov.8050/"
+    category: "Преступления"
+
+  - id: "game-zones"
+    title: "Игровые зоны"
+    url: "/threads/pravila-igrovykh-zon.8084/"
+    category: "Геймплей"
+
+  - id: "families"
+    title: "Общие правила семейных организаций"
+    url: "/threads/obshchiye-pravila-semeinykh-organizatsii.1061331/"
+    category: "Фракции"
+
+  - id: "captures-terror"
+    title: "Игровые захваты/теракты"
+    url: "/threads/pravila-provedeniya-igrovykh-zakhvatov-teraktov.8843/"
+    category: "События"
+
+  - id: "forum"
+    title: "Правила форума"
+    url: "/threads/pravila-foruma.5245/"
+    category: "Форум"
+
+  - id: "cheat-check"
+    title: "Проверка на стороннее ПО"
+    url: "/threads/pravila-proverki-na-storonneye-po.166680/"
+    category: "Технические"
+
+  - id: "admins"
+    title: "Правила и обязанности администраторов"
+    url: "/threads/pravila-i-obyazannosti-administratorov.22919/"
+    category: "Администрация"
+
+output:
+  rules_dir: "rules"
+  items_dir: "items"
+  version_format: "%Y.%m.%d.%H%M"
+  schema_version: "1"
+
+guardrails:
+  # Минимум правил, которое должно получиться в каждом разделе.
+  # Если парсер извлёк меньше — workflow падает, файл НЕ коммитится.
+  min_rules_per_section: 3
+  # Максимальный процент правил без text — если текст пустой у >30%,
+  # значит сломался селектор/регулярка, обновление отменяется.
+  max_empty_text_ratio: 0.3

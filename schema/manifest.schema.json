@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/wxdenixx/majestic-admin-tool-data/main/schema/manifest.schema.json",
+  "title": "Majestic Admin Tool — manifest.json",
+  "type": "object",
+  "required": ["version", "generatedAt", "schemaVersion", "packages"],
+  "properties": {
+    "version": { "type": "string", "minLength": 1 },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "schemaVersion": { "type": "string", "pattern": "^[0-9]+$" },
+    "baseUrl": { "type": ["string", "null"] },
+    "packages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "url", "sha256", "size", "version"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z][a-z0-9_.-]*$" },
+          "kind": { "type": "string", "enum": ["rules", "items", "punishments"] },
+          "url": { "type": "string", "minLength": 1 },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+          "size": { "type": "integer", "minimum": 0 },
+          "version": { "type": "string" },
+          "updatedAt": { "type": "string", "format": "date-time" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

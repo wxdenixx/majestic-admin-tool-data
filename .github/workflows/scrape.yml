@@ -1,0 +1,94 @@
+name: Scrape forum rules + wiki items
+
+# Runs daily at 06:00 UTC (9:00 MSK). Can also be triggered manually via
+# the Actions tab or the GitHub API (POST /actions/workflows/scrape.yml/dispatches).
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      rules_only:
+        description: "Only rescrape forum rules (skip wiki items)"
+        type: boolean
+        default: false
+      items_only:
+        description: "Only rescrape wiki items (skip forum rules)"
+        type: boolean
+        default: false
+      section:
+        description: "Only scrape one section id (e.g. 'general')"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-data
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Install Playwright browsers
+        if: ${{ !inputs.items_only }}
+        run: python -m playwright install --with-deps chromium
+
+      - name: Scrape forum rules
+        if: ${{ !inputs.items_only }}
+        run: |
+          if [ -n "${{ inputs.section }}" ]; then
+            python scripts/scrape_rules.py --section "${{ inputs.section }}" -v
+          else
+            python scripts/scrape_rules.py -v
+          fi
+
+      - name: Scrape wiki items
+        if: ${{ !inputs.rules_only }}
+        run: python scripts/scrape_items.py -v
+
+      - name: Rebuild manifest.json
+        run: python scripts/build_manifest.py -v
+
+      - name: Commit data snapshot
+        env:
+          GIT_AUTHOR_NAME: scraper-bot
+          GIT_AUTHOR_EMAIL: scraper-bot@users.noreply.github.com
+          GIT_COMMITTER_NAME: scraper-bot
+          GIT_COMMITTER_EMAIL: scraper-bot@users.noreply.github.com
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "data: snapshot $(date -u +%Y-%m-%d) [skip ci]"
+          git push
+
+      - name: Upload debug HTML on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-html
+          path: debug-html/
+          retention-days: 7
+          if-no-files-found: ignore

@@ -1,0 +1,70 @@
+name: Validate JSON
+
+on:
+  pull_request:
+    paths:
+      - "manifest.json"
+      - "rules/**"
+      - "items/**"
+      - "schema/**"
+      - "scripts/**"
+  push:
+    branches: [main]
+    paths:
+      - "manifest.json"
+      - "rules/**"
+      - "items/**"
+      - "schema/**"
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install jsonschema
+        run: pip install jsonschema==4.22.0
+
+      - name: Validate manifest.json
+        if: hashFiles('manifest.json') != ''
+        run: |
+          python - <<'PY'
+          import json, sys
+          from pathlib import Path
+          from jsonschema import Draft202012Validator
+
+          manifest = json.loads(Path("manifest.json").read_text(encoding="utf-8"))
+          schema = json.loads(Path("schema/manifest.schema.json").read_text(encoding="utf-8"))
+          Draft202012Validator(schema).validate(manifest)
+          print(f"manifest.json OK ({len(manifest['packages'])} packages)")
+          PY
+
+      - name: Validate rules/*.json
+        if: hashFiles('rules/*.json') != ''
+        run: |
+          python - <<'PY'
+          import json, sys
+          from pathlib import Path
+          from jsonschema import Draft202012Validator
+
+          schema = json.loads(Path("schema/rules.schema.json").read_text(encoding="utf-8"))
+          validator = Draft202012Validator(schema)
+          errors_total = 0
+          for file in sorted(Path("rules").glob("*.json")):
+              body = json.loads(file.read_text(encoding="utf-8"))
+              errors = list(validator.iter_errors(body))
+              if errors:
+                  errors_total += len(errors)
+                  print(f"::error file={file}::{len(errors)} schema violations")
+                  for e in errors[:5]:
+                      print(f"  - {e.message} at {'/'.join(str(p) for p in e.absolute_path)}")
+              else:
+                  print(f"{file} OK ({len(body.get('rules', []))} rules)")
+          sys.exit(1 if errors_total else 0)
+          PY
